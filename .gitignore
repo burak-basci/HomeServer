@@ -1,0 +1,72 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.venv/
+env/
+ENV/
+
+# Node
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# Docker / compose
+docker-compose.override.yml
+**/data/
+**/postgres/
+**/pgdata/
+**/pg_wal/
+**/pg_*/*
+**/uploads/
+
+# Database files
+*.sqlite3
+*.db
+
+# Backup folders
+backup/
+mc-backups/
+
+# Project folders
+paperless/
+transkript/
+wordpress/
+minecraft/
+minecraft_new/
+backup/
+n8n/
+open-webui/
+ollama/
+whisper/
+django_canva/
+piper/
+tinder/
+tinder_old/
+postiz/postgresql/
+postiz/redis/
+portainer/compose/
+portainer/backups/
+
+# Database and cache files
+wordpress/db/
+**/redis/dump.rdb
+**/#innodb_redo/
+**/#innodb_temp/
+
+# Logs
+*.log
+
+# Other
+*.pem
+*.key
+
+# Ignore git backups created by script
+**/.git.backup.*

@@ -1,0 +1,8 @@
+playwright
+Pillow
+#deepface
+opencv-python
+numpy
+requests
+keyboard
+python-dotenv

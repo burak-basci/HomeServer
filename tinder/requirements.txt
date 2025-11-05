@@ -1,0 +1,9 @@
+selenium
+undetected-chromedriver
+webdriver-manager
+Pillow
+#deepface
+opencv-python
+numpy
+requests
+keyboard

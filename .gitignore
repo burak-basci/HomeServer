@@ -35,10 +35,6 @@ docker-compose.override.yml
 backup/
 mc-backups/
 
-# Project folders to exclude completely
-tinder/
-tinder_old/
-
 # Data directories (keep config files)
 **/data/
 **/db/
@@ -76,7 +72,6 @@ minecraft/.cache/
 minecraft/.local/
 minecraft_new/data/
 n8n/data/
-n8n/python/
 open-webui/cache/
 ollama/models/
 ollama/history
@@ -86,6 +81,25 @@ portainer/compose/
 portainer/backups/
 postiz/postgresql/
 postiz/redis/
+
+# Tinder specific
+tinder/chrome_profile/
+tinder/.playwright-mcp/
+tinder/.claude/
+
+# n8n specific - exclude large test/upload folders but keep example images
+n8n/python/.venv/
+n8n/python/csfloat_client/
+n8n/python/downloads/
+n8n/python/batch2_upload/
+n8n/python/final_upload_screenshots/
+n8n/python/test_100_images/
+n8n/python/test_batch/
+n8n/python/test_data/
+n8n/python/test_upload/
+n8n/python/images_source
+n8n/python/upscaled_images
+n8n/files/
 
 # Database and cache files
 **/redis/dump.rdb

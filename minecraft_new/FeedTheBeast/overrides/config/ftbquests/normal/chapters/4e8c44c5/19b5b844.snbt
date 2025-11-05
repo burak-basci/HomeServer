@@ -1,0 +1,17 @@
+{
+	title: "Charms",
+	disable_toast: true,
+	x: 20.5d,
+	y: -11.0d,
+	text: [
+		"Charms mostly don't use mana, but there are still some exceptions."
+	],
+	dependencies: [
+		"57c4d9cd"
+	],
+	tasks: [{
+		uid: "ef932df7",
+		type: "checkmark",
+		title: "Cloacks and others"
+	}]
+}

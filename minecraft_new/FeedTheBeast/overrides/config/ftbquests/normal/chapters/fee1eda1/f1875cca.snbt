@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: 7.0d,
+	text: [
+		"Takes energy from your network once connected to any machine.",
+		"",
+		"Right-click on the plug to connect it to a network."
+	],
+	dependencies: [
+		"bb431816"
+	],
+	tasks: [{
+		uid: "6ced7463",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}],
+	rewards: [{
+		uid: "dd141bde",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

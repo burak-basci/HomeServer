@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"Generates stone, silicon, and other items.",
+		"",
+		"Can be configured to give you exactly what you need at the moment."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "70bee8b2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:material_stonework_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "b9ecf4e9",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 22.5d,
+	text: [
+		"Last matter tier."
+	],
+	dependencies: [
+		"b243a84b"
+	],
+	tasks: [{
+		uid: "dc0984b0",
+		type: "item",
+		items: [{
+			item: "projectex:clay_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "5fd816dc",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: -2.5d,
+	dependencies: [
+		"b7e64c1b"
+	],
+	tasks: [{
+		uid: "d08e55d5",
+		type: "item",
+		items: [{
+			item: "botania:manasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42ec4c1f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

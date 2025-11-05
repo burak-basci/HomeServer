@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: -2.5d,
+	text: [
+		"Special item able to collect any item dropped on the ground in its radius.",
+		"",
+		"The basic one has a 5x5 radius, and the advanced one has a 7x7.",
+		"",
+		"It also has a blacklist and whitelist for items."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "eec99ccb",
+		type: "item",
+		items: [{
+			item: "itemcollectors:advanced_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "ab65e05a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

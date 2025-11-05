@@ -1,0 +1,27 @@
+{
+	x: 6.5d,
+	y: 5.0d,
+	text: [
+		"Lets items store more energy and its essential in unlocking the possibility of using new upgrades"
+	],
+	dependencies: [
+		"a492658a"
+	],
+	tasks: [{
+		uid: "8658d38f",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "98c67677",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

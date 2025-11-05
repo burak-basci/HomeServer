@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"The most basic charger from this mod lets you charge items even from other mods."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "14ed109e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "543b62f2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

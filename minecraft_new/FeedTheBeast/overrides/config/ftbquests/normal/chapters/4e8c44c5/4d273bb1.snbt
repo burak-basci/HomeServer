@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: -17.0d,
+	text: [
+		"Spawns dirt block on command."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "658442e8",
+		type: "item",
+		items: [{
+			item: "botania:dirtrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb478822",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Not Overpowered Enough",
+	x: -0.5d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"Draconic Evolution brings a few nice options to the table: new overpowered armor or new, better weapons? ",
+		"",
+		"Draconic has it all: follow quests and learn about all the options this mod has."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1f867999",
+		type: "checkmark",
+		title: "Not feeling overpowered enough?",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

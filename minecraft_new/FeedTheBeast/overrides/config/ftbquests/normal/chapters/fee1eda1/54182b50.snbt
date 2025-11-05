@@ -1,0 +1,22 @@
+{
+	x: 14.5d,
+	y: 3.5d,
+	text: [
+		"Terminal used to pair the wireless terminal with the storage system."
+	],
+	dependencies: [
+		"546b2f90"
+	],
+	tasks: [{
+		uid: "8c2e51b9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "93e5bdba",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

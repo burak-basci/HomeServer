@@ -1,0 +1,19 @@
+{
+	title: "EMC links",
+	disable_toast: true,
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"EMC links can help you with generating EMC or at least making it more comfortable.",
+		"",
+		"They can also be connected to the AE2 system to provide an infinite amount of set items with EMC to it."
+	],
+	dependencies: [
+		"e3d7c64a"
+	],
+	tasks: [{
+		uid: "4cf1556f",
+		type: "checkmark",
+		title: "Emc links"
+	}]
+}

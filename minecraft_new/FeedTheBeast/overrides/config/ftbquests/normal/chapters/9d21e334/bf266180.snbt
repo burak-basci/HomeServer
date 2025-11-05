@@ -1,0 +1,14 @@
+{
+	title: "Cooking",
+	icon: "cookingforblockheads:oven",
+	disable_toast: true,
+	x: 25.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

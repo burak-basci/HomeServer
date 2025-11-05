@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"Flux cores are the main component here; they will be used in most, if not all, of the recipes in Flux Networks from now on."
+	],
+	dependencies: [
+		"cdd9a5bd"
+	],
+	tasks: [{
+		uid: "f96db7aa",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcore"
+		}]
+	}],
+	rewards: [{
+		uid: "1d939607",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

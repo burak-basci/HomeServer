@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -14.0d,
+	text: [
+		"Enhanced Chassis is the final chassis, letting you obtain enhanced versions of previous machines, and also gives you access to a combustion generator and wireless antenna."
+	],
+	dependencies: [
+		"8aae10bd"
+	],
+	tasks: [{
+		uid: "df098cec",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "a7dfe68e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

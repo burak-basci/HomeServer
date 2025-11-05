@@ -1,0 +1,45 @@
+{
+	title: "Transporting Energy, Items and Fluids",
+	icon: "enderio:item_power_conduit",
+	x: -6.0d,
+	y: -2.5d,
+	text: [
+		"Ender IO has it all, providing more options for players that don't like Mekanism pipes."
+	],
+	dependencies: [
+		"c7078c92"
+	],
+	tasks: [{
+		uid: "9689182c",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}]
+	},
+	{
+		uid: "4ccf98b4",
+		type: "item",
+		title: "Any Energy Conduit",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		},
+		{
+			item: "enderio:item_power_conduit 1 1"
+		},
+		{
+			item: "enderio:item_power_conduit"
+		}]
+	},
+	{
+		uid: "12902b67",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "d34d4514",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

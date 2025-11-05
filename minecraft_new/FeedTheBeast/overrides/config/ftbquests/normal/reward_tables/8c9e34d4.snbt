@@ -1,0 +1,66 @@
+{
+	title: "Hostile Mob Crate",
+	loot_size: 2,
+	rewards: [{
+		item: "minecraft:shulker_shell",
+		weight: 4
+	},
+	{
+		item: "minecraft:nether_star",
+		weight: 2
+	},
+	{
+		item: "minecraft:ender_pearl",
+		weight: 6
+	},
+	{
+		item: "minecraft:blaze_rod",
+		weight: 3
+	},
+	{
+		item: "minecraft:gold_nugget",
+		weight: 6
+	},
+	{
+		item: "minecraft:nether_wart",
+		weight: 5
+	},
+	{
+		item: "minecraft:bone",
+		weight: 5
+	},
+	{
+		item: "minecraft:glowstone_dust",
+		weight: 5
+	},
+	{
+		item: "minecraft:slime_ball",
+		weight: 5
+	},
+	{
+		item: "minecraft:ghast_tear",
+		weight: 2
+	},
+	{
+		item: "minecraft:rotten_flesh",
+		weight: 6
+	},
+	{
+		item: "minecraft:string",
+		weight: 6
+	},
+	{
+		item: "minecraft:gunpowder",
+		weight: 6
+	}],
+	loot_crate: {
+		string_id: "hostile_mobs_crate",
+		item_name: "Hostile Mob Crate",
+		color: 7946966,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

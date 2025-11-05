@@ -1,0 +1,31 @@
+{
+	title: "Resurrecting the Ender Dragon",
+	icon: "minecraft:end_crystal",
+	x: 0.5d,
+	y: -13.0d,
+	text: [
+		"Resurrect the Ender Dragon by using the vanilla way of placing 4 end crystals on the bedrock frame of the exit portal in the End.",
+		"",
+		"Once you kill the Ender Dragon, you can obtain another Dragon Heart."
+	],
+	dependencies: [
+		"2c70476d"
+	],
+	tasks: [{
+		uid: "cb49bfe5",
+		type: "checkmark"
+	},
+	{
+		uid: "a7019435",
+		type: "item",
+		items: [{
+			item: "minecraft:end_crystal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a90ae524",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

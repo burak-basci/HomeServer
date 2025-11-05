@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"Special dress that produces extra tunes while you move during a ritual, making some rituals easier."
+	],
+	dependencies: [
+		"e991e605"
+	],
+	tasks: [{
+		uid: "e2ccd9cc",
+		type: "item",
+		items: [{
+			item: "totemic:jingle_dress"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ccc8b2b0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

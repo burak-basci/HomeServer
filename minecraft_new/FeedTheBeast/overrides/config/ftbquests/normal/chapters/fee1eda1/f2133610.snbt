@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: 11.0d,
+	text: [
+		"Highest tier of storage. ",
+		"",
+		"It's still possible to have multiple."
+	],
+	dependencies: [
+		"0dc699e3"
+	],
+	tasks: [{
+		uid: "2099882c",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:gargantuanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "eb11c13b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Generators",
+	disable_toast: true,
+	x: -18.5d,
+	y: 2.5d,
+	text: [
+		"Main sources of energy, but you can always improve."
+	],
+	dependencies: [
+		"60d22114"
+	],
+	tasks: [{
+		uid: "92bd9986",
+		type: "checkmark"
+	}]
+}

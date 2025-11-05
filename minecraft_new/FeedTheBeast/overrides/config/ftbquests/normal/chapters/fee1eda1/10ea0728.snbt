@@ -1,0 +1,31 @@
+{
+	title: "First Machine",
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"This machine is used to make AE2 parts if it's powered up.",
+		"",
+		"Charged Certus Quartz needed for the recipe can also be obtained from an Ender IO machine, but it also rarely spawns in the mining dimension as an ore."
+	],
+	dependencies: [
+		"a32fa00b",
+		"5ce78ee5"
+	],
+	tasks: [{
+		uid: "3ad3e3b1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "8b21fdaf",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "fd576f9e",
+		type: "item",
+		item: "appliedenergistics2:material 1 30"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 16.5d,
+	y: -2.5d,
+	dependencies: [
+		"449291ba"
+	],
+	tasks: [{
+		uid: "72ae0625",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:jumpboost2",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "dd07b335",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

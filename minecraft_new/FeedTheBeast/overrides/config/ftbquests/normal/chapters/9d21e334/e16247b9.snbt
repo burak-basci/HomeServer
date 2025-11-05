@@ -1,0 +1,37 @@
+{
+	title: "Storage Cells",
+	icon: {
+		id: "appliedenergistics2:storage_cell_64k",
+		tag: {}
+	},
+	x: 15.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c35017f5"
+	],
+	tasks: [{
+		uid: "3ef3a7df",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		count: 25L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d269c5c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}],
+		count: 25L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 20.5d,
+	dependencies: [
+		"dc331d43"
+	],
+	tasks: [{
+		uid: "2353ef1e",
+		type: "item",
+		items: [{
+			item: "projectex:final_star_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "c5824849",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

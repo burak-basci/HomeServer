@@ -1,0 +1,19 @@
+{
+	title: "Maximum Power",
+	x: 18.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9652947a"
+	],
+	tasks: [{
+		uid: "3999a8ff",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 16"
+		}],
+		count: 10L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"Gives the pickaxe an ability to mine blocks like sand and dirt fast"
+	],
+	dependencies: [
+		"bef90c30"
+	],
+	tasks: [{
+		uid: "6a55ac23",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:spoon",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "a032ebf4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

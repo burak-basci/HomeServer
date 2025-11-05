@@ -1,0 +1,27 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	text: [
+		"Works sort of like a backpack, by pressing a dedicated keybind you can open a small backpack like inventory"
+	],
+	dependencies: [
+		"a492658a"
+	],
+	tasks: [{
+		uid: "35c5a36e",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:inv",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "79926315",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

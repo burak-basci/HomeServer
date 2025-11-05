@@ -1,0 +1,30 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"6f84aa14"
+	],
+	tasks: [{
+		uid: "81dad5be",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_bow",
+			tag: {
+				Profile_0: {
+					bowZoomModifier: 0,
+					bowArrowSpeedModifier: 100,
+					bowAutoFire: 0b,
+					bowExplosionPower: 0.0d,
+					bowArrowDamage: 2.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce859cad",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -4.5d,
+	y: 12.0d,
+	text: [
+		"Fishes automatically and can also catch rare loot like a player with a fishing rod would, most notably enchanted books."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "3094cc39",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "f445377f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

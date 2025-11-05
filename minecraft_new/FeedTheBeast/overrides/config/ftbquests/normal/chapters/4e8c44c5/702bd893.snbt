@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		"Creates mana by using still water; check Lexica Botania for a setup guide. ",
+		"",
+		"Works faster while it rains."
+	],
+	dependencies: [
+		"14bf625a"
+	],
+	tasks: [{
+		uid: "29cc8802",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4788d04c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

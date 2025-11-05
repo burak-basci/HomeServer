@@ -1,0 +1,37 @@
+{
+	title: "Log Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:logchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "ffdf56ba",
+		type: "emc",
+		value: 5000L
+	}],
+	rewards: [{
+		uid: "94b0f6a0",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:logchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

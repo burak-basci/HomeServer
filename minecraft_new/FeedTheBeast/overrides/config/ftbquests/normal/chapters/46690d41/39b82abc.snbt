@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	dependencies: [
+		"57e51d4f"
+	],
+	tasks: [{
+		uid: "fcc4f7ec",
+		type: "item",
+		items: [{
+			item: "totemic:wind_chime"
+		}]
+	}],
+	rewards: [{
+		uid: "c07e5019",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 8.0d,
+	y: -11.0d,
+	dependencies: [
+		"ea608e7e"
+	],
+	tasks: [{
+		uid: "7af3b78e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_pick",
+			tag: {
+				Profile_0: {
+					showDigAOE: 0b,
+					digDepth: 0,
+					digSpeed: 100,
+					aoeSafeMode: 0b,
+					digAOE: 0,
+					junkNbtSens: 1b,
+					enableJunkFilter: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eec55ed7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

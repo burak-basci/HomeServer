@@ -1,0 +1,30 @@
+{
+	title: "Better Capacitors",
+	x: -2.0d,
+	y: -11.5d,
+	text: [
+		"Better capacitors unlock more potential for your machines, letting them process recipes faster."
+	],
+	dependencies: [
+		"8cbf6da0"
+	],
+	tasks: [{
+		uid: "74b9d885",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		}]
+	},
+	{
+		uid: "6c156ccd",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "76b34437",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

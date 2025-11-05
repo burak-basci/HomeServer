@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: 13.0d,
+	y: -3.0d,
+	text: [
+		"Disks are divided into two types: for fluids and for items.",
+		"",
+		"To access fluids, you need a fluid terminal and an import bus."
+	],
+	dependencies: [
+		"8ae921f2"
+	],
+	tasks: [{
+		uid: "372f6364",
+		type: "checkmark",
+		title: "Storage Disks"
+	}]
+}

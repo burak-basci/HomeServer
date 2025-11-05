@@ -1,0 +1,378 @@
+{
+	title: "Random Enchanting Crate",
+	loot_size: 3,
+	rewards: [{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 5s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 0s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 3s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 34s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 48s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 71s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 62s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 5s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 35s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 8s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 19s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 20s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 22s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 9s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 51s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 34s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 61s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 1s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 6s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 18s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 21s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 50s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 32s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 4s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 16s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 17s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 7s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 49s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 33s
+				}]
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "random_enchanting_crate",
+		item_name: "Random Enchanting Crate",
+		color: 12217966,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

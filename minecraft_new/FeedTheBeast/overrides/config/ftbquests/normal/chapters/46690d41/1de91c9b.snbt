@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"The only way to spawn a buffalo is with a special ritual that transforms a cow into a baby buffalo."
+	],
+	dependencies: [
+		"aaef231f"
+	],
+	tasks: [{
+		uid: "be8f5027",
+		type: "item",
+		items: [{
+			item: "totemic:cooked_buffalo_meat"
+		}]
+	}],
+	rewards: [{
+		uid: "37102790",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

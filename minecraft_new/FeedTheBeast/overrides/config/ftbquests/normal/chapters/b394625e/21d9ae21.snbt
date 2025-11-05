@@ -1,0 +1,35 @@
+{
+	title: "Chicken Lottery Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "chicken_lottery_crate"
+		}
+	},
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Contains random ingot chickens with the rare drop being elementium chicken."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "a801f57b",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "9a0d4974",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "chicken_lottery_crate"
+			}
+		},
+		count: 2
+	}]
+}

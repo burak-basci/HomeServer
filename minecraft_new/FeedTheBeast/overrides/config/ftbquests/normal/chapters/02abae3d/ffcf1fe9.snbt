@@ -1,0 +1,24 @@
+{
+	x: -8.0d,
+	y: -5.5d,
+	text: [
+		"If provided with power and proper tools, it can plant or harvest crops.",
+		"",
+		"Can be upgraded by using higher-tier capacitors."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "f006b05b",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}],
+	rewards: [{
+		uid: "2b2b845a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

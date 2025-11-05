@@ -1,0 +1,21 @@
+{
+	title: "Upgrade Keys",
+	disable_toast: true,
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"Upgrade keys are special upgrades for tools and armor; the upgrades don't break after using them, so you can apply them multiple times.",
+		"",
+		" You can apply them by using fusion crafting.",
+		"",
+		"Use JEI to see how to apply a specific one."
+	],
+	dependencies: [
+		"3102f0ce"
+	],
+	tasks: [{
+		uid: "ad638120",
+		type: "checkmark",
+		title: "Upgrade Keys"
+	}]
+}

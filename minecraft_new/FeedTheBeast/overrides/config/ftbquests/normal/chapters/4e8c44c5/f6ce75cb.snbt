@@ -1,0 +1,25 @@
+{
+	x: 11.0d,
+	y: -15.5d,
+	text: [
+		"Swaps two blocks."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "9561f516",
+		type: "item",
+		items: [{
+			id: "botania:exchangerod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "799422e6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

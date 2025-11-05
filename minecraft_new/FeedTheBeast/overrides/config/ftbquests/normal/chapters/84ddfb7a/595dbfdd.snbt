@@ -1,0 +1,24 @@
+{
+	title: "Basic Fusion Crafting Injectors",
+	x: -0.5d,
+	y: -9.0d,
+	text: [
+		"Crafting injectors will be crucial in progressing in draconic evolution."
+	],
+	dependencies: [
+		"55aba592"
+	],
+	tasks: [{
+		uid: "2ccac817",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "24f10176",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

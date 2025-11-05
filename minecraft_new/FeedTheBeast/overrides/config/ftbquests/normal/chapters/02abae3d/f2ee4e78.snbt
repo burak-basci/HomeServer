@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: 5.5d,
+	dependencies: [
+		"eb58969e"
+	],
+	tasks: [{
+		uid: "e2882ff8",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0eded00d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

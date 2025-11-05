@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"Very powerful generator that feeds off biofuel."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "4f3a8d46",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:biofuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "3c91e1e7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

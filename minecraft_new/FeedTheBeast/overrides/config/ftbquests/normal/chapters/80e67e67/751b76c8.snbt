@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 10.5d,
+	text: [
+		"Can separate baby animals from adult ones."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "7f1ffd78",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}]
+	}],
+	rewards: [{
+		uid: "be695443",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

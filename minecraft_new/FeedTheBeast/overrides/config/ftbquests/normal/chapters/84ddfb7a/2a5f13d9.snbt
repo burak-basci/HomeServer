@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: -10.0d,
+	dependencies: [
+		"ea608e7e"
+	],
+	tasks: [{
+		uid: "58eecd75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_shovel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbf678e4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

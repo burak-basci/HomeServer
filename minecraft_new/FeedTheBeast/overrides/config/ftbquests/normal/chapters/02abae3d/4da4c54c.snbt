@@ -1,0 +1,45 @@
+{
+	icon: {
+		id: "enderio:item_travel_staff",
+		tag: {
+			enderio.darksteel.upgrade.energyUpgrade: {
+				level: 0
+			}
+		}
+	},
+	x: -8.0d,
+	y: -11.5d,
+	text: [
+		"Staff of Travelling lets you teleport to any travel anchor in range of a few tens of blocks.",
+		"",
+		"It works even through walls and obstacles."
+	],
+	dependencies: [
+		"53265224"
+	],
+	tasks: [{
+		uid: "391d79e8",
+		type: "item",
+		items: [{
+			id: "enderio:item_travel_staff",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9abb1634",
+		type: "item",
+		items: [{
+			item: "enderio:block_travel_anchor"
+		}]
+	}],
+	rewards: [{
+		uid: "c6cfb266",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

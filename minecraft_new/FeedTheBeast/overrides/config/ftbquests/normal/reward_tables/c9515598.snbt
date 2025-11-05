@@ -1,0 +1,22 @@
+{
+	title: "Time Control Crate",
+	loot_size: 1,
+	rewards: [{
+		command: "/time set day",
+		type: "command"
+	},
+	{
+		command: "/time set night",
+		type: "command"
+	}],
+	loot_crate: {
+		string_id: "time_control_crate",
+		item_name: "Time Control Crate",
+		color: 16727065,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

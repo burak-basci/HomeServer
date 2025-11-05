@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"93b098dc"
+	],
+	tasks: [{
+		uid: "d5f8a50b",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:tinchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3a91ceb2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

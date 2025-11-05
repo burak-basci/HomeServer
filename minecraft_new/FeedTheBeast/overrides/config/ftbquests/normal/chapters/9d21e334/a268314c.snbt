@@ -1,0 +1,19 @@
+{
+	title: "Poor Pigs",
+	x: -18.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5b2ee880"
+	],
+	tasks: [{
+		uid: "bd1a930f",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 4"
+		}],
+		count: 100L
+	}]
+}

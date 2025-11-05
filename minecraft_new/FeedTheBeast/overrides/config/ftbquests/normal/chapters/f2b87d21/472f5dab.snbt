@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"Shoots projectiles that can damage any creature they hit and make them unable to attack the player for a few seconds."
+	],
+	dependencies: [
+		"4442612d"
+	],
+	tasks: [{
+		uid: "872ccd02",
+		type: "item",
+		items: [{
+			item: "xreliquary:serpent_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d848936",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

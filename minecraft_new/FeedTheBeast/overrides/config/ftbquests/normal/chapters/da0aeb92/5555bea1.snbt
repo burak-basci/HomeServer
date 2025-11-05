@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	text: [
+		"Upon right-clicking on a bed, it skips the night instantly."
+	],
+	dependencies: [
+		"78c2e208"
+	],
+	tasks: [{
+		uid: "286076d8",
+		type: "item",
+		items: [{
+			item: "darkutils:charm_sleep"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7cbdcd74",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

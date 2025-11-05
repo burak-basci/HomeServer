@@ -1,0 +1,26 @@
+{
+	x: 22.0d,
+	y: -9.0d,
+	text: [
+		"Endgame charm giving you control over hostile mobs, making them attack other hostiles instead of you.",
+		"",
+		"To hypnotize a hostile creature, you have to hit it."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "d0d59109",
+		type: "item",
+		items: [{
+			item: "botania:divacharm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23b00030",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

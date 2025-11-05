@@ -1,0 +1,14 @@
+{
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:material_stonework_factory",
+	disable_toast: true,
+	x: 10.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

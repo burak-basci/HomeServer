@@ -1,0 +1,17 @@
+{
+	x: -27.5d,
+	y: 0.5d,
+	text: [
+		"End of the End."
+	],
+	dependencies: [
+		"9f193d8c"
+	],
+	tasks: [{
+		uid: "b9baa3e9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 15.0d,
+	y: -1.0d,
+	text: [
+		"Increases swimming speed."
+	],
+	dependencies: [
+		"4d743b5b"
+	],
+	tasks: [{
+		uid: "6922ea65",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:swim",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "cbde1759",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

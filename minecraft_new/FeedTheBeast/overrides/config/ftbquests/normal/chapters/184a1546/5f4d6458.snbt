@@ -1,0 +1,22 @@
+{
+	x: -26.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2f459811"
+	],
+	tasks: [{
+		uid: "3915c3fe",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 4
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}]
+}

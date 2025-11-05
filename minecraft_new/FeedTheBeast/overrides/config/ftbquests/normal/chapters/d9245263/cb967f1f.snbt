@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -13.5d,
+	dependencies: [
+		"f2823e8f"
+	],
+	tasks: [{
+		uid: "27032d80",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56cfac75",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

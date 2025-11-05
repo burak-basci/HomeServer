@@ -1,0 +1,19 @@
+{
+	title: "Perfected Opinium Cores",
+	x: 21.5d,
+	y: 1.5d,
+	text: [
+		"You will be needing a lot of elytras, but you can use the Dissolving Chamber to duplicate elytras."
+	],
+	dependencies: [
+		"9652947a"
+	],
+	tasks: [{
+		uid: "85bdcb74",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 8"
+		}],
+		count: 8L
+	}]
+}

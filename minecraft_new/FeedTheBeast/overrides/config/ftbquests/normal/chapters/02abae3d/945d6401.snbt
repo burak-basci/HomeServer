@@ -1,0 +1,27 @@
+{
+	x: 18.0d,
+	y: -1.0d,
+	text: [
+		"Instead of jumping over blocks, just let this upgrade do that for you."
+	],
+	dependencies: [
+		"4d743b5b"
+	],
+	tasks: [{
+		uid: "a7dcdaed",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:step_assist",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "2976bc3f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

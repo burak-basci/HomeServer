@@ -1,0 +1,26 @@
+{
+	x: -11.5d,
+	y: -2.5d,
+	text: [
+		"Controls weather when provided with power and catalyst fluid.",
+		"",
+		"Liquid Sunshine = Clear Sky",
+		"Cloud Seed = Rain",
+		"Concentrated Cloud Seed = Thunder"
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "d6af0d0f",
+		type: "item",
+		items: [{
+			item: "enderio:block_weather_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "b04658d4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

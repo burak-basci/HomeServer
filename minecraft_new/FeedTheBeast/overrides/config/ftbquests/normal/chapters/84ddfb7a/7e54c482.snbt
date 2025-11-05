@@ -1,0 +1,26 @@
+{
+	title: "Draconium Ingots",
+	x: -0.5d,
+	y: -3.0d,
+	text: [
+		"Draconium ingots will be essential on your journey to obtain some overpowered items.",
+		"",
+		"This ingot doesn't have EMC, but you can simply get a lot more by using the chickens mod or by using the mining drill and lens."
+	],
+	dependencies: [
+		"3102f0ce"
+	],
+	tasks: [{
+		uid: "17dd6c0f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "732ec50d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

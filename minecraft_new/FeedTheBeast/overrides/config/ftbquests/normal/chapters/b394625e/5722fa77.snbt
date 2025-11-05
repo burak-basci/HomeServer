@@ -1,0 +1,28 @@
+{
+	title: "Timetwisting Clocktower",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -6.5d,
+	y: 2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "36c9ed05",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "1d248d1c",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:timetwisting_clocktower"
+			}
+		}
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "Storage Disks Crate",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_4k",
+			tag: {}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}
+	}],
+	loot_crate: {
+		string_id: "storage_disks_crate",
+		item_name: "Storage Disk Crate",
+		color: 6381921,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

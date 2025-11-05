@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: 5.0d,
+	text: [
+		"Mining gadget that needs energy to work, but it also upgrades to its next tier if you overcharge it."
+	],
+	dependencies: [
+		"d5aef5dd"
+	],
+	tasks: [{
+		uid: "f45cc191",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 0L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "POOR"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ad612ee",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

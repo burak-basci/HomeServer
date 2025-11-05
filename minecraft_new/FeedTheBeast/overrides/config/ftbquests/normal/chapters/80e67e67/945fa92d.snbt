@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"Machine used to separate fermented ore meat into other components."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "38685f75",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "7a19502b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

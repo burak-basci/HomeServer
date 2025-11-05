@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -5.5d,
+	text: [
+		"Crafter can remember a recipe and execute it whenever it has enough resources."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "d8796708",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "385a2601",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

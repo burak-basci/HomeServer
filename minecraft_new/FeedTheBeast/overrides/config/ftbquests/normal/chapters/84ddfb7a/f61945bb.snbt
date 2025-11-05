@@ -1,0 +1,19 @@
+{
+	title: "Need Energy?",
+	disable_toast: true,
+	x: 3.5d,
+	y: -9.0d,
+	text: [
+		"If you still haven't built a fusion reactor or any other big energy producer, you can try building the Refined Generator multiblock.",
+		"",
+		"It's a little bit expensive, but it generates tons of energy."
+	],
+	dependencies: [
+		"c2ffa796"
+	],
+	tasks: [{
+		uid: "3604a072",
+		type: "checkmark",
+		title: "Need more energy?"
+	}]
+}

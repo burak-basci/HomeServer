@@ -1,0 +1,21 @@
+{
+	title: "Energyless Storage",
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"These storage blocks can be used without any energy whatsoever. "
+	],
+	dependencies: [
+		"b3d6451c"
+	],
+	tasks: [{
+		uid: "a7536407",
+		type: "checkmark",
+		icon: "minecraft:chest"
+	}],
+	rewards: [{
+		uid: "f188ac07",
+		type: "item",
+		item: "chisel:chisel_iron"
+	}]
+}

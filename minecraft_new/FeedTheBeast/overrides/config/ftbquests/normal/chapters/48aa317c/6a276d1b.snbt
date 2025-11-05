@@ -1,0 +1,25 @@
+{
+	title: "Iron",
+	x: 0.0d,
+	y: 12.0d,
+	text: [
+		"Iron is essential to your journey, and it will be needed to make a better pickaxe."
+	],
+	dependencies: [
+		"3356b22e",
+		"6df74ca6"
+	],
+	tasks: [{
+		uid: "6d0f0a29",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "fa24fa3c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

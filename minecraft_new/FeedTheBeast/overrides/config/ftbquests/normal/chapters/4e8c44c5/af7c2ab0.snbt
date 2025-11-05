@@ -1,0 +1,24 @@
+{
+	x: 24.5d,
+	y: 1.0d,
+	text: [
+		"Reflects all damage from mobs and deals it to them."
+	],
+	dependencies: [
+		"4f3e0230"
+	],
+	tasks: [{
+		uid: "772f5557",
+		type: "item",
+		items: [{
+			item: "botania:unholycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a36b058",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

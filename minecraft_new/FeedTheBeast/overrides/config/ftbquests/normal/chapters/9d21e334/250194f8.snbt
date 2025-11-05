@@ -1,0 +1,38 @@
+{
+	title: "Fear of Mobs",
+	icon: "xreliquary:lantern_of_paranoia",
+	x: 30.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d95b7524"
+	],
+	tasks: [{
+		uid: "fdb6701c",
+		type: "item",
+		items: [{
+			item: "xreliquary:holy_hand_grenade"
+		}],
+		count: 64L
+	},
+	{
+		uid: "69b89e47",
+		type: "item",
+		items: [{
+			item: "xreliquary:lantern_of_paranoia"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6e3d3f6",
+		type: "item",
+		items: [{
+			item: "xreliquary:sojourner_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

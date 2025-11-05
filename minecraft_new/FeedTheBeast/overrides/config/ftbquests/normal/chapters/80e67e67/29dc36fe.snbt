@@ -1,0 +1,23 @@
+{
+	icon: "industrialforegoing:mob_slaughter_factory",
+	x: -4.5d,
+	y: 2.0d,
+	text: [
+		"This machine kills mobs and harvests meat and pink slime from them."
+	],
+	dependencies: [
+		"74b5d2e0"
+	],
+	tasks: [{
+		uid: "527271b6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "371debc0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

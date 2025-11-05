@@ -1,0 +1,31 @@
+{
+	title: "Congratulations!",
+	icon: "botania:cosmetic 1 31",
+	x: 40.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34af76da",
+		"6aa6c818",
+		"68033e61"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0f18606e",
+		type: "checkmark",
+		title: "Congratulations on finishing this category",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "bcb1c7a4",
+		type: "item",
+		item: "hammercore:diamond_bordered_cobblestone"
+	}]
+}

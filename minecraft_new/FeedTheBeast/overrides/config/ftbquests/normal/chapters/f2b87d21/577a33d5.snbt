@@ -1,0 +1,23 @@
+{
+	title: "Ancient Reliquaries",
+	x: 0.0d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Utility items that are quite rare and hard to make, but they give you some special abilities."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4cb2590a",
+		type: "checkmark",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

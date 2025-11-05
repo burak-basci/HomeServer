@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"If applied to an item, upon shift right clicking, it will let you edit its upgrades on the go"
+	],
+	dependencies: [
+		"a492658a"
+	],
+	tasks: [{
+		uid: "a5db0718",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "ef09a5c1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

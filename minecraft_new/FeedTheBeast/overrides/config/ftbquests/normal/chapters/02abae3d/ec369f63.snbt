@@ -1,0 +1,39 @@
+{
+	icon: {
+		id: "enderio:block_powered_spawner",
+		tag: {
+			entityId: "minecraft:skeleton"
+		}
+	},
+	x: -8.0d,
+	y: -2.5d,
+	text: [
+		"In order for a powered spawner to work, you will need to combine it with a broken spawner inside an anvil.",
+		"",
+		"You can obtain broken spawners by breaking blaze spawners in any Nether fortress or finding very rare mineshafts in the mining dimension.",
+		"",
+		"You can then change the spawner to spawn something different by using a soul vial with the desired mob and combining it in a soul binder with any broken spawner."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "6e3af924",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	},
+	{
+		uid: "fa915463",
+		type: "item",
+		items: [{
+			item: "enderio:item_soul_vial"
+		}]
+	}],
+	rewards: [{
+		uid: "9598a456",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

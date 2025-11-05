@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: -9.5d,
+	text: [
+		"Transmutation table that you can have in your inventory. ",
+		"",
+		"Works the same as the normal one."
+	],
+	dependencies: [
+		"88225e62"
+	],
+	tasks: [{
+		uid: "816d0e42",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84a74567",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

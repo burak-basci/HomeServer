@@ -1,0 +1,18 @@
+{
+	title: "Powered Up Storage",
+	icon: "appliedenergistics2:crafting_storage_64k",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"A special type of storage that can be upgraded or changed to your preferences.",
+		"",
+		"Enables autocrafting."
+	],
+	dependencies: [
+		"b3d6451c"
+	],
+	tasks: [{
+		uid: "c6f12bad",
+		type: "checkmark"
+	}]
+}

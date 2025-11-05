@@ -1,0 +1,16 @@
+{
+	title: "Multiblocks",
+	disable_toast: true,
+	x: -8.5d,
+	y: 2.5d,
+	text: [
+		"Mekanism has a few multiblocks, but I believe there are only 2 that are necessary to progress, and one of them was made pretty much a must-have to even come close to finishing the endgame."
+	],
+	dependencies: [
+		"60d22114"
+	],
+	tasks: [{
+		uid: "929812ea",
+		type: "checkmark"
+	}]
+}

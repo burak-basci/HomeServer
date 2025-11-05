@@ -1,0 +1,12 @@
+{
+	x: -15.0d,
+	y: -12.0d,
+	dependencies: [
+		"31f7e59b"
+	],
+	tasks: [{
+		uid: "aa353fd1",
+		type: "fluid",
+		fluid: "obsidian"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 6.5d,
+	text: [
+		"When provided with food, it will make baby animals grow faster."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "ec756adc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "fdb798cd",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

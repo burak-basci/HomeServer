@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"Manasteel is a little stronger than iron, and it looks cooler."
+	],
+	dependencies: [
+		"1ebed8ab"
+	],
+	tasks: [{
+		uid: "3b077adc",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	}],
+	rewards: [{
+		uid: "735a2434",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

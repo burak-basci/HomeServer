@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"A must-have in the Nether, protects you from fire and fireballs from ghasts and blazes."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "ace4ad88",
+		type: "item",
+		items: [{
+			item: "xreliquary:salamander_eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd4672a3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

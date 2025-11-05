@@ -1,0 +1,24 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	text: [
+		"Powerful gadget destroying block when fed gunpowder."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "10a43fe4",
+		type: "item",
+		items: [{
+			item: "xreliquary:destruction_catalyst"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f75fa0d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: 13.0d,
+	text: [
+		"Can be infused with potions to give permanent effects. ",
+		"",
+		"For limitations, check out Lexica Botania."
+	],
+	dependencies: [
+		"a7a84fbf"
+	],
+	tasks: [{
+		uid: "b5c68110",
+		type: "item",
+		items: [{
+			id: "botania:bloodpendant",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2e3d40d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

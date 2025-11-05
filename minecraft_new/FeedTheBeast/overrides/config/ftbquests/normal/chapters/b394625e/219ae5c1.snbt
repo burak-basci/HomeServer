@@ -1,0 +1,35 @@
+{
+	title: "Bonsai Lottery Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "emc_crate"
+		}
+	},
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"Contains bonsai pots from tier 1 to tier 3."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "0bf19b49",
+		type: "item",
+		title: "SBC",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "ea693bed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_crate"
+			}
+		}
+	}]
+}

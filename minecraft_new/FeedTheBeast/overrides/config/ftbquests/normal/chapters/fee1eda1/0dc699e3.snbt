@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 9.0d,
+	text: [
+		"Larger storage than the first one. ",
+		"",
+		"It's possible to use multiple of these."
+	],
+	dependencies: [
+		"f1875cca",
+		"8c5ffa35"
+	],
+	tasks: [{
+		uid: "d9292c51",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:herculeanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "c88e0a3d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

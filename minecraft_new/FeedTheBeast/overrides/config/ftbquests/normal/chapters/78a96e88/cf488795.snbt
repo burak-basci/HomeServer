@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	dependencies: [
+		"e515a0f0"
+	],
+	tasks: [{
+		uid: "c8cf9fff",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mincepieitem"
+		}]
+	}],
+	rewards: [{
+		uid: "06726911",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

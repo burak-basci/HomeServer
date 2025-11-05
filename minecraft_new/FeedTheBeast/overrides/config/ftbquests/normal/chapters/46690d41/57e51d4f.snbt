@@ -1,0 +1,19 @@
+{
+	title: "Musical Instruments",
+	disable_toast: true,
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"Musical instruments are used to do special rituals.",
+		"",
+		"Different rituals can require different musical instruments."
+	],
+	dependencies: [
+		"e991e605"
+	],
+	tasks: [{
+		uid: "45b66c23",
+		type: "checkmark",
+		title: "Musical instruments"
+	}]
+}

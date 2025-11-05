@@ -1,0 +1,20 @@
+{
+	title: "Mekanism",
+	icon: {
+		id: "mekanism:machineblock",
+		tag: {
+			recipeType: 1
+		},
+		Damage: 5s
+	},
+	disable_toast: true,
+	x: 35.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

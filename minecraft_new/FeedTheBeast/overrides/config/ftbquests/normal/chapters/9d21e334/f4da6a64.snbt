@@ -1,0 +1,52 @@
+{
+	title: "Botania Ingots",
+	icon: "botania:manaresource",
+	x: -11.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7872df76"
+	],
+	tasks: [{
+		uid: "16fdd742",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 250L
+	},
+	{
+		uid: "cf849d82",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}],
+		count: 250L
+	},
+	{
+		uid: "e5b4df59",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}],
+		count: 250L
+	},
+	{
+		uid: "34597d90",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}],
+		count: 125L
+	},
+	{
+		uid: "10dfe2a4",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}],
+		count: 125L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: -7.5d,
+	text: [
+		"A special type of transmutation table that uses EMC to transform an item into another one, and some of them are hard or almost impossible to get on Skyblock, so I recommend getting this block.",
+		"",
+		"Place a collector under it to start the transmutation process."
+	],
+	dependencies: [
+		"88225e62"
+	],
+	tasks: [{
+		uid: "e1e63fb5",
+		type: "item",
+		items: [{
+			item: "projectex:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "34b36779",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

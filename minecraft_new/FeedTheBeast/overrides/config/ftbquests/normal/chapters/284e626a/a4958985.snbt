@@ -1,0 +1,24 @@
+{
+	x: -14.5d,
+	y: 4.0d,
+	text: [
+		"Uses hydrogen to make flames."
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "0728bf07",
+		type: "item",
+		items: [{
+			item: "mekanism:flamethrower"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9af70b3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

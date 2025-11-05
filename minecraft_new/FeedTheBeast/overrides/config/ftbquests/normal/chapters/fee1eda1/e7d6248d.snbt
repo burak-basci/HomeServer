@@ -1,0 +1,21 @@
+{
+	x: 18.0d,
+	y: -7.0d,
+	dependencies: [
+		"975fd2bf"
+	],
+	tasks: [{
+		uid: "3d7de758",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1c58126",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

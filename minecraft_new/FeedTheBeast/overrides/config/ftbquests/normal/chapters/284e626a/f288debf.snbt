@@ -1,0 +1,60 @@
+{
+	title: "Heat Transportation",
+	x: 0.5d,
+	y: 4.5d,
+	text: [
+		"Heat transportation is less prominent in Mekanism, but it definitely has some uses."
+	],
+	dependencies: [
+		"9972aba3"
+	],
+	tasks: [{
+		uid: "ef85b671",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "63b3879a",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "ee56c7dc",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "77b0fd87",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "2b8f47c6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

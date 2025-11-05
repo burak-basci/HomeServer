@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	text: [
+		"Sorts items based on configuration.",
+		"",
+		"You can set it up to only transport specific items from chests and such."
+	],
+	dependencies: [
+		"9972aba3"
+	],
+	tasks: [{
+		uid: "ea870264",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "be276c68",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

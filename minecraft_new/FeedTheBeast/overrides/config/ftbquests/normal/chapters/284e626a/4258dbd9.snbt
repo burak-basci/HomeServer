@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: -5.5d,
+	text: [
+		"Combines two chemicals to create one."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "af301670",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c407ae65",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

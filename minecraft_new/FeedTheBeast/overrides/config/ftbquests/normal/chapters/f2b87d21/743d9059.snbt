@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -4.0d,
+	text: [
+		"Makes you invisible; no mobs can see you."
+	],
+	dependencies: [
+		"5cf3b95d"
+	],
+	tasks: [{
+		uid: "8c30f44f",
+		type: "item",
+		items: [{
+			item: "xreliquary:twilight_cloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f043627",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

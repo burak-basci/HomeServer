@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: -10.5d,
+	text: [
+		"Very self-explanatory, gives the player a levitation effect upon shift right-clicking."
+	],
+	dependencies: [
+		"53265224"
+	],
+	tasks: [{
+		uid: "7ef5a9a3",
+		type: "item",
+		items: [{
+			item: "enderio:item_staff_of_levity"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6a9f34d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

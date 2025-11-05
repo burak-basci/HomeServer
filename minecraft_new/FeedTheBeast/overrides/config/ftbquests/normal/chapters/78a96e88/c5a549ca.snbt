@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: -0.5d,
+	dependencies: [
+		"e515a0f0"
+	],
+	tasks: [{
+		uid: "7f88793f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cornflakesitem"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a433c8a5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

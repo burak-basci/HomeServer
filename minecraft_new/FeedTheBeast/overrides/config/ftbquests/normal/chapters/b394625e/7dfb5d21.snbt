@@ -1,0 +1,35 @@
+{
+	title: "Botania Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "botaniacrate"
+		}
+	},
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"Contains ingots from Botania, and rarer drops include whole blocks of ingots."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "6e8c56c8",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "05f18beb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "botaniacrate"
+			}
+		},
+		count: 2
+	}]
+}

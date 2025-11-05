@@ -1,0 +1,25 @@
+{
+	title: "Wyvern Fusion Crafting Injectors",
+	x: 1.5d,
+	y: -9.0d,
+	text: [
+		"Upgraded version of the basic injector, letting you obtain awakened draconium."
+	],
+	dependencies: [
+		"595dbfdd",
+		"6f84aa14"
+	],
+	tasks: [{
+		uid: "a7032e6c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "61d47f1f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

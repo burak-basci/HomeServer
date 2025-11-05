@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"Produces biofuel when hooked to energy and filled with biomaterial like saplings."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "3b44ffc3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:bioreactor"
+		}]
+	}],
+	rewards: [{
+		uid: "4b361cfb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

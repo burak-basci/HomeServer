@@ -1,0 +1,13 @@
+{
+	title: "Molten Metals",
+	icon: "minecraft:bucket",
+	disable_toast: true,
+	x: -16.0d,
+	y: -6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"110e0cde"
+	]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Mekanism Ingots",
+	icon: "mekanism:ingot",
+	x: 33.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6d42c394"
+	],
+	tasks: [{
+		uid: "a12f6dd0",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 4"
+		}],
+		count: 600L
+	},
+	{
+		uid: "d328b3aa",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot"
+		}],
+		count: 600L
+	},
+	{
+		uid: "c93218f8",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 3"
+		}],
+		count: 600L
+	}]
+}

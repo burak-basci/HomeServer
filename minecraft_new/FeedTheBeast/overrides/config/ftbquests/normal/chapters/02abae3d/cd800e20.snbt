@@ -1,0 +1,27 @@
+{
+	title: "Starting with Ender IO",
+	icon: "enderio:item_material 1 20",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"Grains of infinity have a changed recipe and can no longer be obtained from setting a bedrock on fire. Now you can just craft them.",
+		"",
+		"You will need them to start making machines."
+	],
+	dependencies: [
+		"61827643"
+	],
+	tasks: [{
+		uid: "39ee4646",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "95e578ad",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

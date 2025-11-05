@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -19.5d,
+	text: [
+		"From now on, you will continue to Project EX tiers."
+	],
+	dependencies: [
+		"afb948b6"
+	],
+	tasks: [{
+		uid: "3a146b68",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1e0c417",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

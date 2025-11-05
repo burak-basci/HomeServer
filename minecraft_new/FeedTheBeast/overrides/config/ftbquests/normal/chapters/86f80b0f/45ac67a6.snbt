@@ -1,0 +1,29 @@
+{
+	title: "Master of Chickens",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: -1.5d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"This mod lets you automate any resource using chickens that would be too tedious to get normally. ",
+		"",
+		"You place one or multiple chickens with the same stats into a roost and watch the magic happen.",
+		"",
+		" Additionally, you can breed the chickens in the chicken breeder, and by using a collector, you can wirelessly collect items from all nearby roosts.",
+		"",
+		"If any of your chickens escape somehow, you can turn them into items with a chicken stick."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "eb7d33e7",
+		type: "checkmark"
+	}]
+}

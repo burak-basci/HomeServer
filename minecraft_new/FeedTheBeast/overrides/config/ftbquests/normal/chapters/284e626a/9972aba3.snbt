@@ -1,0 +1,38 @@
+{
+	disable_toast: true,
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"Cables are used to move items, fluids, heat, gas, and such.",
+		"",
+		"All cables have 4 available tiers.",
+		"",
+		"-HOW TO USE CONFIGURATOR-",
+		"",
+		"By holding shift and scrolling the mouse wheel, you can switch modes of the configurator, but you can leave it on the items option mostly, and it will still work on fluids and gases, but heat needs a separate selection. By shift-right-clicking on the end of a pipe, you can change it to input or output.",
+		"",
+		"wide end = output",
+		"",
+		"thin end = input"
+	],
+	dependencies: [
+		"25536a63"
+	],
+	tasks: [{
+		uid: "2e7c349f",
+		type: "checkmark",
+		title: "Cables"
+	}],
+	rewards: [{
+		uid: "89cb4914",
+		type: "item",
+		item: {
+			id: "mekanism:configurator",
+			tag: {
+				mekData: {
+					energyStored: 60000.0d
+				}
+			}
+		}
+	}]
+}

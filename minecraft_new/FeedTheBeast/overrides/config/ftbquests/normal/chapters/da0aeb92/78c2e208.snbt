@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"Charms can be placed in your bauble slot next to your helmet slot and provide some unique abilities.",
+		"",
+		" Or you can just have them in your inventory, and they will still work."
+	],
+	dependencies: [
+		"04d347ea"
+	],
+	tasks: [{
+		uid: "76cb8c8a",
+		type: "checkmark",
+		title: "Charms"
+	}]
+}

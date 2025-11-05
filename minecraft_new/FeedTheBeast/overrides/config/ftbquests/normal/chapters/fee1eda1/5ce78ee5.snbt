@@ -1,0 +1,45 @@
+{
+	title: "Part Presses",
+	icon: "appliedenergistics2:material 1 15",
+	x: 4.0d,
+	y: 0.5d,
+	text: [
+		"Since these can't be obtained normally on Skyblock, each was given its own custom recipe."
+	],
+	dependencies: [
+		"b9453815"
+	],
+	tasks: [{
+		uid: "5aae0ddf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "c57163a0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "145bcb8d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	},
+	{
+		uid: "d10fac2c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "44d3f5eb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

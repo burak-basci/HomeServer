@@ -1,0 +1,22 @@
+{
+	x: -11.5d,
+	y: -5.5d,
+	text: [
+		"Can prevent mobs from spawning in a set area."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "30c9cac7",
+		type: "item",
+		items: [{
+			item: "enderio:block_aversion_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "f0f156a8",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

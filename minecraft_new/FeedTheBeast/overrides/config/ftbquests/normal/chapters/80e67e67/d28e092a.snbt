@@ -1,0 +1,22 @@
+{
+	x: -4.5d,
+	y: 10.5d,
+	text: [
+		"Kills any mob in its range except the player, but killed creatures still drop items, and those are collected automatically."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "36a3e502",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "93159c23",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Seared Furnace",
+	icon: "tconstruct:seared_furnace_controller",
+	x: -3.0d,
+	y: 11.5d,
+	text: [
+		"Huge multiblock furnace, running off lava."
+	],
+	dependencies: [
+		"e34334de"
+	],
+	tasks: [{
+		uid: "0eda365f",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_furnace_controller"
+		}]
+	},
+	{
+		uid: "37c92aa9",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 16L
+	},
+	{
+		uid: "c606ff9f",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "bd0d8146",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

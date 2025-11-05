@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -9.0d,
+	dependencies: [
+		"8cbf6da0"
+	],
+	tasks: [{
+		uid: "c7f92eba",
+		type: "item",
+		items: [{
+			item: "enderio:block_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "c162823a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

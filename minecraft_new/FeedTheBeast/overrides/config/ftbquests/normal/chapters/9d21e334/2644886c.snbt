@@ -1,0 +1,36 @@
+{
+	title: "Extra Blocks",
+	icon: "extrautils2:simpledecorative 1 2",
+	x: 20.0d,
+	y: 1.5d,
+	text: [
+		"Demon ingots are obtained from throwing gold ingots into lava surrounded by nether bricks."
+	],
+	dependencies: [
+		"9652947a"
+	],
+	tasks: [{
+		uid: "cdc0a901",
+		type: "item",
+		items: [{
+			item: "extrautils2:simpledecorative 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "0dea9864",
+		type: "item",
+		items: [{
+			item: "extrautils2:simpledecorative"
+		}],
+		count: 64L
+	},
+	{
+		uid: "a6644ae3",
+		type: "item",
+		items: [{
+			item: "extrautils2:simpledecorative 1 2"
+		}],
+		count: 64L
+	}]
+}

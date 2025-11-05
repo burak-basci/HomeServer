@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: 1.5d,
+	text: [
+		"Transforms experience into mana."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "841da2cf",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "arcanerose"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0732e9c3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

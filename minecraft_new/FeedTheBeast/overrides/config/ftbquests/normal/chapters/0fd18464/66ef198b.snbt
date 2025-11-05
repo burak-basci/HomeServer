@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -7.5d,
+	dependencies: [
+		"41fd7228"
+	],
+	tasks: [{
+		uid: "e2c59db7",
+		type: "item",
+		items: [{
+			item: "rootsclassic:druidrobeshead"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0eb8cda1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

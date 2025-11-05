@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"Works similarly to the normal furnace but uses energy instead of burnable items as fuel."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "7f4275dc",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "686930f5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

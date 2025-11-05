@@ -1,0 +1,152 @@
+{
+	title: "Technical Chickens",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "morechickens:steelchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fecbd154"
+	],
+	tasks: [{
+		uid: "c0e8bed8",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:osmiumchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "b279e838",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock"
+		}],
+		count: 10L
+	},
+	{
+		uid: "58414263",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:steelchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "433889db",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 5"
+		}],
+		count: 10L
+	},
+	{
+		uid: "71f8e91b",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:energeticalloychicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "50e8d9f3",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "671d21d4",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:bronzechicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "8e54ba39",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "45a39eff",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:electricalsteelchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "a54fa544",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy"
+		}],
+		count: 10L
+	},
+	{
+		uid: "5c7fb231",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:darksteelchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "266d201a",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy 1 6"
+		}],
+		count: 10L
+	}]
+}

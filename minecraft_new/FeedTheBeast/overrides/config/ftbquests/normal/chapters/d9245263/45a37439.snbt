@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"Faster EMC transformation and charging."
+	],
+	dependencies: [
+		"ba91774b"
+	],
+	tasks: [{
+		uid: "86f592d6",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "f751916c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

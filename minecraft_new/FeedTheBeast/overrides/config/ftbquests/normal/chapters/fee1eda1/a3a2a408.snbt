@@ -1,0 +1,19 @@
+{
+	x: -9.5d,
+	y: -1.0d,
+	dependencies: [
+		"7695a559"
+	],
+	tasks: [{
+		uid: "bda044dc",
+		type: "item",
+		items: [{
+			item: "projecte:alchemical_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "6cae45c1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

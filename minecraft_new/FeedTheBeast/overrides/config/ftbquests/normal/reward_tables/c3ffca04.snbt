@@ -1,0 +1,32 @@
+{
+	title: "Garden Crate",
+	loot_size: 5,
+	rewards: [{
+		item: "harvestcraft:aridgarden"
+	},
+	{
+		item: "harvestcraft:frostgarden"
+	},
+	{
+		item: "harvestcraft:shadedgarden"
+	},
+	{
+		item: "harvestcraft:soggygarden"
+	},
+	{
+		item: "harvestcraft:tropicalgarden"
+	},
+	{
+		item: "harvestcraft:windygarden"
+	}],
+	loot_crate: {
+		string_id: "garden_crate",
+		item_name: "Garden Crate",
+		color: 3604224,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	icon: "draconicevolution:awakened_core",
+	x: 3.5d,
+	y: -11.0d,
+	dependencies: [
+		"2c70476d"
+	],
+	tasks: [{
+		uid: "bc1ad231",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	},
+	{
+		uid: "09ac5b7d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_energy_core"
+		}]
+	}],
+	rewards: [{
+		uid: "d3f289a5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

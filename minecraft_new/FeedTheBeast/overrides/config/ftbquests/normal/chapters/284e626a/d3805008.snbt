@@ -1,0 +1,28 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	dependencies: [
+		"ab314f17"
+	],
+	tasks: [{
+		uid: "56a47d15",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			tag: {
+				recipeType: 0,
+				mekData: {
+					security: 0,
+					upgrades: []
+				}
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "eb2fa22d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

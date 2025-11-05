@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -5.0d,
+	text: [
+		"Lets you travel through portals immediately."
+	],
+	dependencies: [
+		"78c2e208"
+	],
+	tasks: [{
+		uid: "e5584985",
+		type: "item",
+		items: [{
+			item: "darkutils:charm_portal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b53c8fcc",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

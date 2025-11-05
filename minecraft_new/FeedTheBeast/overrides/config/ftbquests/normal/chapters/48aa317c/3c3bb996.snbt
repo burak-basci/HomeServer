@@ -1,0 +1,25 @@
+{
+	title: "Transmutation Table",
+	x: 0.0d,
+	y: 16.0d,
+	text: [
+		"Make a transmutation table; if you check some items, you can see they have EMC.",
+		"",
+		"You put the item in the transmutation table, and it will charge the EMC inside and remember the item; you can exchange the EMC for other previously learned items."
+	],
+	dependencies: [
+		"28db2c61"
+	],
+	tasks: [{
+		uid: "d5fd51d1",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "245b9d5a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

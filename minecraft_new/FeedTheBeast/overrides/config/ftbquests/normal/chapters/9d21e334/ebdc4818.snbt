@@ -1,0 +1,19 @@
+{
+	title: "Electrified Draconium",
+	x: 46.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9bbb2bf9"
+	],
+	tasks: [{
+		uid: "3c14620a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block 1 1"
+		}],
+		count: 32L
+	}]
+}

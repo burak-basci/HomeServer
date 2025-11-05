@@ -1,0 +1,35 @@
+{
+	title: "Passive Mob Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "passive_mob_crate"
+		}
+	},
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"Contains passive mobs like chickens, cows, horses, etc."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "1131029c",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "b20da2c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "passive_mob_crate"
+			}
+		},
+		count: 2
+	}]
+}

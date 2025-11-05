@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	text: [
+		"Is used to combine items to make ores and some other items."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "0095e844",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 2"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "d923ef5f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

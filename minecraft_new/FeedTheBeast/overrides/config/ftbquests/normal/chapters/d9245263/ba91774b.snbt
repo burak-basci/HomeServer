@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	text: [
+		"Relays are used as chargers for items. Klein, Magnum, and Colossum stars are used to store EMC. ",
+		"",
+		"After you feed an item with EMC value into the relay, it will start charging the item put into the right slot."
+	],
+	dependencies: [
+		"dc2ac4a4"
+	],
+	tasks: [{
+		uid: "fab87378",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "d25ed2ba",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

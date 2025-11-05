@@ -1,0 +1,240 @@
+{
+  "templatename": "PO",
+  "features": [
+    {
+      "xPos": 21,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 387,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 86,
+      "yPos": 117,
+      "width": 40.0,
+      "height": 40.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "botania:pylon 1",
+          "hideTooltip": true
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 149,
+      "yPos": 115,
+      "width": 41.0,
+      "height": 41.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "botania:pool 0",
+          "hideTooltip": true
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 27,
+      "yPos": 113,
+      "width": 42.0,
+      "height": 42.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "botania:manasteelaxe 0",
+          "hideTooltip": true
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 336,
+      "yPos": 134,
+      "width": 38.0,
+      "height": 38.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "ftbquests:book",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 5
+    },
+    {
+      "xPos": 28,
+      "yPos": 22,
+      "width": 158.0,
+      "height": 28.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Hello dear player!\nWelcome to Project Overpowered\n",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 6
+    },
+    {
+      "xPos": 28,
+      "yPos": 50,
+      "width": 172.0,
+      "height": 78.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "This skyblock modpack is centered around project E/EX and magic mods like botania or roots, featuring modded recipes and rituals",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 7
+    },
+    {
+      "xPos": 237,
+      "yPos": 22,
+      "width": 133.0,
+      "height": 44.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Quests are included here, most of them have explanations and also warn you if recipes are changed or altered\n",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 8
+    },
+    {
+      "xPos": 242,
+      "yPos": 182,
+      "width": 200.0,
+      "height": 80.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Have fun playing!\n-SimplyBlizz",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 9
+    },
+    {
+      "xPos": 265,
+      "yPos": 133,
+      "width": 39.0,
+      "height": 39.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "itemString": "akashictome:tome",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 10
+    },
+    {
+      "xPos": 236,
+      "yPos": 71,
+      "width": 178.0,
+      "height": 78.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "If you get stuck dont forget I included akashic tome in this pack with few guide books inside",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "isFromTemplate": false,
+      "layerIndex": 11
+    }
+  ],
+  "uniquename": "PO_1690704825328"
+}

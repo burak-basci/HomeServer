@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -1.0d,
+	text: [
+		"Bow that can be upgraded with dark steel upgrades, generally being better than the classic bow."
+	],
+	dependencies: [
+		"adcd5d4c"
+	],
+	tasks: [{
+		uid: "e66b6dd7",
+		type: "item",
+		items: [{
+			item: "enderio:item_end_steel_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0479a7e6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

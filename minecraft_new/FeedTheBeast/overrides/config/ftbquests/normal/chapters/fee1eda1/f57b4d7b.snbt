@@ -1,0 +1,17 @@
+{
+	title: "Drawers Clone",
+	disable_toast: true,
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"Industrial foregoing black hole units can hold a few hundred stacks of one type of item or many buckets of fluid."
+	],
+	dependencies: [
+		"d53caafe"
+	],
+	tasks: [{
+		uid: "88870f70",
+		type: "checkmark",
+		title: "Special Chests"
+	}]
+}

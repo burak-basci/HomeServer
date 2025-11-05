@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: 7.5d,
+	text: [
+		"Needs water and energy, but it will duplicate mushrooms you put inside."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "5a5026d3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:spores_recreator"
+		}]
+	}],
+	rewards: [{
+		uid: "2ef27ae4",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "398672b5",
+		type: "item",
+		item: "minecraft:red_mushroom"
+	},
+	{
+		uid: "817ed733",
+		type: "item",
+		item: "minecraft:brown_mushroom"
+	}]
+}

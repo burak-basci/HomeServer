@@ -1,0 +1,35 @@
+{
+	icon: "fluxnetworks:fluxcontroller",
+	x: -0.5d,
+	y: 5.0d,
+	text: [
+		"The Flux Controller is used to connect storages and plugs together. ",
+		"",
+		"Right-click on the controller and create a new network in its menu. ",
+		"",
+		"Anything connected to your network, like plugs and storage blocks, will charge or take the energy from this network."
+	],
+	dependencies: [
+		"c6721a5e",
+		"645dbe9b"
+	],
+	tasks: [{
+		uid: "5eef7619",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	},
+	{
+		uid: "ca4bcf56",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "ec5427ab",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

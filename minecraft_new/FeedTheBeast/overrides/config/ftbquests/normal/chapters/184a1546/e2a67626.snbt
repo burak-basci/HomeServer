@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: -5.0d,
+	text: [
+		"Made in fission reactor"
+	],
+	dependencies: [
+		"0d1928c5"
+	],
+	tasks: [{
+		uid: "018bed2e",
+		type: "fluid",
+		fluid: "steam"
+	}]
+}

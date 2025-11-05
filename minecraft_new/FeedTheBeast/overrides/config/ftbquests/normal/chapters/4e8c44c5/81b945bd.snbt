@@ -1,0 +1,43 @@
+{
+	icon: "botania:terraplate",
+	x: 8.5d,
+	y: 0.5d,
+	text: [
+		"Make a little altar to transform manasteel into terasteel. ",
+		"",
+		"See the structure in the Lexica Botania."
+	],
+	dependencies: [
+		"ee827ede",
+		"1ebed8ab",
+		"b7e64c1b"
+	],
+	tasks: [{
+		uid: "863b2ade",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "43b0c66c",
+		type: "item",
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "909222b3",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "7c4d903a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

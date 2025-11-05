@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	text: [
+		"Super strong bow you can get from beating Baykok."
+	],
+	dependencies: [
+		"aaef231f"
+	],
+	tasks: [{
+		uid: "b3531469",
+		type: "item",
+		items: [{
+			item: "totemic:baykok_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "187d8b25",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

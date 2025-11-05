@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"Grinds ores and items."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "e76b949c",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "a72acfc7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

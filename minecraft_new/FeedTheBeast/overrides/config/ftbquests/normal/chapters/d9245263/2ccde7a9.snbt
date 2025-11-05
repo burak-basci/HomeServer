@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -10.5d,
+	dependencies: [
+		"f7e348f1"
+	],
+	tasks: [{
+		uid: "fcc69afd",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_omega",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56aeedb3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

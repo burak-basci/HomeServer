@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -12.5d,
+	text: [
+		"Combustion generators can output quite a bit of energy.",
+		"",
+		"They generally use two types of fluids to steadily generate decent amounts of power."
+	],
+	dependencies: [
+		"cf0f7cfa"
+	],
+	tasks: [{
+		uid: "d74d065e",
+		type: "item",
+		items: [{
+			item: "enderio:block_combustion_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "876c768a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

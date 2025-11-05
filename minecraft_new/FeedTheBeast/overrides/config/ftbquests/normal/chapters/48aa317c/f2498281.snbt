@@ -1,0 +1,24 @@
+{
+	title: "From Dusts to Clay",
+	icon: "minecraft:clay_ball",
+	x: 0.0d,
+	y: 9.5d,
+	text: [
+		"The only way of obtaining clay before going into the mining dimension is to craft it from dirt dust and stone dust."
+	],
+	dependencies: [
+		"d98930df"
+	],
+	tasks: [{
+		uid: "01a6d97b",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "933cbf22",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

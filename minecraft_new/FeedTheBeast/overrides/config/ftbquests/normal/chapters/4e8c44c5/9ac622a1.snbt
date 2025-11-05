@@ -1,0 +1,21 @@
+{
+	x: 21.0d,
+	y: -5.5d,
+	dependencies: [
+		"4345dd6e"
+	],
+	tasks: [{
+		uid: "e8c8df44",
+		type: "item",
+		items: [{
+			item: "botania:elementiumshears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9284295",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -1.5d,
+	y: -8.5d,
+	text: [
+		"Quite a powerful farming tool that gives you the power to control nature.",
+		"",
+		"Right-clicking on a crop or sapling makes it grow fast.",
+		"",
+		"When holding right-click while standing on grass blocks, you will make grass and flowers grow."
+	],
+	dependencies: [
+		"49dc421b"
+	],
+	tasks: [{
+		uid: "a49d8274",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 4,
+					TotalAmounts: [
+						0
+					],
+					Items: []
+				}
+			},
+			id: "xreliquary:harvest_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a277a40",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

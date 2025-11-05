@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"Absorbs, collects, and stores experience for future use."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "6cff4e8e",
+		type: "item",
+		items: [{
+			item: "darkutils:monolith"
+		}]
+	}],
+	rewards: [{
+		uid: "0d0517e0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: 4.0d,
+	text: [
+		"Consumes hydrogen and lets you fly, but it's not the same as creative flight."
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "35d17126",
+		type: "item",
+		items: [{
+			item: "mekanism:armoredjetpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9215bcdb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

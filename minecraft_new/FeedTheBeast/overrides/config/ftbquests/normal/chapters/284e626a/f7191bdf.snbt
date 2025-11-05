@@ -1,0 +1,26 @@
+{
+	x: -11.5d,
+	y: 4.0d,
+	text: [
+		"For the price of some oxygen, you can breathe underwater.",
+		"",
+		"This is very useful on Skyblock. "
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "46b542c8",
+		type: "item",
+		items: [{
+			item: "mekanism:scubatank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "238d9566",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

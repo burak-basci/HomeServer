@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: -2.0d,
+	text: [
+		"If you wear this, blazes won't attack you, which makes it perfect for blaze farming."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "5648fb73",
+		type: "item",
+		items: [{
+			id: "xreliquary:mob_charm",
+			tag: {
+				type: 12b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9aafa2cb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

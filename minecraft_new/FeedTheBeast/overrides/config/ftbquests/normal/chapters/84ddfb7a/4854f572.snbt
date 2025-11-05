@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: -7.0d,
+	text: [
+		"This machine needs a sword and some energy to be able to kill mobs.",
+		"",
+		"There is a 7x7 radius in front of the grinder where mobs get killed by it."
+	],
+	dependencies: [
+		"97f712c5"
+	],
+	tasks: [{
+		uid: "0fecde4c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "0b5a14f3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

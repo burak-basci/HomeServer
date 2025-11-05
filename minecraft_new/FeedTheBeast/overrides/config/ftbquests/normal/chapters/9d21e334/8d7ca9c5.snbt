@@ -1,0 +1,37 @@
+{
+	title: "Hunters Handgun",
+	icon: "xreliquary:handgun",
+	x: 28.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d95b7524"
+	],
+	tasks: [{
+		uid: "bde8a291",
+		type: "item",
+		items: [{
+			item: "xreliquary:handgun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "955d5d67",
+		type: "item",
+		items: [{
+			id: "xreliquary:magazine",
+			tag: {
+				effects: [{
+					duration: 100,
+					potency: 1,
+					name: "minecraft:wither"
+				}]
+			},
+			Damage: 1s
+		}],
+		count: 128L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -11.0d,
+	text: [
+		"The highest tier of all cores, you will need it to be able to build the Creative Assembler."
+	],
+	dependencies: [
+		"0623e390"
+	],
+	tasks: [{
+		uid: "8cb76b85",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "4256b37d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

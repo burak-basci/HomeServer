@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"Staff used to give you information about totemic blocks."
+	],
+	dependencies: [
+		"e991e605"
+	],
+	tasks: [{
+		uid: "71cbe497",
+		type: "item",
+		items: [{
+			item: "totemic:totemic_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29a8a347",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	icon: "botania:manaresource 1 7",
+	x: 19.5d,
+	y: -1.0d,
+	text: [
+		"Elementium ingot is even stronger than terrasteel and is the endgame material for Botania."
+	],
+	dependencies: [
+		"0a927884"
+	],
+	tasks: [{
+		uid: "21854d30",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	},
+	{
+		uid: "0b7d46e3",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 8"
+		}]
+	},
+	{
+		uid: "9264a6b0",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "dfab39e2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

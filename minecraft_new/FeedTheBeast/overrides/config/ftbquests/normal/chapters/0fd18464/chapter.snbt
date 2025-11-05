@@ -1,0 +1,7 @@
+{
+	title: "Roots",
+	icon: "rootsclassic:livingsword",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

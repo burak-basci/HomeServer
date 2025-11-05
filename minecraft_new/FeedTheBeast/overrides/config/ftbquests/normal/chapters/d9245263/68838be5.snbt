@@ -1,0 +1,21 @@
+{
+	x: 11.0d,
+	y: -11.5d,
+	dependencies: [
+		"de653edb"
+	],
+	tasks: [{
+		uid: "7657ae97",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0add1911",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

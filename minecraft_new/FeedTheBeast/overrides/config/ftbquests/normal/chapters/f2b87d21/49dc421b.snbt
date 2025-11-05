@@ -1,0 +1,17 @@
+{
+	title: "Overpowering the Nature",
+	disable_toast: true,
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		"These two items might help you with farming or obtaining flowers."
+	],
+	dependencies: [
+		"577a33d5"
+	],
+	tasks: [{
+		uid: "6a1555f8",
+		type: "checkmark",
+		title: "Overpowering Nature"
+	}]
+}

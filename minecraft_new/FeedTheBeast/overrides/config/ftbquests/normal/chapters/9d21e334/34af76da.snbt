@@ -1,0 +1,28 @@
+{
+	title: "Infinite Capacitors",
+	icon: "enderio:item_basic_capacitor 1 2",
+	x: 38.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cd793e07"
+	],
+	tasks: [{
+		uid: "fc66b5de",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity 1 2"
+		}],
+		count: 40L
+	},
+	{
+		uid: "5b13a896",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		}],
+		count: 40L
+	}]
+}

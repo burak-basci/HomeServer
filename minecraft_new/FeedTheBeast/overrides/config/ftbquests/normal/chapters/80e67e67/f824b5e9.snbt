@@ -1,0 +1,21 @@
+{
+	title: "Farming Machines",
+	disable_toast: true,
+	x: -4.5d,
+	y: 4.5d,
+	text: [
+		"Machines that farm for you or take care of animals."
+	],
+	dependencies: [
+		"29dc36fe"
+	],
+	tasks: [{
+		uid: "f7452351",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8c593399",
+		type: "item",
+		item: "industrialforegoing:mob_imprisonment_tool"
+	}]
+}

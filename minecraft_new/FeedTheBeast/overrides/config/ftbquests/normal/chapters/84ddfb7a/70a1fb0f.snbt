@@ -1,0 +1,28 @@
+{
+	x: 5.0d,
+	y: -4.0d,
+	dependencies: [
+		"6f84aa14"
+	],
+	tasks: [{
+		uid: "05216259",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_pick",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ca50ab7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

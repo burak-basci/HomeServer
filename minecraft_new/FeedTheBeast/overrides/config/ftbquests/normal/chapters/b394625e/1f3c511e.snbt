@@ -1,0 +1,30 @@
+{
+	title: "Information about Machine Prints and Machines",
+	disable_toast: true,
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		"When you successfully build a machine, it will only work if you put the print inside the controller.",
+		"",
+		"Multiblocks change color when they are built correctly; they always say \"missing fluid/item input\" when nothing is being processed inside the machine.",
+		"",
+		"You can use a hologram from the print to display the structure in your world; shift left-click on the first button in the print to make a preview.",
+		"",
+		"By pressing \"U\" on the machine blueprint, you can see usages for the machine. ",
+		"",
+		"Some multiblocks use chisel blocks; most notably, Sacrificial Crystal uses chiseled netherrack. Use JEI and the machine print to find the proper one with the same visual."
+	],
+	dependencies: [
+		"fabba343"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f43f3bc2",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5c2523d4",
+		type: "item",
+		item: "harvestcraft:coconutitem"
+	}]
+}

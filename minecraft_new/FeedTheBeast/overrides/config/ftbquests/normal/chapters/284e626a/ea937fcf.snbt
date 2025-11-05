@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: -2.5d,
+	text: [
+		"First and most basic control circuit."
+	],
+	dependencies: [
+		"60d22114"
+	],
+	tasks: [{
+		uid: "64a3eae2",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit"
+		}]
+	}],
+	rewards: [{
+		uid: "d3004487",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

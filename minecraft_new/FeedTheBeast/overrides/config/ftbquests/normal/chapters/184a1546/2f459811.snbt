@@ -1,0 +1,28 @@
+{
+	title: "Moving On!",
+	icon: "projectex:final_star",
+	x: -26.5d,
+	y: -5.5d,
+	text: [
+		"Next, you will have to create the Creative Fluid Tank. ",
+		"",
+		"After that, you need to finish a special quest that lets you craft the Vending Upgrade and Creative ME Storage Cell."
+	],
+	dependencies: [
+		"370047d2",
+		"b4456d86",
+		"06ccb2f9",
+		"58f25cb4",
+		"b13cdbf2",
+		"edfadc24"
+	],
+	tasks: [{
+		uid: "62f35060",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8ce7d079",
+		type: "item",
+		item: "hammercore:gold_bordered_cobblestone"
+	}]
+}

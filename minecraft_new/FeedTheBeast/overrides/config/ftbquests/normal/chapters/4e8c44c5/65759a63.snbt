@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: -9.5d,
+	text: [
+		"Automatically switches to the right tool for the block you want to mine. ",
+		"",
+		"Switches to a shovel when mining dirt or to an axe when mining wood and so on."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "cfde5dfd",
+		type: "item",
+		items: [{
+			id: "botania:swapring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9537af71",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

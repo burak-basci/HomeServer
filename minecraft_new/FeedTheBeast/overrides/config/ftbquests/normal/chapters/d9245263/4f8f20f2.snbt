@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"0d5af9bf"
+	],
+	tasks: [{
+		uid: "ba2db5a1",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6c20b885",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

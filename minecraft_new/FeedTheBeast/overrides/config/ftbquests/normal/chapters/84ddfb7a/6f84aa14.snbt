@@ -1,0 +1,33 @@
+{
+	title: "Wyvern Cores",
+	icon: "draconicevolution:wyvern_core",
+	x: 1.5d,
+	y: -5.0d,
+	text: [
+		"Wyvern cores will let you unlock your first armor and tools from Draconic Evolution.",
+		"",
+		"Armor can be charged by using the Energy Infuser."
+	],
+	dependencies: [
+		"97f712c5"
+	],
+	tasks: [{
+		uid: "415e0ed3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	},
+	{
+		uid: "db2613ee",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_energy_core"
+		}]
+	}],
+	rewards: [{
+		uid: "75a40d99",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

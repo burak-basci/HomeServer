@@ -1,0 +1,18 @@
+{
+	title: "Utility Items",
+	disable_toast: true,
+	x: 2.5d,
+	y: -4.0d,
+	text: [
+		"Items that have amazing powers and can help you survive or progress.",
+		"",
+		"I recommend making the tome of alkahestry first."
+	],
+	dependencies: [
+		"577a33d5"
+	],
+	tasks: [{
+		uid: "deb30eb2",
+		type: "checkmark"
+	}]
+}

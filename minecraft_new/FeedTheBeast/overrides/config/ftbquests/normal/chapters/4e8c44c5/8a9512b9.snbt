@@ -1,0 +1,32 @@
+{
+	icon: "botania:pump",
+	x: -5.5d,
+	y: 5.5d,
+	text: [
+		"Mana pump is used to fill mana pool minecarts with mana."
+	],
+	dependencies: [
+		"2117de0f"
+	],
+	tasks: [{
+		uid: "4f8fa805",
+		type: "item",
+		items: [{
+			item: "botania:pump"
+		}]
+	},
+	{
+		uid: "5169c37a",
+		type: "item",
+		items: [{
+			item: "botania:poolminecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c8ee65b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

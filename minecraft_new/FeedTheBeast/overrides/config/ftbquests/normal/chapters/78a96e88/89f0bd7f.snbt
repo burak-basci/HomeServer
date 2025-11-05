@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"e515a0f0"
+	],
+	tasks: [{
+		uid: "a233995a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:raspberrytrifleitem"
+		}]
+	}],
+	rewards: [{
+		uid: "1f8e510d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: 0.5d,
+	text: [
+		"This mod includes more types of range addons, and they have different range upgrades. I suggest making at least +5 or +6."
+	],
+	dependencies: [
+		"29dc36fe"
+	],
+	tasks: [{
+		uid: "828b7641",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:range_addon 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6703c06",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "fb95f648",
+		type: "item",
+		item: "industrialforegoing:range_addon 1 4"
+	}]
+}

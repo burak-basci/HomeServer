@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -14.0d,
+	dependencies: [
+		"cf0f7cfa"
+	],
+	tasks: [{
+		uid: "d848a555",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_combustion_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "ae777fa0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

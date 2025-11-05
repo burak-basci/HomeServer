@@ -1,0 +1,12 @@
+{
+	title: "Chickens",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Chicken: "minecraft:chicken"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

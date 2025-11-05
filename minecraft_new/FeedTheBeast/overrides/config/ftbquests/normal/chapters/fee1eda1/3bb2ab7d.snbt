@@ -1,0 +1,16 @@
+{
+	disable_toast: true,
+	x: 18.0d,
+	y: -3.0d,
+	text: [
+		"Energy cells store energy and are used in various crafting recipes."
+	],
+	dependencies: [
+		"8ae921f2"
+	],
+	tasks: [{
+		uid: "85270722",
+		type: "checkmark",
+		title: "Energy Cells"
+	}]
+}

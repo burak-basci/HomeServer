@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"When a water source is next to this block, it will collect the water slowly."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "03202593",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_condensator"
+		}]
+	}],
+	rewards: [{
+		uid: "520f1655",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

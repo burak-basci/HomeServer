@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"a5040a1a"
+	],
+	tasks: [{
+		uid: "f2550e98",
+		type: "item",
+		items: [{
+			id: "enderstorage:ender_storage",
+			tag: {
+				Frequency: {
+					middle: 0,
+					left: 0,
+					right: 0
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "668197cf",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

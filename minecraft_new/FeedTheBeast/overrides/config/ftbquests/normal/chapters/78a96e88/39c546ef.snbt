@@ -1,0 +1,71 @@
+{
+	title: "Chef's Arsenal",
+	icon: "cookingforblockheads:oven",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Blocks that will help you with your cooking and sorting your recipes."
+	],
+	dependencies: [
+		"4d0c6d89"
+	],
+	tasks: [{
+		uid: "d78b2dea",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "9f11b22d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "a1077183",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	},
+	{
+		uid: "ea8a3bea",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "089a9553",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	},
+	{
+		uid: "d269f174",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "4315828d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:milk_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "cff5aa58",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "38e59f3c",
+		type: "item",
+		item: "cookingforblockheads:heating_unit"
+	}]
+}

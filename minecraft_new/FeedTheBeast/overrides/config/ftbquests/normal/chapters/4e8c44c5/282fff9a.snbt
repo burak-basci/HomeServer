@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -11.0d,
+	text: [
+		"Gives you the ability to swim fast."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "c8fc9c1b",
+		type: "item",
+		items: [{
+			id: "botania:waterring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "be3ca2b1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

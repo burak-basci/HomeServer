@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 8.0d,
+	text: [
+		"Gives you the full functionality of dark anvil on the go"
+	],
+	dependencies: [
+		"bf499e22"
+	],
+	tasks: [{
+		uid: "7f3da51a",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil2",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "2f693dc5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

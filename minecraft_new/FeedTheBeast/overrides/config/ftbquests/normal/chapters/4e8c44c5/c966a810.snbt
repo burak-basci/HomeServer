@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: -13.0d,
+	text: [
+		"Increases the chance to spawn a pixie when worn."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "6c846cd4",
+		type: "item",
+		items: [{
+			id: "botania:pixiering",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0457c874",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

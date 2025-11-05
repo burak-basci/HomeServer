@@ -1,0 +1,29 @@
+{
+	title: "Im a Wizard",
+	icon: "rootsclassic:crystalstaff",
+	x: -6.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4bdde071"
+	],
+	tasks: [{
+		uid: "b4c9134d",
+		type: "item",
+		items: [{
+			item: "rootsclassic:crystalstaff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a460f32",
+		type: "item",
+		items: [{
+			item: "rootsclassic:altar"
+		}],
+		count: 5L
+	}]
+}

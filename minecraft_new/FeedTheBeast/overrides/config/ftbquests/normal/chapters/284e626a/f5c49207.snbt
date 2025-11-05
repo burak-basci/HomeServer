@@ -1,0 +1,65 @@
+{
+	title: "Item storage",
+	x: -4.5d,
+	y: -5.5d,
+	text: [
+		"Works really similar to drawers; these store only one item type but in huge quantities."
+	],
+	dependencies: [
+		"c1fed2a5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "2d93f233",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 0
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "cf7e857e",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 1
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "f2212155",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 2
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "d5de368b",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1bec109d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

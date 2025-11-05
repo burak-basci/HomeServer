@@ -1,0 +1,28 @@
+{
+	title: "Dissolving Chamber",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -8.0d,
+	y: 0.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "131018c6",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "d735e290",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dissolving_chamber"
+			}
+		}
+	}]
+}

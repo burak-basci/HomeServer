@@ -1,0 +1,27 @@
+{
+	x: -13.5d,
+	y: 0.5d,
+	text: [
+		"Extremely overpowered mana generation flower that has a very difficult setup.",
+		"",
+		"View Lexica Botania for help."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "43b9e64d",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "dandelifeon"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3214c13e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

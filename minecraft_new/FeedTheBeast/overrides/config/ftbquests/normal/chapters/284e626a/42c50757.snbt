@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"Highest tier of alloys, used only in the best pieces of tech."
+	],
+	dependencies: [
+		"e6843643"
+	],
+	tasks: [{
+		uid: "5137a570",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "a2028328",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

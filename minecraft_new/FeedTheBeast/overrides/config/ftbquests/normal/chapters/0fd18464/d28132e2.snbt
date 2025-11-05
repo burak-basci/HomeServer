@@ -1,0 +1,17 @@
+{
+	title: "Armor Sets",
+	disable_toast: true,
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"Collecting all armor sets may be a nice achievement, but in all honesty, they are decently powerful."
+	],
+	dependencies: [
+		"2aa3eb9b"
+	],
+	tasks: [{
+		uid: "968bb092",
+		type: "checkmark",
+		title: "Armor sets"
+	}]
+}

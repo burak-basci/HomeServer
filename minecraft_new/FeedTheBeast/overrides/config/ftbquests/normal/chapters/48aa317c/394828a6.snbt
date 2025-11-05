@@ -1,0 +1,33 @@
+{
+	title: "Upgraded Smeltery",
+	icon: "extrautils2:redstoneclock",
+	x: -4.5d,
+	y: 15.0d,
+	text: [
+		"The redstone clock can automate output via a duct; you can stop the clock using a lever.",
+		"",
+		"Basin can be used to make whole blocks instead of ingots."
+	],
+	dependencies: [
+		"e34334de"
+	],
+	tasks: [{
+		uid: "55ec8962",
+		type: "item",
+		items: [{
+			item: "extrautils2:redstoneclock"
+		}]
+	},
+	{
+		uid: "38807c6b",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "35aa3238",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

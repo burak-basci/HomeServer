@@ -1,0 +1,43 @@
+{
+	title: "Capacitors",
+	icon: {
+		id: "draconicevolution:draconium_capacitor",
+		tag: {
+			Energy: 64000000
+		}
+	},
+	x: -6.5d,
+	y: -5.0d,
+	text: [
+		"Capacitors are used as energy storage, mostly for draconic armor."
+	],
+	dependencies: [
+		"7b09e62d"
+	],
+	tasks: [{
+		uid: "5fcee060",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2ff529b8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c1fc92c8",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "82de4b0c",
+		type: "item",
+		item: "draconicevolution:energy_infuser"
+	}]
+}

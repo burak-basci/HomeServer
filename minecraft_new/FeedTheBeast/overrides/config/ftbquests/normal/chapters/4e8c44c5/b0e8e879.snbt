@@ -1,0 +1,24 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	text: [
+		"The Runic Altar needs mana to perform all operations.",
+		"",
+		"Most notable transformations are changing items into runes that are used as crafting components."
+	],
+	dependencies: [
+		"ee827ede"
+	],
+	tasks: [{
+		uid: "32cef5bc",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "5041e71a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

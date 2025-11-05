@@ -1,0 +1,137 @@
+{
+	title: "All Runes",
+	icon: "botania:rune 1 13",
+	x: -10.0d,
+	y: 1.5d,
+	dependencies: [
+		"7872df76"
+	],
+	tasks: [{
+		uid: "d5a25568",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "044b55ef",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "0fffff58",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 6"
+		}],
+		count: 5L
+	},
+	{
+		uid: "97e345c7",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 9"
+		}],
+		count: 5L
+	},
+	{
+		uid: "b73f1bb4",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 10"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f39d0625",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 3"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ab922e91",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 13"
+		}],
+		count: 5L
+	},
+	{
+		uid: "5ee0af0d",
+		type: "item",
+		items: [{
+			item: "botania:rune"
+		}],
+		count: 5L
+	},
+	{
+		uid: "7fc52e74",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 11"
+		}],
+		count: 5L
+	},
+	{
+		uid: "bff865cc",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 12"
+		}],
+		count: 5L
+	},
+	{
+		uid: "32dde1ff",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 4"
+		}],
+		count: 5L
+	},
+	{
+		uid: "4a9e23ef",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}],
+		count: 5L
+	},
+	{
+		uid: "faa6eabb",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 14"
+		}],
+		count: 5L
+	},
+	{
+		uid: "69d40eb8",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ec9f6fc5",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 7"
+		}],
+		count: 5L
+	},
+	{
+		uid: "54d6a084",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 15"
+		}],
+		count: 5L
+	}]
+}

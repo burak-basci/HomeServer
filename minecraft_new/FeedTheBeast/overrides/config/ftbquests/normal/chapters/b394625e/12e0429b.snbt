@@ -1,0 +1,28 @@
+{
+	title: "Creative Assembler",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -8.0d,
+	y: 8.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "ec37fc18",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "e9615336",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:creative_assembler"
+			}
+		}
+	}]
+}

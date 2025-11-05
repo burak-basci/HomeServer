@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Shoots snowballs while also turning water into ice and lava into obsidian.",
+		"",
+		"These blocks are then transformed back into their original fluid state once the holder of the Flacial Staff is too far from them."
+	],
+	dependencies: [
+		"4442612d"
+	],
+	tasks: [{
+		uid: "b8ec664a",
+		type: "item",
+		items: [{
+			item: "xreliquary:glacial_staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d52115f5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

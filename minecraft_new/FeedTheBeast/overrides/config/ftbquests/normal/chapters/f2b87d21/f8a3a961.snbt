@@ -1,0 +1,40 @@
+{
+	x: -7.0d,
+	y: -6.0d,
+	text: [
+		"An offensive weapon shooting fireballs once charged with blaze powder and fire charges.",
+		"",
+		"Protects the user from ghast and blaze fireballs.",
+		"",
+		"Extinguishes fire when turned off."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "f7dcfe22",
+		type: "item",
+		items: [{
+			id: "xreliquary:pyromancer_staff",
+			tag: {
+				mode: "blaze",
+				Items: [{
+					Quantity: 143,
+					Name: "minecraft:fire_charge"
+				},
+				{
+					Quantity: 143,
+					Name: "minecraft:blaze_powder"
+				}],
+				enabled: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81d073df",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

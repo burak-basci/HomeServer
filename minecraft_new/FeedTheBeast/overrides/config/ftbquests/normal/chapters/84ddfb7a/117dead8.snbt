@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: -11.0d,
+	text: [
+		"Draconic Injectors will finally let you make all draconic tools and armor."
+	],
+	dependencies: [
+		"2c70476d"
+	],
+	tasks: [{
+		uid: "6ec48638",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ebddafd9",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

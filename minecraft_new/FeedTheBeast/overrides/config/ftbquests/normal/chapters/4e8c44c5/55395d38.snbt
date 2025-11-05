@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: -0.5d,
+	text: [
+		"Creates mana from explosions around it."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "6ec10b2c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d6469f46",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

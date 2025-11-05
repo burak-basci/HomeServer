@@ -1,0 +1,23 @@
+{
+	x: -20.0d,
+	y: 4.0d,
+	text: [
+		"Most likely your first generator, it generates energy from burnable items, mostly coal."
+	],
+	dependencies: [
+		"5fa3126e"
+	],
+	tasks: [{
+		uid: "92a43a7d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6612350",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

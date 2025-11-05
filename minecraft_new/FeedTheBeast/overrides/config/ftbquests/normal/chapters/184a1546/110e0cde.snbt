@@ -1,0 +1,17 @@
+{
+	title: "Fluid Collecting",
+	disable_toast: true,
+	x: -12.5d,
+	y: -8.0d,
+	text: [
+		"Fluid collecting is optional and is supposed to make you spend some more time on this pack. "
+	],
+	dependencies: [
+		"f3bc489e"
+	],
+	tasks: [{
+		uid: "6c9d99c7",
+		type: "checkmark",
+		title: "Fluid Collecting"
+	}]
+}

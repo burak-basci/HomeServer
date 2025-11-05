@@ -1,0 +1,13 @@
+{
+	title: "Ender IO Liquids",
+	icon: "minecraft:bucket",
+	disable_toast: true,
+	x: -10.5d,
+	y: -9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"110e0cde"
+	]
+}

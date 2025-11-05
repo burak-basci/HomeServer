@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: 6.5d,
+	text: [
+		"Creates fertilizer from sawage."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "38c45535",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sewage_composter_solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "f474aa6a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

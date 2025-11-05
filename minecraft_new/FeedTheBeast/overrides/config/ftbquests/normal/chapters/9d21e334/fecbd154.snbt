@@ -1,0 +1,20 @@
+{
+	title: "Chickens",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Chicken: "minecraft:chicken"
+		}
+	},
+	disable_toast: true,
+	x: 5.0d,
+	y: -1.0d,
+	description: "All quests require 1/1/1 chickens or chickens without stats",
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

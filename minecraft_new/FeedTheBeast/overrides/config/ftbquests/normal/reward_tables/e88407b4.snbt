@@ -1,0 +1,38 @@
+{
+	title: "Alchemist Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "projecte:item.pe_matter",
+		count: 3,
+		weight: 18
+	},
+	{
+		item: "projecte:item.pe_matter 1 1",
+		count: 2,
+		weight: 10
+	},
+	{
+		item: "projectex:matter",
+		count: 3,
+		weight: 8
+	},
+	{
+		item: "projectex:matter 1 1",
+		count: 2,
+		weight: 6
+	},
+	{
+		item: "projectex:matter 1 2",
+		weight: 2
+	}],
+	loot_crate: {
+		string_id: "alchemist_crate",
+		item_name: "Alchemist Crate",
+		color: 13179662,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

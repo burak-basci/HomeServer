@@ -1,0 +1,27 @@
+{
+	title: "Low on Dirt",
+	x: 0.0d,
+	y: 3.5d,
+	text: [
+		"You have to craft it.",
+		" ",
+		"Picking it up from your island won't work."
+	],
+	dependencies: [
+		"2332d7e7",
+		"0d06f1a5"
+	],
+	tasks: [{
+		uid: "f0ec4441",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "1508095a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -9.5d,
+	y: -12.0d,
+	dependencies: [
+		"7072d542"
+	],
+	tasks: [{
+		uid: "63ad9ce4",
+		type: "fluid",
+		fluid: "redstone_alloy"
+	}]
+}

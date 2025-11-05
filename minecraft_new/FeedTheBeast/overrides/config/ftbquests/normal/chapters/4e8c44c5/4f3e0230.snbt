@@ -1,0 +1,26 @@
+{
+	x: 22.5d,
+	y: 0.5d,
+	text: [
+		"Kill the Gaia boss to obtain its spirit.",
+		"",
+		"Spirits can then be duplicated in the Botanical Infuser.",
+		"",
+		"Check Lexica Botania for a guide on how to summon it."
+	],
+	dependencies: [
+		"4345dd6e"
+	],
+	tasks: [{
+		uid: "0573e9ce",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ffb5cbd8",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

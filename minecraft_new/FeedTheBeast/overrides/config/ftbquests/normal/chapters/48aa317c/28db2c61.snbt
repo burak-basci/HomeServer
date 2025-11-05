@@ -1,0 +1,37 @@
+{
+	title: "Rarer Ores",
+	icon: "minecraft:gold_ingot",
+	x: 0.0d,
+	y: 14.0d,
+	text: [
+		"Since now you have access to the mining dimension, getting these should be a breeze.",
+		"",
+		"Make an iron pickaxe using your smeltery to get both of these.",
+		"",
+		"Or you can craft them with the philosopher's stone if you have enough iron."
+	],
+	dependencies: [
+		"6a276d1b"
+	],
+	tasks: [{
+		uid: "c69e3fda",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		count: 2L
+	},
+	{
+		uid: "473be11e",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "78998b28",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

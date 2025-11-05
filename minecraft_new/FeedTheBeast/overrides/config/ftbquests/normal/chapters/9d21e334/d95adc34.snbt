@@ -1,0 +1,16 @@
+{
+	title: "EMC",
+	x: -16.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1114d20f"
+	],
+	tasks: [{
+		uid: "a420ea4b",
+		type: "emc",
+		value: 10000000000000L
+	}]
+}

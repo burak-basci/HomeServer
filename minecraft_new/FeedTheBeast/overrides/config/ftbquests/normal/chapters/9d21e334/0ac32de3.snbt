@@ -1,0 +1,41 @@
+{
+	title: "All Cores",
+	icon: "draconicevolution:chaotic_core",
+	x: 45.0d,
+	y: 1.5d,
+	dependencies: [
+		"9bbb2bf9"
+	],
+	tasks: [{
+		uid: "6a02fa35",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}],
+		count: 5L
+	},
+	{
+		uid: "939e5755",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}],
+		count: 5L
+	},
+	{
+		uid: "d86f3e0d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}],
+		count: 10L
+	},
+	{
+		uid: "14d965d1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}],
+		count: 10L
+	}]
+}

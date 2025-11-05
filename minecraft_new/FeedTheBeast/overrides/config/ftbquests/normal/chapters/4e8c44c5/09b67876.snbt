@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: -17.0d,
+	text: [
+		"Strikes nearby hostile creatures with a small laser."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "9a1617e8",
+		type: "item",
+		items: [{
+			id: "botania:missilerod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26280e5c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

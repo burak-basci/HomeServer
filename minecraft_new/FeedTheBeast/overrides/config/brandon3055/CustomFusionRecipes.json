@@ -1,0 +1,30 @@
+[
+{
+        "mode": "ADD",
+        "result": "[draconicevolution:chaos_shard]:0",
+        "catalyst": "[projectex:final_star_shard]",
+        "energy": 500000,
+        "tier": 2,
+        "ingredients": [
+            "[xreliquary:phoenix_down]",
+            "[enderio:item_material]:56",
+            "[botania:manaresource]:5",
+            "[extrautils2:opinium]:8"
+]
+    },
+
+{
+        "mode": "ADD",
+        "result": "[draconicevolution:draconium_block]:1",
+        "catalyst": "[draconicevolution:draconium_ingot]",
+        "energy": 250000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:draconium_block]:0",
+            "[draconicevolution:draconium_block]:0",
+            "[draconicevolution:draconium_block]:0",
+            "[draconicevolution:draconium_block]:0"
+            
+]
+    }
+]

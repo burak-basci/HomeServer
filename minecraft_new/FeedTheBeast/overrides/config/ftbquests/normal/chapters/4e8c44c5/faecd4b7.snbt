@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -2.0d,
+	text: [
+		"Eats any food thrown at it; the better the quality of the food, the more mana you will get."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "aa88dd20",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3997a120",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

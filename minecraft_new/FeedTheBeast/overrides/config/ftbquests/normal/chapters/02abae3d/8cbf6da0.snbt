@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -9.0d,
+	text: [
+		"Industrial Chassis will let you obtain better versions of machines you made from the simple chassis.",
+		"",
+		"Machines can now be upgraded by using better capacitors. "
+	],
+	dependencies: [
+		"ee74ed2c"
+	],
+	tasks: [{
+		uid: "5faacac9",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e66b6a0d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

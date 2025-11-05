@@ -1,0 +1,12 @@
+{
+	x: -12.5d,
+	y: 0.0d,
+	dependencies: [
+		"2790771b"
+	],
+	tasks: [{
+		uid: "2853f300",
+		type: "fluid",
+		fluid: "liquidfusionfuel"
+	}]
+}

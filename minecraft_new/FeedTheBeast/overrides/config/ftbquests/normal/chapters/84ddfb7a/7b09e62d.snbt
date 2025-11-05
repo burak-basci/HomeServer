@@ -1,0 +1,45 @@
+{
+	title: "Better Energy Crystals",
+	icon: "draconicevolution:energy_crystal 1 4",
+	x: -4.5d,
+	y: -5.0d,
+	text: [
+		"Higher-tier crystals offering faster transfer rates. "
+	],
+	dependencies: [
+		"3895f030"
+	],
+	tasks: [{
+		uid: "a86e5943",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 4"
+		}]
+	},
+	{
+		uid: "2c6a2017",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 7"
+		}]
+	},
+	{
+		uid: "f1192f53",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 5"
+		}]
+	},
+	{
+		uid: "4f049bcf",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "8a622a2b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

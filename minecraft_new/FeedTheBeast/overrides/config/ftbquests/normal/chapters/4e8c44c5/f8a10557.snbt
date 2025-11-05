@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	text: [
+		"Creates mana from burnable items like coal or charcoal."
+	],
+	dependencies: [
+		"14bf625a"
+	],
+	tasks: [{
+		uid: "7575c96e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2a599543",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

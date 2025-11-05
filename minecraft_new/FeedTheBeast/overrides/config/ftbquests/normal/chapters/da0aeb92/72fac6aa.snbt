@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"Once the Dragon Egg is placed on top of this machine, it starts making enormous amounts of GP."
+	],
+	dependencies: [
+		"d15725e4"
+	],
+	tasks: [{
+		uid: "aa783bfc",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "8de8e49e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

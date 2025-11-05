@@ -1,0 +1,24 @@
+{
+	title: "Welcome to the Shop!",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: -3.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"On the left side, you can exchange EMC for machine prints and chickens, and on the right side, you can buy loot crates for SBC.",
+		"",
+		"The quests can be repeated so you can buy as much as you want."
+	],
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "fd876d42",
+		type: "checkmark",
+		title: "How the shop works"
+	}]
+}

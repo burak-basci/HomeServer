@@ -1,0 +1,13 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.5d,
+	dependencies: [
+		"2aa3eb9b"
+	],
+	tasks: [{
+		uid: "39b14b5e",
+		type: "checkmark",
+		title: "Crafting Components"
+	}]
+}

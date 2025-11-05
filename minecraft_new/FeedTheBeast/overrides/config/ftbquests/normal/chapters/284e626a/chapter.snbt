@@ -1,0 +1,13 @@
+{
+	title: "Mekanism",
+	icon: {
+		id: "mekanism:machineblock",
+		tag: {
+			recipeType: 1
+		},
+		Damage: 7s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

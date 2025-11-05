@@ -1,0 +1,37 @@
+{
+	title: "Wands for Builders",
+	icon: "extrautils2:itembuilderswand",
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"Wands that are every builder's dream.",
+		"",
+		"Build or destroy; this duo can do it all."
+	],
+	dependencies: [
+		"0785f561"
+	],
+	tasks: [{
+		uid: "fbb96e9b",
+		type: "item",
+		items: [{
+			item: "extrautils2:itemdestructionwand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bcd14564",
+		type: "item",
+		items: [{
+			item: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "285097c8",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

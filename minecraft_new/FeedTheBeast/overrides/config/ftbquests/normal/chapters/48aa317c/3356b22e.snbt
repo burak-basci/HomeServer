@@ -1,0 +1,29 @@
+{
+	title: "Mining Dimension",
+	x: -1.5d,
+	y: 10.5d,
+	text: [
+		"Getting to the mining dimension is really important since you will find all essential ores here.",
+		"",
+		"You need the mining multitool to activate it.",
+		"Shift in the ignited portal to teleport there.",
+		"",
+		"You can also find the &cEnd Portal&r inside the mining dimension,&r and &cno passive or hostile mobs spawn naturally&r in the dimension during day or night."
+	],
+	dependencies: [
+		"f2498281"
+	],
+	tasks: [{
+		uid: "789e7e70",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:portalframe"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "82e7f348",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

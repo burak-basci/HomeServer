@@ -1,0 +1,26 @@
+{
+	title: "Storage Options",
+	x: -0.5d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Here, we have all the things a player can desire: drawers, chests with huge storage, and most importantly, digital storage. ",
+		"",
+		"Follow the quests and learn how to store your items in a cool way."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d397bc14",
+		type: "checkmark",
+		title: "Storage options",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

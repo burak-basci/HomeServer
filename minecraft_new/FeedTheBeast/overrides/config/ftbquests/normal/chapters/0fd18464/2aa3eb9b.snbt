@@ -1,0 +1,28 @@
+{
+	title: "Power of Nature",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"Great early game mod that can supply you with nice armor and weapons, alongside some powerful spells."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "54339f50",
+		type: "checkmark",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "bad89805",
+		type: "item",
+		item: "rootsclassic:runedtablet"
+	}]
+}

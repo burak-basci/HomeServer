@@ -1,0 +1,24 @@
+{
+	title: "Congratulations!",
+	icon: "botania:cosmetic 1 31",
+	x: 20.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ad84de08",
+		"2644886c",
+		"92dda9e1"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3202e7b8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8e3b62f3",
+		type: "item",
+		item: "hammercore:diamond_bordered_cobblestone"
+	}]
+}

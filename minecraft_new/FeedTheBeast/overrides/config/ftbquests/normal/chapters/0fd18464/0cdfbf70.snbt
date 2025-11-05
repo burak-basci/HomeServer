@@ -1,0 +1,59 @@
+{
+	title: "Powders and components",
+	icon: "rootsclassic:mutagen",
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"Some are decently rare, but you can find hints on how to get some of them by using the runic tablet."
+	],
+	dependencies: [
+		"ebb0bf78"
+	],
+	tasks: [{
+		uid: "f46c09a9",
+		type: "item",
+		items: [{
+			item: "rootsclassic:oldroot"
+		}]
+	},
+	{
+		uid: "009638ee",
+		type: "item",
+		items: [{
+			item: "rootsclassic:verdantsprig"
+		}]
+	},
+	{
+		uid: "7bceb335",
+		type: "item",
+		items: [{
+			item: "rootsclassic:infernalstem"
+		}]
+	},
+	{
+		uid: "ddeb6e91",
+		type: "item",
+		items: [{
+			item: "rootsclassic:dragonseye"
+		}]
+	},
+	{
+		uid: "16ae95a7",
+		type: "item",
+		items: [{
+			item: "rootsclassic:mutagen"
+		}]
+	},
+	{
+		uid: "21a4d015",
+		type: "item",
+		items: [{
+			item: "rootsclassic:growthsalve"
+		}]
+	}],
+	rewards: [{
+		uid: "5b988b2f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Rods",
+	disable_toast: true,
+	x: 12.5d,
+	y: -13.5d,
+	text: [
+		"All rods need mana to function, but they can be quite practical in some cases."
+	],
+	dependencies: [
+		"57c4d9cd"
+	],
+	tasks: [{
+		uid: "1a2b9baf",
+		type: "checkmark"
+	}]
+}

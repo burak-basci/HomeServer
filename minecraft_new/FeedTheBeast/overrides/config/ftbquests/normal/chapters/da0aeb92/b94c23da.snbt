@@ -1,0 +1,93 @@
+{
+	title: "Filters",
+	icon: "darkutils:filter 1 3",
+	x: -5.5d,
+	y: -1.0d,
+	text: [
+		"Mob filter blocks can be quite handy, allowing only specific mobs to fall through them."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "1ac7152d",
+		type: "item",
+		title: "Any Inverted Filter",
+		items: [{
+			item: "darkutils:filter_inverted"
+		},
+		{
+			item: "darkutils:filter_inverted 1 1"
+		},
+		{
+			item: "darkutils:filter_inverted 1 2"
+		},
+		{
+			item: "darkutils:filter_inverted 1 3"
+		},
+		{
+			item: "darkutils:filter_inverted 1 4"
+		},
+		{
+			item: "darkutils:filter_inverted 1 5"
+		},
+		{
+			item: "darkutils:filter_inverted 1 6"
+		},
+		{
+			item: "darkutils:filter_inverted 1 7"
+		},
+		{
+			item: "darkutils:filter_inverted 1 8"
+		},
+		{
+			item: "darkutils:filter_inverted 1 9"
+		},
+		{
+			item: "darkutils:filter_inverted 1 10"
+		}]
+	},
+	{
+		uid: "16c723cf",
+		type: "item",
+		title: "Any Filter",
+		items: [{
+			item: "darkutils:filter"
+		},
+		{
+			item: "darkutils:filter 1 1"
+		},
+		{
+			item: "darkutils:filter 1 2"
+		},
+		{
+			item: "darkutils:filter 1 3"
+		},
+		{
+			item: "darkutils:filter 1 4"
+		},
+		{
+			item: "darkutils:filter 1 5"
+		},
+		{
+			item: "darkutils:filter 1 6"
+		},
+		{
+			item: "darkutils:filter 1 7"
+		},
+		{
+			item: "darkutils:filter 1 8"
+		},
+		{
+			item: "darkutils:filter 1 9"
+		},
+		{
+			item: "darkutils:filter 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "16239f2d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

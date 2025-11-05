@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: -5.5d,
+	text: [
+		"Keeps the machine chunkloaded."
+	],
+	dependencies: [
+		"7a85465c"
+	],
+	tasks: [{
+		uid: "70bef0ea",
+		type: "item",
+		items: [{
+			item: "mekanism:anchorupgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1cbdc03",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "Helmet Upgrades",
+	icon: "ceramics:clay_helmet",
+	disable_toast: true,
+	x: 4.5d,
+	y: 0.5d,
+	dependencies: [
+		"77dd2762"
+	]
+}

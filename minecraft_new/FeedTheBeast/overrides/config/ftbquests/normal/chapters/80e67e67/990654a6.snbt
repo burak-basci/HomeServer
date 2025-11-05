@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: 9.0d,
+	text: [
+		"Uses the imprisonment tool to duplicate mobs and acts like a spawner."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "769d334d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "6692c5a3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

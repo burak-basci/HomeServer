@@ -1,0 +1,16 @@
+{
+	title: "Chickens for EMC",
+	disable_toast: true,
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"A few chickens that are necessary for progression can be bought in the shop for EMC."
+	],
+	dependencies: [
+		"45ac67a6"
+	],
+	tasks: [{
+		uid: "e6d55d2d",
+		type: "checkmark"
+	}]
+}

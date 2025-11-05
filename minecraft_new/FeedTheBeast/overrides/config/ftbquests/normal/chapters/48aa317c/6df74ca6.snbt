@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 10.5d,
+	text: [
+		"Tool used to ignite the mining dimension portal."
+	],
+	dependencies: [
+		"f2498281"
+	],
+	tasks: [{
+		uid: "203ced45",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1258ae05",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

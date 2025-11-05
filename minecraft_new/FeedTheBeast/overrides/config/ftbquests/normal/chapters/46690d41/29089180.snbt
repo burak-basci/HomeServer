@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	dependencies: [
+		"57e51d4f"
+	],
+	tasks: [{
+		uid: "5c2ec9b8",
+		type: "item",
+		items: [{
+			item: "totemic:flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1d6d3559",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

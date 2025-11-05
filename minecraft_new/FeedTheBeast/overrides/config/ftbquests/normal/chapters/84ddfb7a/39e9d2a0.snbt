@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	text: [
+		"Average generator that can be quite powerful if combined with the watch of flowing time."
+	],
+	dependencies: [
+		"97f712c5"
+	],
+	tasks: [{
+		uid: "1e3d948c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:generator"
+		}]
+	}],
+	rewards: [{
+		uid: "c307c822",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

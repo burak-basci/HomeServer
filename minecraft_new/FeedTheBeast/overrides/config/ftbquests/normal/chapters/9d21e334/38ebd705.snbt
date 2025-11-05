@@ -1,0 +1,28 @@
+{
+	title: "Pink Madness",
+	icon: "industrialforegoing:pink_slime",
+	x: 11.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3394d477"
+	],
+	tasks: [{
+		uid: "9d8093d2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime"
+		}],
+		count: 10L
+	},
+	{
+		uid: "8ea5beaf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}],
+		count: 20L
+	}]
+}

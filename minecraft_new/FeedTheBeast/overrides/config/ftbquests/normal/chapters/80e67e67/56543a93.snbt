@@ -1,0 +1,31 @@
+{
+	title: "Upgraded Conveyor Belts",
+	icon: "industrialforegoing:conveyor_upgrade 1 4",
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"These are my favorite ones: the dropping upgrade acts as a hopper, and the other one can split items so they can take a different route."
+	],
+	dependencies: [
+		"aeb59590"
+	],
+	tasks: [{
+		uid: "c56aabcc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 6"
+		}]
+	},
+	{
+		uid: "ef3b0d9c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b10e8a39",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

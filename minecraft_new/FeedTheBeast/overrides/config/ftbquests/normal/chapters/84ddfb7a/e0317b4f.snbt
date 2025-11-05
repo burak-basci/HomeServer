@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -12.5d,
+	dependencies: [
+		"ea608e7e"
+	],
+	tasks: [{
+		uid: "60298938",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "085a1377",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

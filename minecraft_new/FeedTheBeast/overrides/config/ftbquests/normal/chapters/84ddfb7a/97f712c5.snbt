@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	text: [
+		"Item that will finally let you unlock some fun stuff."
+	],
+	dependencies: [
+		"7e54c482"
+	],
+	tasks: [{
+		uid: "abd1e8d3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "89a39293",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

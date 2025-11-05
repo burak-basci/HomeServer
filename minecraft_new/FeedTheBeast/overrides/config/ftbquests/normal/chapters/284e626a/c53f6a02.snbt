@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -5.5d,
+	text: [
+		"The most notable thing this does is that it gives more resources from ores by doubling them."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "c6201536",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "60dbbfa9",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"Shows the location of sounds around you."
+	],
+	dependencies: [
+		"f07bb182"
+	],
+	tasks: [{
+		uid: "9ff6ec6e",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:sounddetector",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "8dde6f83",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: -3.0d,
+	dependencies: [
+		"83017dcf"
+	],
+	tasks: [{
+		uid: "5bbf2331",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b91ac71",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

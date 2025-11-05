@@ -1,0 +1,33 @@
+{
+	title: "Master of Stars",
+	icon: "projectex:final_star",
+	x: -13.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1114d20f"
+	],
+	tasks: [{
+		uid: "a0729c64",
+		type: "item",
+		items: [{
+			id: "projectex:colossal_star_omega",
+			tag: {}
+		}],
+		count: 20L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b3ddf8f",
+		type: "item",
+		items: [{
+			item: "projectex:final_star"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

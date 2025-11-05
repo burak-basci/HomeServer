@@ -1,0 +1,40 @@
+{
+	title: "Magical Altar",
+	icon: "rootsclassic:altar",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"You can find useful information about rituals in the runic tablet. ",
+		"",
+		"Rituals are used for crafting armor and obtaining new tools alongside some spells."
+	],
+	dependencies: [
+		"2aa3eb9b"
+	],
+	tasks: [{
+		uid: "d6448d6c",
+		type: "item",
+		items: [{
+			item: "rootsclassic:altar"
+		}]
+	},
+	{
+		uid: "63ad5722",
+		type: "item",
+		items: [{
+			item: "rootsclassic:standingstonet1"
+		}]
+	},
+	{
+		uid: "dbbee15b",
+		type: "item",
+		items: [{
+			item: "rootsclassic:brazier"
+		}]
+	}],
+	rewards: [{
+		uid: "294a0065",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

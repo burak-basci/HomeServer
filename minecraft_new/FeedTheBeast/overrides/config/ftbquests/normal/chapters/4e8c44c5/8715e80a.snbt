@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -11.0d,
+	text: [
+		"By pressing the A or D key two times, you can dodge during combat."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "4ef3e1ad",
+		type: "item",
+		items: [{
+			item: "botania:dodgering"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2f4ded3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

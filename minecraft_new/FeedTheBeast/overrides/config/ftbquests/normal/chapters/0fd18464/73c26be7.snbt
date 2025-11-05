@@ -1,0 +1,64 @@
+{
+	title: "Living Tools",
+	icon: "rootsclassic:livingpickaxe",
+	x: 2.5d,
+	y: -1.5d,
+	text: [
+		"Living tools are obtainable from a ritual. ",
+		"",
+		"They all share the ability of self-repairing when they are damaged."
+	],
+	dependencies: [
+		"2aa3eb9b"
+	],
+	tasks: [{
+		uid: "9648fd13",
+		type: "item",
+		items: [{
+			item: "rootsclassic:livingsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "248625b7",
+		type: "item",
+		items: [{
+			item: "rootsclassic:livinghoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7d96949",
+		type: "item",
+		items: [{
+			item: "rootsclassic:livingshovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21fa0282",
+		type: "item",
+		items: [{
+			item: "rootsclassic:livingpickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30555ced",
+		type: "item",
+		items: [{
+			item: "rootsclassic:livingaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "622da570",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

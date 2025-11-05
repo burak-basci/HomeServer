@@ -1,0 +1,20 @@
+{
+	x: -25.5d,
+	y: 0.5d,
+	text: [
+		"End of the End."
+	],
+	dependencies: [
+		"9f193d8c"
+	],
+	tasks: [{
+		uid: "3ab28836",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

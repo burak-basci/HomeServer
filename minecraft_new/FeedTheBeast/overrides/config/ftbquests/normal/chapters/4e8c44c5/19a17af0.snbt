@@ -1,0 +1,26 @@
+{
+	x: 23.5d,
+	y: -13.0d,
+	text: [
+		"Upgraded version of the Pyroclast pendant. ",
+		"",
+		"It makes you fully immune to fire."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "3ff88cf6",
+		type: "item",
+		items: [{
+			item: "botania:superlavapendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1dfe2583",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

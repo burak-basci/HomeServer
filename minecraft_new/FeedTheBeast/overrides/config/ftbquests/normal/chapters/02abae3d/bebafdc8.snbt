@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"First machine chassis letting you obtain all the basic machines you will need."
+	],
+	dependencies: [
+		"cd800e20"
+	],
+	tasks: [{
+		uid: "a2e59d35",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "78c6018d",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "c201e6a0",
+		type: "item",
+		item: "enderio:block_cap_bank 1 1"
+	}]
+}

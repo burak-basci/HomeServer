@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -12.5d,
+	text: [
+		"Chaos shard will be used as one of the components to make a reactor core and its stabilizers.",
+		"",
+		"It can only be obtained by fusion crafting because the Chaos Islands in the End were disabled."
+	],
+	dependencies: [
+		"117dead8"
+	],
+	tasks: [{
+		uid: "cf2c0097",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "11d2aa96",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"e515a0f0"
+	],
+	tasks: [{
+		uid: "eb90e3ad",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gooseberryyogurtitem"
+		}]
+	}],
+	rewards: [{
+		uid: "5d568641",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

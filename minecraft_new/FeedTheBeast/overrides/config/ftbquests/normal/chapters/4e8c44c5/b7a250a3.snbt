@@ -1,0 +1,21 @@
+{
+	x: 18.0d,
+	y: -5.5d,
+	dependencies: [
+		"4345dd6e"
+	],
+	tasks: [{
+		uid: "40c84910",
+		type: "item",
+		items: [{
+			item: "botania:openbucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a15f168d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

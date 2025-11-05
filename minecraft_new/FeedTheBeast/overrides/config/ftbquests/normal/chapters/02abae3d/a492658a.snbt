@@ -1,0 +1,10 @@
+{
+	title: "Universal Upgrades",
+	icon: "botania:cosmetic 1 31",
+	disable_toast: true,
+	x: 6.5d,
+	y: 3.5d,
+	dependencies: [
+		"77dd2762"
+	]
+}

@@ -1,0 +1,30 @@
+{
+	disable_toast: true,
+	x: 12.5d,
+	y: -8.0d,
+	text: [
+		"Special items made from all Botania’s materials that provide some special abilities or enhance mana storage.",
+		"",
+		"The gadgets use mana to maintain and use; you can use mana stored in a tablet or a ring."
+	],
+	dependencies: [
+		"b7e64c1b",
+		"e9e0eb67",
+		"4345dd6e"
+	],
+	tasks: [{
+		uid: "589a5bca",
+		type: "checkmark",
+		title: "Gadgets"
+	}],
+	rewards: [{
+		uid: "e575df5f",
+		type: "item",
+		item: {
+			id: "botania:manaringgreater",
+			tag: {
+				mana: 2000000
+			}
+		}
+	}]
+}

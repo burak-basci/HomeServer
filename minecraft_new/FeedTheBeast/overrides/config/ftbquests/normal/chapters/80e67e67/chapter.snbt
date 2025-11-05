@@ -1,0 +1,7 @@
+{
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:material_stonework_factory",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

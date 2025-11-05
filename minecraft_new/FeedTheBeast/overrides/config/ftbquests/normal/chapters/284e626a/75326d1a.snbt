@@ -1,0 +1,24 @@
+{
+	x: -14.5d,
+	y: 5.5d,
+	text: [
+		"Need to be charged, blocks all fall damage."
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "cf61502a",
+		type: "item",
+		items: [{
+			item: "mekanism:freerunners"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56c52b72",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

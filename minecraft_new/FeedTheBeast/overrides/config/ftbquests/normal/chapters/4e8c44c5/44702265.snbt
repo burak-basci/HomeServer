@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: -16.5d,
+	text: [
+		"Lets you freely place dirt in the air, which can be quite useful for building."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "190bd184",
+		type: "item",
+		items: [{
+			item: "botania:skydirtrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a58dc7b1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

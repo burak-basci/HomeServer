@@ -1,0 +1,60 @@
+{
+	title: "Item Transportation",
+	x: -5.5d,
+	y: 4.5d,
+	text: [
+		"Main way of transporting items with Mekanism."
+	],
+	dependencies: [
+		"9972aba3"
+	],
+	tasks: [{
+		uid: "774914b2",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "13005e3a",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "be4deceb",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "97e0b89e",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "d8cf5f50",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

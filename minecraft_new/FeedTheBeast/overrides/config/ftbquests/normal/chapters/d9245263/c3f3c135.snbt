@@ -1,0 +1,31 @@
+{
+	x: -12.5d,
+	y: -7.5d,
+	text: [
+		"When on the pedestal: It shoots lightning at mobs.",
+		"",
+		"When you have it in your inventory, it burns coal or redstone, but in exchange, it will let you fly."
+	],
+	dependencies: [
+		"b7fe09d9"
+	],
+	tasks: [{
+		uid: "d751a39f",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_swrg",
+			tag: {
+				Mode: 1,
+				UnprocessedEMC: 0.999992311000824d,
+				StoredEMC: 41L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7371ef95",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

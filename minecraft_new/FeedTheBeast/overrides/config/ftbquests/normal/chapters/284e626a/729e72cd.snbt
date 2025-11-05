@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: -2.5d,
+	text: [
+		"The first tier of alloys."
+	],
+	dependencies: [
+		"60d22114"
+	],
+	tasks: [{
+		uid: "4dbbd666",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "3545a6dd",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

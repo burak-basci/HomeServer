@@ -1,0 +1,40 @@
+{
+	title: "Magical Cooking",
+	icon: "rootsclassic:fruitsalad",
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4bdde071"
+	],
+	tasks: [{
+		uid: "0fa15465",
+		type: "item",
+		items: [{
+			item: "rootsclassic:healingpoultice"
+		}],
+		count: 25L
+	},
+	{
+		uid: "72d130f4",
+		type: "item",
+		items: [{
+			item: "rootsclassic:fruitsalad"
+		}],
+		count: 5L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c6d7ffa",
+		type: "item",
+		items: [{
+			item: "rootsclassic:rootystew"
+		}],
+		count: 5L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

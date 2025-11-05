@@ -1,0 +1,25 @@
+{
+	title: "Simple Wood Farming",
+	x: 1.5d,
+	y: 8.5d,
+	text: [
+		"Bonsai pot needs a sapling, dirt, and a chest under it.",
+		"",
+		"Farms automatically."
+	],
+	dependencies: [
+		"f2498281"
+	],
+	tasks: [{
+		uid: "f5f8dba9",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8296524a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

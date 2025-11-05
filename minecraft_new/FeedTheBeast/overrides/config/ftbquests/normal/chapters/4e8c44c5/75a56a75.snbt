@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -9.5d,
+	text: [
+		"Pulls items towards the wearer when not shifting."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "6e76dcc9",
+		type: "item",
+		items: [{
+			id: "botania:magnetring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6abedea2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

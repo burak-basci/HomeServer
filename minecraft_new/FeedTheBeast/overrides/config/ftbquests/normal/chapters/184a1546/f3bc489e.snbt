@@ -1,0 +1,34 @@
+{
+	title: "Creative Items and Fluid Collecting",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: -20.0d,
+	y: -10.0d,
+	shape: "gear",
+	text: [
+		"This questline will unlock after finishing all Endgame Challenges.",
+		"",
+		"You don't get any rewards from finishing creative item quests since they are endgame, and the fluid collecting is more of a for-fun optional task."
+	],
+	dependencies: [
+		"d771d471",
+		"78b98abe",
+		"afad2365",
+		"104f2a07",
+		"227f9bf6",
+		"fccfe186",
+		"76d79e9d",
+		"cbe7e937",
+		"e8832851",
+		"4b5e8d8d",
+		"91f11a65",
+		"3f62261a",
+		"b3e6763a",
+		"435c1042"
+	],
+	size: 2.0d
+}

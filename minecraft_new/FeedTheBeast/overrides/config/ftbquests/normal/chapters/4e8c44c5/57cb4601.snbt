@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	text: [
+		"There are many types of lenses, and their job is to alternate or give additional abilities to mana spreaders."
+	],
+	dependencies: [
+		"f95779e2"
+	],
+	tasks: [{
+		uid: "56c96b6b",
+		type: "item",
+		items: [{
+			id: "botania:lens",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c04b5acf",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

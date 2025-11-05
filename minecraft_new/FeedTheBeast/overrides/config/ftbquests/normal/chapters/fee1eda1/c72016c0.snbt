@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 5.5d,
+	text: [
+		"Needed to access fluids in your system. Fluids can be pulled out by clicking with a bucket on the specific fluid."
+	],
+	dependencies: [
+		"0dfe7f67"
+	],
+	tasks: [{
+		uid: "7a280782",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 520"
+		}]
+	}],
+	rewards: [{
+		uid: "51d0c06f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

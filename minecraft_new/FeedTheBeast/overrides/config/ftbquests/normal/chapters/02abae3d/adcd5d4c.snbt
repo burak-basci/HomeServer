@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	text: [
+		"Uses mob heads for crafting special components."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "95a01620",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "86e644c1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

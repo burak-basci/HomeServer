@@ -1,0 +1,42 @@
+{
+	title: "Mekanism Material Crate",
+	loot_size: 2,
+	rewards: [{
+		item: "mekanism:enrichedalloy",
+		weight: 6
+	},
+	{
+		item: "mekanism:controlcircuit",
+		weight: 6
+	},
+	{
+		item: "mekanism:controlcircuit 1 1",
+		weight: 5
+	},
+	{
+		item: "mekanism:reinforcedalloy",
+		weight: 4
+	},
+	{
+		item: "mekanism:controlcircuit 1 2",
+		weight: 4
+	},
+	{
+		item: "mekanism:atomicalloy",
+		weight: 2
+	},
+	{
+		item: "mekanism:controlcircuit 1 3",
+		weight: 2
+	}],
+	loot_crate: {
+		string_id: "mekanism_material_crate",
+		item_name: "Mekanism Material Crate",
+		color: 4737098,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

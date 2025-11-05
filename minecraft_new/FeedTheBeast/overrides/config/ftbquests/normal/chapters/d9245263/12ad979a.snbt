@@ -1,0 +1,25 @@
+{
+	x: -8.5d,
+	y: -9.5d,
+	text: [
+		"When placed on the pedestal: It heals nearby players."
+	],
+	dependencies: [
+		"157a0e07"
+	],
+	tasks: [{
+		uid: "c064c9cb",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_soul_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbb9d4e1",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

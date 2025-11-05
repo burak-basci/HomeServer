@@ -1,0 +1,28 @@
+{
+	title: "2 Suns",
+	icon: "draconicevolution:reactor_core",
+	x: 43.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9bbb2bf9"
+	],
+	tasks: [{
+		uid: "b58b87b0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}],
+		count: 2L
+	},
+	{
+		uid: "42e1abb0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,143 @@
+{
+	title: "Passive Mob Crate",
+	loot_size: 2,
+	rewards: [{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:squid"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:polar_bear"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:horse"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:chicken"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:bat"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wolf"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:rabbit"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "passive_mob_crate",
+		item_name: "Passive Mob Crate",
+		color: 5190282,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

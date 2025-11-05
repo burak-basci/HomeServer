@@ -1,0 +1,66 @@
+{
+	title: "Happy Birthday",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "morechickens:chickenosto",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fecbd154"
+	],
+	tasks: [{
+		uid: "c4205df1",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:chickenosto",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "ac0e3644",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}],
+		count: 10L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dfbb05fc",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:funwaychick",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	},
+	{
+		uid: "77057c0b",
+		type: "item",
+		items: [{
+			item: "minecraft:fireworks"
+		}],
+		count: 10L,
+		consume_items: true
+	}]
+}

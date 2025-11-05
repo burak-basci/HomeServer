@@ -1,0 +1,27 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"Fuses elytra and chestplate together, meaning you can wear a chestplate while using the elytra."
+	],
+	dependencies: [
+		"f48af232"
+	],
+	tasks: [{
+		uid: "9af91f3d",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:elytra",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "864e9231",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

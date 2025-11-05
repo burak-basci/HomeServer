@@ -1,0 +1,25 @@
+{
+	title: "Dark Anvil",
+	x: 3.0d,
+	y: 3.5d,
+	text: [
+		"This anvil is used to apply upgrades to your dark steel or ender items while still serving as a normal anvil.",
+		"",
+		"Hovering over upgrades in the anvil UI while having a dark steel or ender item equipped will show you if the upgrade needs any other upgrade in order for it to be applied."
+	],
+	dependencies: [
+		"eb58969e"
+	],
+	tasks: [{
+		uid: "1d255e33",
+		type: "item",
+		items: [{
+			item: "enderio:block_dark_steel_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "5c23f351",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

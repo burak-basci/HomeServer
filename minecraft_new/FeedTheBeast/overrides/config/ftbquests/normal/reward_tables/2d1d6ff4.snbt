@@ -1,0 +1,223 @@
+{
+	title: "Chicken Lottery Crate",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:blazechicken"
+				}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:copperchicken"
+				}
+			}
+		},
+		weight: 8
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:ironchicken"
+				}
+			}
+		},
+		weight: 12
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:siliconchicken"
+				}
+			}
+		},
+		weight: 8
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:diamondchicken"
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:manasteelchicken"
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:cobaltchicken"
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:xpchicken"
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:elementiumchicken"
+				}
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:arditechicken"
+				}
+			}
+		},
+		weight: 8
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:saltchicken"
+				}
+			}
+		},
+		weight: 7
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:glowstonechicken"
+				}
+			}
+		},
+		weight: 9
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "chickens:emeraldchicken"
+				}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:magmaslime"
+				}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:osmiumchicken"
+				}
+			}
+		},
+		weight: 6
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:sulfurchicken"
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:knightslimechicken"
+				}
+			}
+		},
+		weight: 6
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:steelchicken"
+				}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "chickens:spawn_egg",
+			tag: {
+				ChickenType: {
+					id: "morechickens:draconiumchicken"
+				}
+			}
+		},
+		weight: 2
+	}],
+	loot_crate: {
+		string_id: "chicken_lottery_crate",
+		item_name: "Chicken Lottery Crate",
+		color: 3680552,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

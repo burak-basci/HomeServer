@@ -1,0 +1,28 @@
+{
+	title: "Botanical Infuser",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:botanical_infuser"
+		}
+	},
+	x: -8.0d,
+	y: 5.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "eb2a0a90",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "cf8d26da",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:botanical_infuser"
+			}
+		}
+	}]
+}

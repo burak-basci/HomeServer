@@ -1,0 +1,25 @@
+{
+	x: -9.0d,
+	y: 1.5d,
+	text: [
+		"Creates mana from leaves."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "f366e3bc",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d5b6c2de",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

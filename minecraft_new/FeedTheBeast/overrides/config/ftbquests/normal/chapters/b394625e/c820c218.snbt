@@ -1,0 +1,35 @@
+{
+	title: "Hungry Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "hungry_crate"
+		}
+	},
+	x: 2.0d,
+	y: 0.5d,
+	text: [
+		"Contains many foods with a small chance for an epic meal"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "2c51aab1",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "4edf8522",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hungry_crate"
+			}
+		},
+		count: 4
+	}]
+}

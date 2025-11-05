@@ -1,0 +1,24 @@
+{
+	x: 24.5d,
+	y: -10.5d,
+	text: [
+		"Makes wearer immune to all knockback."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "2a58b9ae",
+		type: "item",
+		items: [{
+			item: "botania:knockbackbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63620463",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

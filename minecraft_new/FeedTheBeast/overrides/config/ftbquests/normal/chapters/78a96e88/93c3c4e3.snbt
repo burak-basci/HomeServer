@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	dependencies: [
+		"7078b5cb"
+	],
+	tasks: [{
+		uid: "ff5d2757",
+		type: "item",
+		items: [{
+			item: "harvestcraft:roastpotatoesitem"
+		}]
+	}],
+	rewards: [{
+		uid: "c22be6b7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

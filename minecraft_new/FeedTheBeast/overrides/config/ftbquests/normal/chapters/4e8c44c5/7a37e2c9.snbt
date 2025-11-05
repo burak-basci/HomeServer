@@ -1,0 +1,25 @@
+{
+	x: 20.5d,
+	y: -13.0d,
+	text: [
+		"Converts all water blocks into ice."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "3aeba87e",
+		type: "item",
+		items: [{
+			id: "botania:icependant",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "325a4d1b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

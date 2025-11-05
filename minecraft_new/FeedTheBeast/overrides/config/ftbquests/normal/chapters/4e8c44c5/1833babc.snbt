@@ -1,0 +1,25 @@
+{
+	x: 15.5d,
+	y: -16.0d,
+	text: [
+		"Wand used to detect nearby ores."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "aab06d4a",
+		type: "item",
+		items: [{
+			id: "botania:diviningrod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e08093ae",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -12.5d,
+	text: [
+		"Grants a haste effect to the wearer."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "1910ec03",
+		type: "item",
+		items: [{
+			id: "botania:miningring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a7c0e4c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

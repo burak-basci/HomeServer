@@ -1,0 +1,24 @@
+{
+	x: 22.0d,
+	y: -13.0d,
+	text: [
+		"When you are on fire and you aren't standing in the source, the burning effect will be cleansed."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "7481c382",
+		type: "item",
+		items: [{
+			item: "botania:lavapendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3aa5554c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

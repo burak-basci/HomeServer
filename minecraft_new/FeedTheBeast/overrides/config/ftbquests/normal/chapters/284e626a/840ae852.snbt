@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"Furnace, but its fuel is energy."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "7e040077",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 10"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "3a158326",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

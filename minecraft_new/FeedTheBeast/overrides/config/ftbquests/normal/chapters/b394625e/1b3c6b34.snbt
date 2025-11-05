@@ -1,0 +1,35 @@
+{
+	title: "Mekanism Material Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "mekanism_material_crate"
+		}
+	},
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"Contains all major components from Mekanism up to the ultimate tier."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "bf3c9b0d",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "1b9d4041",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mekanism_material_crate"
+			}
+		},
+		count: 2
+	}]
+}

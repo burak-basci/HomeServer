@@ -1,0 +1,22 @@
+{
+	x: 22.0d,
+	y: -4.0d,
+	text: [
+		"Import or export items from your ME system."
+	],
+	dependencies: [
+		"21f17438"
+	],
+	tasks: [{
+		uid: "64c897fa",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "4a8c9bca",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

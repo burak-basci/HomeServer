@@ -1,0 +1,43 @@
+{
+	icon: "equivalentintegrations:transmutation_disassembler",
+	x: -7.5d,
+	y: -3.0d,
+	text: [
+		"Your first sort of primitive EMC link.",
+		"",
+		"Once the Soulbound Talisman is bound to the player and put inside the Transmutation Disassembler and any item is piped into it, it will automatically add its value to the player's EMC.",
+		"",
+		"If you want to learn items that get \"sold\" in the Disassembler, you will need to place an Alchemical Algorithms book inside it."
+	],
+	dependencies: [
+		"04b3f547"
+	],
+	tasks: [{
+		uid: "f9042eb0",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:transmutation_disassembler"
+		}]
+	},
+	{
+		uid: "c0f9aab1",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:alchemical_algorithms"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97d14f2d",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:soulbound_talisman"
+		}]
+	}],
+	rewards: [{
+		uid: "82e946a4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

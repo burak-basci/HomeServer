@@ -1,0 +1,23 @@
+{
+	x: -19.5d,
+	y: 5.5d,
+	text: [
+		"Burns bio fuel to produce energy."
+	],
+	dependencies: [
+		"5fa3126e"
+	],
+	tasks: [{
+		uid: "f52b2a64",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c9062b6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

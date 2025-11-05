@@ -1,0 +1,35 @@
+{
+	title: "Garden Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "garden_crate"
+		}
+	},
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Contains gardens that, when mined, drop many ingredients for Pam's Harvest Craft recipes."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "760817dc",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "71416f7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "garden_crate"
+			}
+		},
+		count: 6
+	}]
+}

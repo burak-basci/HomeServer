@@ -1,0 +1,67 @@
+{
+	title: "Starter Gear",
+	icon: "roost:breeder",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"You can make a quite efficient EMC farm by using this mod.",
+		"",
+		"I would suggest trying out emerald chickens.",
+		"",
+		"Chickens are proved to be useful in obtaining large quantities of non-EMCable items."
+	],
+	dependencies: [
+		"45ac67a6"
+	],
+	tasks: [{
+		uid: "3c5168a8",
+		type: "item",
+		items: [{
+			item: "roost:catcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a35e518",
+		type: "item",
+		items: [{
+			item: "roost:roost"
+		}]
+	},
+	{
+		uid: "1c55a9d5",
+		type: "item",
+		items: [{
+			item: "roost:breeder"
+		}]
+	},
+	{
+		uid: "b24c1aa0",
+		type: "item",
+		items: [{
+			item: "roost:collector"
+		}]
+	},
+	{
+		uid: "d6e9e761",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Chicken: "minecraft:chicken"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bdfa64c3",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "113a346e",
+		type: "item",
+		item: "minecraft:egg",
+		count: 5
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"Heart of almost every machine, so get these stocked up.",
+		"",
+		"Few machines have tiers and can become factories, which are blocks with more processing spaces and faster production speeds.",
+		"",
+		"All machines can be upgraded with upgrade cards."
+	],
+	dependencies: [
+		"25536a63"
+	],
+	tasks: [{
+		uid: "742f4b2d",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "075f61a7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

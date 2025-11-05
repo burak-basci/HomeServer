@@ -1,0 +1,19 @@
+{
+	title: "The Final Power Flower Bonsai Pots",
+	x: -15.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1114d20f"
+	],
+	tasks: [{
+		uid: "a2b7009d",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 15"
+		}],
+		count: 15L
+	}]
+}

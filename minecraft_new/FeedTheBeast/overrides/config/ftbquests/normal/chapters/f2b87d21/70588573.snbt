@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	text: [
+		"Much better than the normal bread.",
+		"",
+		"In fact, it's so good, it may even be better than most of Pam's Harvest Craft meals."
+	],
+	dependencies: [
+		"5cf3b95d"
+	],
+	tasks: [{
+		uid: "fe1cd3d2",
+		type: "item",
+		items: [{
+			item: "xreliquary:glowing_bread"
+		}]
+	}],
+	rewards: [{
+		uid: "4fe08be2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

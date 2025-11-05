@@ -1,0 +1,35 @@
+{
+	icon: "teslacorelib:speed_tier2",
+	x: -8.5d,
+	y: 0.5d,
+	text: [
+		"Like any other mod, Industrial Foregoing includes its own upgrade system.",
+		"",
+		"Only two upgrades are available: the energy upgrade or the speed upgrade. The speed upgrade increases the speed of any operation done by the machine, and the energy upgrade makes it so the machine is less power dependent."
+	],
+	dependencies: [
+		"adbaa563"
+	],
+	tasks: [{
+		uid: "7d4e32cc",
+		type: "item",
+		title: "Upgrades",
+		items: [{
+			item: "teslacorelib:speed_tier2"
+		},
+		{
+			item: "teslacorelib:energy_tier1"
+		},
+		{
+			item: "teslacorelib:energy_tier2"
+		},
+		{
+			item: "teslacorelib:speed_tier1"
+		}]
+	}],
+	rewards: [{
+		uid: "cc31cc18",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Conveyor Belt",
+	icon: "industrialforegoing:conveyor",
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		"Conveyor belts move items and can be upgraded to have a dropping function and are quite useful for automation."
+	],
+	dependencies: [
+		"29dc36fe"
+	],
+	tasks: [{
+		uid: "09414b47",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "a6e96e5f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

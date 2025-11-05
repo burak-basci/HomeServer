@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -9.5d,
+	text: [
+		"Last tier of crafting injectors used to make the reactor core."
+	],
+	dependencies: [
+		"117dead8",
+		"9b96203d"
+	],
+	tasks: [{
+		uid: "e08dc12d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "1e410710",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

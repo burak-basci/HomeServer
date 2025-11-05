@@ -1,0 +1,52 @@
+{
+	title: "Berry Eater",
+	icon: "rootsclassic:blackcurrant",
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"All these berries are then used in a few Roots recipes."
+	],
+	dependencies: [
+		"ebb0bf78"
+	],
+	tasks: [{
+		uid: "24f65ded",
+		type: "item",
+		items: [{
+			item: "rootsclassic:blackcurrant"
+		}]
+	},
+	{
+		uid: "2bdfe439",
+		type: "item",
+		items: [{
+			item: "rootsclassic:nightshade"
+		}]
+	},
+	{
+		uid: "951c9fde",
+		type: "item",
+		items: [{
+			item: "rootsclassic:redcurrant"
+		}]
+	},
+	{
+		uid: "63e9ad9f",
+		type: "item",
+		items: [{
+			item: "rootsclassic:whitecurrant"
+		}]
+	},
+	{
+		uid: "a15e9bcb",
+		type: "item",
+		items: [{
+			item: "rootsclassic:elderberry"
+		}]
+	}],
+	rewards: [{
+		uid: "f01adbed",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"Last tier of relay in Project E."
+	],
+	dependencies: [
+		"45a37439"
+	],
+	tasks: [{
+		uid: "e5b30045",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk3"
+		}]
+	}],
+	rewards: [{
+		uid: "a5c66ba6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

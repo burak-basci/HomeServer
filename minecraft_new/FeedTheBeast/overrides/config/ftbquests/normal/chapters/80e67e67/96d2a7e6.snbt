@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 8.5d,
+	text: [
+		"Automatically plants crops in a set range."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "0ecadf0c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_sower"
+		}]
+	}],
+	rewards: [{
+		uid: "8d1bc124",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

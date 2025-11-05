@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: -15.0d,
+	text: [
+		"Creates a fire ring that deals heavy damage."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "4dfb7aea",
+		type: "item",
+		items: [{
+			item: "botania:firerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb1b44f9",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

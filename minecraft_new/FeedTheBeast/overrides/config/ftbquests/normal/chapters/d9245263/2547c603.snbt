@@ -1,0 +1,22 @@
+{
+	x: 18.5d,
+	y: -4.5d,
+	dependencies: [
+		"1ff4ec06"
+	],
+	tasks: [{
+		uid: "fd8d0119",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dfe72ea",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

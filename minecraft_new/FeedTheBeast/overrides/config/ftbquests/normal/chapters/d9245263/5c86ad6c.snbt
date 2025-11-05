@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -9.5d,
+	text: [
+		"Even more powerful furnace, uses less fuel, and smelts even faster than the dark matter furnace."
+	],
+	dependencies: [
+		"02d42440"
+	],
+	tasks: [{
+		uid: "d8bcb363",
+		type: "item",
+		items: [{
+			item: "projecte:rm_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "d9c6fea9",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

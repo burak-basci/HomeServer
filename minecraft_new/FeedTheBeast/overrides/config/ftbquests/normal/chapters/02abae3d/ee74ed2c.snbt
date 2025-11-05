@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -6.5d,
+	text: [
+		"Machines from now on require at least a basic capacitor, but better capacitors offer better processing speeds and allow machines to hold more energy."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "1c5a7d28",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "d93092a5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

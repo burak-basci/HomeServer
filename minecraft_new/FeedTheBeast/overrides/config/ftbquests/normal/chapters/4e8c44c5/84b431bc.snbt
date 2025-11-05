@@ -1,0 +1,26 @@
+{
+	x: 24.0d,
+	y: 2.0d,
+	text: [
+		"Works like an armor enchanted with a thorns enchantment, but a few times stronger. ",
+		"",
+		"It helps the player to survive fatal hits; once an attack has been reflected, the cloak has a 10-second cooldown."
+	],
+	dependencies: [
+		"4f3e0230"
+	],
+	tasks: [{
+		uid: "8bf39115",
+		type: "item",
+		items: [{
+			item: "botania:balancecloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80a14d7b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

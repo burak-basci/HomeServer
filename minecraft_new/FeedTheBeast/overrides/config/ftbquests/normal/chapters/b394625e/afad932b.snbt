@@ -1,0 +1,28 @@
+{
+	title: "Sacrifical Crystal",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:sacrificial_crystal"
+		}
+	},
+	x: -6.5d,
+	y: 6.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "ad4fd0d6",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "47ff50af",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:sacrificial_crystal"
+			}
+		}
+	}]
+}

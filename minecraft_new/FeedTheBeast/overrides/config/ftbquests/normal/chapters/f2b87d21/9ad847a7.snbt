@@ -1,0 +1,18 @@
+{
+	title: "God of Nether",
+	disable_toast: true,
+	x: -2.5d,
+	y: -4.0d,
+	text: [
+		"Items to help you conquer the Nether dimension.",
+		"",
+		"Phoenix Down, Salamander’s Eye, and Witherless Rose are made in Sacrificial Crystal."
+	],
+	dependencies: [
+		"577a33d5"
+	],
+	tasks: [{
+		uid: "0dc90be5",
+		type: "checkmark"
+	}]
+}

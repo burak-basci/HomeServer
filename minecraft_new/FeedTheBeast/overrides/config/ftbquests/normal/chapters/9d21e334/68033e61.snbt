@@ -1,0 +1,41 @@
+{
+	title: "Hostile Components",
+	icon: "enderio:item_material 1 41",
+	x: 41.5d,
+	y: 1.5d,
+	dependencies: [
+		"cd793e07"
+	],
+	tasks: [{
+		uid: "7105d742",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 41"
+		}],
+		count: 20L
+	},
+	{
+		uid: "19aa764c",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 45"
+		}],
+		count: 20L
+	},
+	{
+		uid: "50e035f0",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 56"
+		}],
+		count: 20L
+	},
+	{
+		uid: "fada19c9",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 43"
+		}],
+		count: 20L
+	}]
+}

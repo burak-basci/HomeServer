@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"Spawns more mobs more quickly, but they will have more HP and be more powerful."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "9f8e2c65",
+		type: "item",
+		items: [{
+			item: "darkutils:monolith 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e96d8c78",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

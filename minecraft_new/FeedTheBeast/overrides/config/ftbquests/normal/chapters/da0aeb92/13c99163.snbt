@@ -1,0 +1,16 @@
+{
+	title: "Farming Mobs and Automation",
+	disable_toast: true,
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"If you want to make an EXP or EMC farm, you may find this stuff useful."
+	],
+	dependencies: [
+		"04d347ea"
+	],
+	tasks: [{
+		uid: "ebbde7a0",
+		type: "checkmark"
+	}]
+}

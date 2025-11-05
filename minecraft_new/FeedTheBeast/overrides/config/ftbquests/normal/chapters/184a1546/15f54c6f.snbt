@@ -1,0 +1,16 @@
+{
+	disable_toast: true,
+	x: -26.5d,
+	y: -8.0d,
+	text: [
+		"Powerful endgame items made in the Creative Assembler."
+	],
+	dependencies: [
+		"f3bc489e"
+	],
+	tasks: [{
+		uid: "a5ad2e7e",
+		type: "checkmark",
+		title: "Creative Items"
+	}]
+}

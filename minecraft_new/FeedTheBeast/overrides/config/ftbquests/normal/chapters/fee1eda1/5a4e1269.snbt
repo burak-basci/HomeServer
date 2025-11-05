@@ -1,0 +1,45 @@
+{
+	title: "Printed Parts",
+	icon: "appliedenergistics2:material 1 18",
+	x: 8.0d,
+	y: -2.5d,
+	text: [
+		"Really important pieces of technology, I would make sure to make a backup.."
+	],
+	dependencies: [
+		"10ea0728"
+	],
+	tasks: [{
+		uid: "5ed8fb2f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 20"
+		}]
+	},
+	{
+		uid: "41718493",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 18"
+		}]
+	},
+	{
+		uid: "713cdd35",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 17"
+		}]
+	},
+	{
+		uid: "bdc790e7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "34f8cde2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

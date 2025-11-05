@@ -1,0 +1,35 @@
+{
+	title: "Colorful Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "colorful_crate"
+		}
+	},
+	x: 3.5d,
+	y: 8.0d,
+	text: [
+		"Contains 4 pieces of 4 types of vanilla flowers."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "9b1b5dd9",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f583416a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "colorful_crate"
+			}
+		},
+		count: 4
+	}]
+}

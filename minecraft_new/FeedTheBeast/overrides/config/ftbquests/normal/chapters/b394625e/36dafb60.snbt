@@ -1,0 +1,28 @@
+{
+	title: "Matter Reactor",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -6.5d,
+	y: 3.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "36758eb6",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "f7957dd6",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:matter_reactor"
+			}
+		}
+	}]
+}

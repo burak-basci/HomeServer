@@ -1,0 +1,25 @@
+{
+	title: "Flying with Botania",
+	x: 26.0d,
+	y: 0.5d,
+	text: [
+		"Powerful late-game item that consumes mana but lets you fly freely"
+	],
+	dependencies: [
+		"4f3e0230"
+	],
+	tasks: [{
+		uid: "85411910",
+		type: "item",
+		items: [{
+			id: "botania:flighttiara",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e9a7cd5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

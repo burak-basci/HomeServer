@@ -1,0 +1,25 @@
+{
+	x: -6.5d,
+	y: -9.5d,
+	text: [
+		"When placed on a pedestal: It collects experience and stores it inside itself."
+	],
+	dependencies: [
+		"157a0e07"
+	],
+	tasks: [{
+		uid: "e1081505",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_mind_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4834e366",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

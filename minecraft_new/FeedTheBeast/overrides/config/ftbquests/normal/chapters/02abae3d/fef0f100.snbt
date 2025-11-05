@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	text: [
+		"This chassis gives you access to new ways of farming mobs and a few new obelisks with special powers."
+	],
+	dependencies: [
+		"c7078c92"
+	],
+	tasks: [{
+		uid: "c1dca659",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "906a8d5f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

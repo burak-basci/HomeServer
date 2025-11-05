@@ -35,31 +35,65 @@ docker-compose.override.yml
 backup/
 mc-backups/
 
-# Project folders
-paperless/
-transkript/
-wordpress/
-minecraft/
-minecraft_new/
-backup/
-n8n/
-open-webui/
-ollama/
-whisper/
-django_canva/
-piper/
+# Project folders to exclude completely
 tinder/
 tinder_old/
-postiz/postgresql/
-postiz/redis/
+
+# Data directories (keep config files)
+**/data/
+**/db/
+**/database/
+**/postgres/
+**/postgresql/
+**/mysql/
+**/redis/
+**/cache/
+**/models/
+**/uploads/
+**/media/
+**/.venv/
+**/venv/
+
+# Large media files
+**/*.mp4
+**/*.mkv
+**/*.avi
+**/*.mov
+**/*.mp3
+**/*.wav
+**/*.flac
+
+# Specific directory data
+paperless/data/
+paperless/media/
+transkript/video.mp4
+transkript/.venv/
+wordpress/db/
+wordpress/wordpress/
+minecraft/world/
+minecraft/FeedTheBeast/
+minecraft/.cache/
+minecraft/.local/
+minecraft_new/data/
+n8n/data/
+n8n/python/
+open-webui/cache/
+ollama/models/
+ollama/history
+whisper/models/
+piper/models/
 portainer/compose/
 portainer/backups/
+postiz/postgresql/
+postiz/redis/
 
 # Database and cache files
-wordpress/db/
 **/redis/dump.rdb
 **/#innodb_redo/
 **/#innodb_temp/
+**/*.sql
+**/*.db-shm
+**/*.db-wal
 
 # Logs
 *.log

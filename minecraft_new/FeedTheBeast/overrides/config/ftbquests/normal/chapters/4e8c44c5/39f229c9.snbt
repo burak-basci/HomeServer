@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: -9.0d,
+	text: [
+		"Increases the wearer's range of mining and attacking by 3 blocks."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "fe6a8901",
+		type: "item",
+		items: [{
+			id: "botania:reachring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98027c09",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 15.0d,
+	y: -2.5d,
+	dependencies: [
+		"e9e0eb67"
+	],
+	tasks: [{
+		uid: "d3132a75",
+		type: "item",
+		items: [{
+			id: "botania:terrasteelboots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "551ea527",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

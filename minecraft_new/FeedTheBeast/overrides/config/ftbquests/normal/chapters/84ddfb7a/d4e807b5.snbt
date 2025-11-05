@@ -1,0 +1,45 @@
+{
+	title: "Huge Energy Storage",
+	icon: "draconicevolution:energy_storage_core",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"Place an energy core and 4 stabilizers with a 3-block gap around it and right-click on one of them to create a structure that is able to store lots of energy upon activating.",
+		"",
+		"There are up to 8 tiers, with the last one being extremely expensive but having almost infinite storage; use the UI to see what you need to upgrade your storage to a higher tier.",
+		"",
+		"If you are asked to use advanced stabilizers, you just need to place stabilizers into a 3x3x1 pattern to make a ring of stabilizers.",
+		"",
+		"Place an energy pylon down and glass on top of it to create an orb that can input or output energy to the structure."
+	],
+	dependencies: [
+		"6f84aa14"
+	],
+	tasks: [{
+		uid: "bd60372d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	},
+	{
+		uid: "3f9b0305",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2c622025",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_pylon"
+		}]
+	}],
+	rewards: [{
+		uid: "dd302760",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

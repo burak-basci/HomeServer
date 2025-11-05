@@ -1,0 +1,44 @@
+{
+	icon: {
+		id: "appliedenergistics2:wireless_terminal",
+		tag: {}
+	},
+	x: 14.5d,
+	y: 5.5d,
+	text: [
+		"Your first wireless access, don't forget to charge it!"
+	],
+	dependencies: [
+		"54182b50"
+	],
+	tasks: [{
+		uid: "c705a005",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83f774fb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "049b1fca",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "2a7e876b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

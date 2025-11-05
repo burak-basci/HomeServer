@@ -1,0 +1,10 @@
+{
+	title: "Chestplate Upgrades",
+	icon: "ceramics:clay_chestplate",
+	disable_toast: true,
+	x: 9.0d,
+	y: 0.5d,
+	dependencies: [
+		"77dd2762"
+	]
+}

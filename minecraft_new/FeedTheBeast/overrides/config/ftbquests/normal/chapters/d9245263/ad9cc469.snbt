@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: -9.5d,
+	text: [
+		"When placed on the pedestal: It has the same effect as the red and blue one combined."
+	],
+	dependencies: [
+		"157a0e07"
+	],
+	tasks: [{
+		uid: "0f9691ce",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_life_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5bebfb21",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

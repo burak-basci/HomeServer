@@ -1,0 +1,27 @@
+{
+	x: 11.5d,
+	y: 5.0d,
+	text: [
+		"Protects the player from explosive damage"
+	],
+	dependencies: [
+		"bef90c30"
+	],
+	tasks: [{
+		uid: "6922827c",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:depth",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "afea68c5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 17.0d,
+	y: 3.5d,
+	text: [
+		"This machine is AE2's simple way of generating energy that is then used to charge energy cells or network devices."
+	],
+	dependencies: [
+		"ab9e8e74"
+	],
+	tasks: [{
+		uid: "44611ead",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:vibration_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "a6403951",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

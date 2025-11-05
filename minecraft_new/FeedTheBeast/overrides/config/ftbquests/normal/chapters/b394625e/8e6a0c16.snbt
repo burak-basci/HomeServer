@@ -1,0 +1,28 @@
+{
+	title: "Refined Generator",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:creative_assembler"
+		}
+	},
+	x: -8.0d,
+	y: 6.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "92b54fe6",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "016048ac",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:refined_generator"
+			}
+		}
+	}]
+}

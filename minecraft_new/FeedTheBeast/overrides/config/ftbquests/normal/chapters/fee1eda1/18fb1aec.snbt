@@ -1,0 +1,24 @@
+{
+	x: 19.0d,
+	y: 3.5d,
+	text: [
+		"Must be connected to an ME network via the top or bottom.",
+		"",
+		" Its main usage is to accelerate the process of purifying crystals."
+	],
+	dependencies: [
+		"ab9e8e74"
+	],
+	tasks: [{
+		uid: "9a868d4f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "ee53f8bb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

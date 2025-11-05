@@ -1,0 +1,28 @@
+{
+	title: "Starshard Replicator",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -8.0d,
+	y: 3.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "40cb183a",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "a1248614",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:starshard_replicator"
+			}
+		}
+	}]
+}

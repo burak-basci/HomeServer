@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -6.0d,
+	text: [
+		"Negates fall damage, but it consumes your hunger if it does so."
+	],
+	dependencies: [
+		"5cf3b95d"
+	],
+	tasks: [{
+		uid: "561689f7",
+		type: "item",
+		items: [{
+			item: "xreliquary:angelic_feather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93f3490a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

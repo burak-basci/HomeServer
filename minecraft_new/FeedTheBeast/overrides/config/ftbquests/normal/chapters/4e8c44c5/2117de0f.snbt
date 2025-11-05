@@ -1,0 +1,16 @@
+{
+	disable_toast: true,
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"Little stuff to help you with mana management."
+	],
+	dependencies: [
+		"1ebed8ab"
+	],
+	tasks: [{
+		uid: "e596b26a",
+		type: "checkmark",
+		title: "Little Upgrades"
+	}]
+}

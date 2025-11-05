@@ -1,0 +1,40 @@
+{
+	icon: {
+		id: "wct:wct",
+		tag: {
+			InfinityEnergy: 0
+		}
+	},
+	x: 14.5d,
+	y: 7.5d,
+	text: [
+		"Crafting terminal with a huge range, but you have to install the card into the crafting terminal."
+	],
+	dependencies: [
+		"bc600ec0"
+	],
+	tasks: [{
+		uid: "c2ba6786",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d455e77a",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}],
+	rewards: [{
+		uid: "2a29aaf3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

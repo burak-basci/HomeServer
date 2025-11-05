@@ -1,0 +1,15 @@
+{
+	title: "D-T fuel",
+	x: 36.5d,
+	y: 1.5d,
+	dependencies: [
+		"6d42c394"
+	],
+	tasks: [{
+		uid: "db03cb13",
+		type: "fluid",
+		title: "D-T fuel",
+		fluid: "liquidfusionfuel",
+		amount: 200000
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	dependencies: [
+		"47d605ab"
+	],
+	tasks: [{
+		uid: "c7e57933",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "70d1d3b4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -5.0d,
+	text: [
+		"A special machine that can control time and weather when enough energy is transferred inside it."
+	],
+	dependencies: [
+		"6f84aa14"
+	],
+	tasks: [{
+		uid: "b3b0ead7",
+		type: "item",
+		items: [{
+			item: "draconicevolution:celestial_manipulator"
+		}]
+	}],
+	rewards: [{
+		uid: "f9b93f58",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	disable_toast: true,
+	x: -9.0d,
+	y: 9.0d,
+	size: 0.1d,
+	optional: true
+}

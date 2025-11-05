@@ -1,0 +1,45 @@
+{
+	title: "First Machinery",
+	icon: "industrialforegoing:tree_fluid_extractor",
+	x: -4.5d,
+	y: 0.5d,
+	text: [
+		"The Tree Fluid Extractor extracts latex from wood blocks, which can be combined with water to create rubber droplets inside the Latex Processing Machine."
+	],
+	dependencies: [
+		"5966323f"
+	],
+	tasks: [{
+		uid: "b4cc06bf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	},
+	{
+		uid: "defc8150",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "de67b549",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pitiful_fuel_generator"
+		}]
+	},
+	{
+		uid: "1a137163",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}],
+	rewards: [{
+		uid: "caef1689",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

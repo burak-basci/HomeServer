@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"You are probably going to need some type of energy storage to make your digital inventory work.",
+		"",
+		" Well, if you don't like having cables around your base, Flux networks have a fancy solution for you."
+	],
+	dependencies: [
+		"b3d6451c"
+	],
+	tasks: [{
+		uid: "a3ce1a7e",
+		type: "checkmark",
+		title: "Energy Collecting"
+	}]
+}

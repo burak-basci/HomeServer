@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		"Faster version of the normal spreader."
+	],
+	dependencies: [
+		"fea6fc4d"
+	],
+	tasks: [{
+		uid: "d57c0cb6",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "633bb926",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -23.5d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"15f54c6f"
+	],
+	tasks: [{
+		uid: "fc5fa016",
+		type: "item",
+		items: [{
+			id: "wct:wct_creative",
+			tag: {
+				IsInRange: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

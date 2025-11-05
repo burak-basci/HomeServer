@@ -1,0 +1,55 @@
+{
+	title: "Energy Transport",
+	icon: {
+		id: "draconicevolution:crystal_binder",
+		tag: {
+			"draconicevolution:binder": [I;
+				-1032,
+				86,
+				-1008
+			]
+		}
+	},
+	x: -2.5d,
+	y: -5.0d,
+	text: [
+		"Draconic Evolution's way of transporting energy",
+		"",
+		"You can simply set up 2 crystals where one can be connected to either a generator or a battery, for example, an energy cube.",
+		"",
+		"And the other one is connected to a machine, then shift right-click on the crystal that is hooked to a generator, and then right-click on the other crystal to make a link.",
+		"",
+		"Relays can be used to extend the reach of crystals."
+	],
+	dependencies: [
+		"97f712c5"
+	],
+	tasks: [{
+		uid: "9f8443e0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crystal_binder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bf6628ae",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal 1 3"
+		}]
+	},
+	{
+		uid: "a8eda06e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "b8399d44",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

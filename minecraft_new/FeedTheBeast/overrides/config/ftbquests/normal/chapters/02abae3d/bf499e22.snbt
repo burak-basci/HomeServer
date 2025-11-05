@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 6.5d,
+	text: [
+		"Allows changing upgrades on multiple items"
+	],
+	dependencies: [
+		"7e806030"
+	],
+	tasks: [{
+		uid: "2149ace9",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil1",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "edcca3aa",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

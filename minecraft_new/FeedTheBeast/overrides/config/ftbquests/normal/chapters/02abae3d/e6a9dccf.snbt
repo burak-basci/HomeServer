@@ -1,0 +1,24 @@
+{
+	x: -8.0d,
+	y: -7.0d,
+	text: [
+		"Soul Binder uses captured souls to change what broken spawners will spawn.",
+		"",
+		"And additionally make crystals that can then be used to make wands."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "0635a553",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "c4cd9715",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

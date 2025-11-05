@@ -1,0 +1,21 @@
+{
+	title: "How Original",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"Every Minecraft player has to do this first, and this pack is no exception."
+	],
+	tasks: [{
+		uid: "3d71dfdd",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "e0fa05e7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

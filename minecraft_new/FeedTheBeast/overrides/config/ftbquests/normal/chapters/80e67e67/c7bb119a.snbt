@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 7.5d,
+	text: [
+		"Breaks block in front of it; maybe use it for a cobblestone generator?"
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "3ed9b82d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_destroyer"
+		}]
+	}],
+	rewards: [{
+		uid: "c4666722",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

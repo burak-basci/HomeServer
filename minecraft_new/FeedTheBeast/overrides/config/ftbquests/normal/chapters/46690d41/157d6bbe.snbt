@@ -1,0 +1,23 @@
+{
+	title: "Power of Music and Totems",
+	x: -1.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"A nature magic mod that can give you passive effects and some special items."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "797663f8",
+		type: "checkmark",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

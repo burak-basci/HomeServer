@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: 3.5d,
+	text: [
+		"Breaks silk-touched ores into their drops and collects XP."
+	],
+	dependencies: [
+		"d5aef5dd"
+	],
+	tasks: [{
+		uid: "3ee74176",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_processor"
+		}]
+	}],
+	rewards: [{
+		uid: "8b370d3f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

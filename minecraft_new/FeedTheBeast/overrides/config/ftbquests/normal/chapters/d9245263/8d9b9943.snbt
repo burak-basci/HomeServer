@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	text: [
+		"Overall, a better and faster version of the MK1 condenser."
+	],
+	dependencies: [
+		"acb7a174",
+		"b17d449a"
+	],
+	tasks: [{
+		uid: "e23b04e1",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "97365e4d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

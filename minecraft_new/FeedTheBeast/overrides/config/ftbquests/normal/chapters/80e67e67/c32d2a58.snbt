@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Special generator, which burns fuel to produce energy, but the stronger the fuel, the more energy it will make, so I recommend using Project E fuels."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "54d752cb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:petrified_fuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "158d5fb7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

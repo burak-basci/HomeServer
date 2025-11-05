@@ -1,0 +1,25 @@
+{
+	title: "Flower Magic",
+	x: -2.0d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"Mod that uses magic based on mana and flowers. ",
+		"",
+		"Many extremely powerful gadgets can be made in this mod."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d6eb2d3c",
+		type: "checkmark",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

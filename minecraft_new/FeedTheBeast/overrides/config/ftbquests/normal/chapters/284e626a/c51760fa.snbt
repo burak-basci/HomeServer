@@ -1,0 +1,25 @@
+{
+	x: -17.5d,
+	y: 5.5d,
+	text: [
+		"Works anytime and all the time, but it's not too fast. ",
+		"",
+		"But overall a great energy source."
+	],
+	dependencies: [
+		"5fa3126e"
+	],
+	tasks: [{
+		uid: "1a36263f",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b429b6f6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

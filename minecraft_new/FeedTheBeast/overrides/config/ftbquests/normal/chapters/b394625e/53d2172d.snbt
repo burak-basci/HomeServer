@@ -1,0 +1,10 @@
+{
+	disable_toast: true,
+	x: 5.0d,
+	y: 9.0d,
+	dependencies: [
+		"3e8fab77"
+	],
+	size: 0.1d,
+	optional: true
+}

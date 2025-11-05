@@ -1,0 +1,13 @@
+{
+	title: "Sandwich Heaven",
+	icon: "botania:cosmetic 1 31",
+	disable_toast: true,
+	x: -1.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"263bc84a"
+	]
+}

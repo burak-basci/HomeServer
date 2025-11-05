@@ -1,0 +1,38 @@
+{
+	title: "Master of Flowers",
+	icon: "rootsclassic:flareorchid",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"All of these flowers need a special machine to be obtained."
+	],
+	dependencies: [
+		"ebb0bf78"
+	],
+	tasks: [{
+		uid: "cfde5bef",
+		type: "item",
+		items: [{
+			item: "rootsclassic:midnightbloom"
+		}]
+	},
+	{
+		uid: "520cb636",
+		type: "item",
+		items: [{
+			item: "rootsclassic:radiantdaisy"
+		}]
+	},
+	{
+		uid: "ffaf549f",
+		type: "item",
+		items: [{
+			item: "rootsclassic:flareorchid"
+		}]
+	}],
+	rewards: [{
+		uid: "12a8a5c2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

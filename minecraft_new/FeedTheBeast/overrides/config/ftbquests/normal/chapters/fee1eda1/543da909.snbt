@@ -1,0 +1,38 @@
+{
+	title: "Processors",
+	icon: "appliedenergistics2:material 1 23",
+	x: 8.0d,
+	y: 0.5d,
+	text: [
+		"Essential crafting components for this mod."
+	],
+	dependencies: [
+		"10ea0728"
+	],
+	tasks: [{
+		uid: "f29784c6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 24"
+		}]
+	},
+	{
+		uid: "fec0c5ac",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 23"
+		}]
+	},
+	{
+		uid: "88c2eb3f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 22"
+		}]
+	}],
+	rewards: [{
+		uid: "0855a4bc",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"Any mana transferred into this block will be voided."
+	],
+	dependencies: [
+		"2117de0f"
+	],
+	tasks: [{
+		uid: "4989274a",
+		type: "item",
+		items: [{
+			item: "botania:manavoid"
+		}]
+	}],
+	rewards: [{
+		uid: "c6eb9fd4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

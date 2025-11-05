@@ -1,0 +1,36 @@
+{
+	title: "Dusts",
+	icon: "simpledusts:woodendust",
+	x: -21.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5b2ee880"
+	],
+	tasks: [{
+		uid: "e7856967",
+		type: "item",
+		items: [{
+			item: "simpledusts:dirtdust"
+		}],
+		count: 200L
+	},
+	{
+		uid: "39973f4b",
+		type: "item",
+		items: [{
+			item: "simpledusts:claydust"
+		}],
+		count: 200L
+	},
+	{
+		uid: "b9f36ad9",
+		type: "item",
+		items: [{
+			item: "simpledusts:woodendust"
+		}],
+		count: 200L
+	}]
+}

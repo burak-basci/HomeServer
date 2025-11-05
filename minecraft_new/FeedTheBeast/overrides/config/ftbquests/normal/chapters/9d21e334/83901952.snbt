@@ -1,0 +1,14 @@
+{
+	title: "Totemic",
+	icon: "totemic:tipi",
+	disable_toast: true,
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

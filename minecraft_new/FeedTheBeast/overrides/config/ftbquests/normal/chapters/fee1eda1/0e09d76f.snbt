@@ -1,0 +1,22 @@
+{
+	x: 22.0d,
+	y: -2.0d,
+	text: [
+		"Import or export fluids from your ME system."
+	],
+	dependencies: [
+		"21f17438"
+	],
+	tasks: [{
+		uid: "705ab8df",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "7e88d3c6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

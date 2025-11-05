@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: -4.0d,
+	text: [
+		"Better alloy that is still not good enough."
+	],
+	dependencies: [
+		"729e72cd"
+	],
+	tasks: [{
+		uid: "1898f65e",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "fe535c1f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

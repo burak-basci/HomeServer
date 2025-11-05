@@ -1,0 +1,22 @@
+{
+	x: -14.0d,
+	y: -4.0d,
+	text: [
+		"The machine needs less energy to operate while this is installed."
+	],
+	dependencies: [
+		"7a85465c"
+	],
+	tasks: [{
+		uid: "b270d97c",
+		type: "item",
+		items: [{
+			item: "mekanism:energyupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "4487a8bc",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

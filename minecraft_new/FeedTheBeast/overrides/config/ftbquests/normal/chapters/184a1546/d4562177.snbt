@@ -1,0 +1,12 @@
+{
+	x: -9.5d,
+	y: -13.0d,
+	dependencies: [
+		"7072d542"
+	],
+	tasks: [{
+		uid: "347d16d6",
+		type: "fluid",
+		fluid: "electrical_steel"
+	}]
+}

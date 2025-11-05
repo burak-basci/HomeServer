@@ -1,0 +1,25 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	text: [
+		"Absorbs lava around it to make mana."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "156ff930",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "thermalily"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "67a31c70",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

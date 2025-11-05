@@ -1,0 +1,23 @@
+{
+	x: -18.5d,
+	y: 4.0d,
+	text: [
+		"Burns ethylene for huge amounts of energy."
+	],
+	dependencies: [
+		"5fa3126e"
+	],
+	tasks: [{
+		uid: "4c90ad2d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5c17953",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

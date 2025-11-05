@@ -1,0 +1,36 @@
+{
+	title: "Tinkers' Upgrade Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "tinkers_upgrade_crate"
+		}
+	},
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"Contains sharpening kits for Tinkers' tools.",
+		"To use them, use a tool station and some flint to apply them to your tools."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "ef271a6e",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "62a7b46a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tinkers_upgrade_crate"
+			}
+		},
+		count: 2
+	}]
+}

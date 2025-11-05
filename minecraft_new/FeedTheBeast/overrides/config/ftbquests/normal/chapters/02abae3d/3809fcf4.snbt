@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"Gives night vision."
+	],
+	dependencies: [
+		"f07bb182"
+	],
+	tasks: [{
+		uid: "3eefcbc6",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:nightvision",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "5d1e4a1a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

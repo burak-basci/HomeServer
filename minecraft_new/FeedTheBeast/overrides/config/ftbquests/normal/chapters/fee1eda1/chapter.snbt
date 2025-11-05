@@ -1,0 +1,13 @@
+{
+	title: "AE2,Energy and Storage",
+	icon: {
+		id: "appliedenergistics2:wireless_terminal",
+		tag: {
+			internalMaxPower: 1600000.0d,
+			internalCurrentPower: 1600000.0d
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

@@ -1,0 +1,61 @@
+{
+	title: "Mob Resources",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "essence",
+			Amount: 1000
+		}
+	},
+	x: 10.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3394d477"
+	],
+	tasks: [{
+		uid: "ac54093d",
+		type: "item",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "essence",
+				Amount: 1000
+			}
+		},
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "essence",
+				Amount: 1000
+			}
+		}],
+		count: 10L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0537d35a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "meat",
+				Amount: 1000
+			}
+		}],
+		count: 10L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3aa76e0d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fertilizer"
+		}],
+		count: 150L
+	}]
+}

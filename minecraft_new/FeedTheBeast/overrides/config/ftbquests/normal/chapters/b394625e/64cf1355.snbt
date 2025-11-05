@@ -1,0 +1,28 @@
+{
+	title: "Flower Enhancer",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:flower_enhancer"
+		}
+	},
+	x: -6.5d,
+	y: 8.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "cac9af17",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "643cb59e",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:flower_enhancer"
+			}
+		}
+	}]
+}

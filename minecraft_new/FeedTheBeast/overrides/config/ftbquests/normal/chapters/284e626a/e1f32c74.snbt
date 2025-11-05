@@ -1,0 +1,22 @@
+{
+	x: -12.5d,
+	y: -5.5d,
+	text: [
+		"Reduces or completely disables machines from making noises."
+	],
+	dependencies: [
+		"7a85465c"
+	],
+	tasks: [{
+		uid: "b7555807",
+		type: "item",
+		items: [{
+			item: "mekanism:mufflingupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "b57021fd",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Mana Components",
+	icon: "botania:manaresource 1 2",
+	x: 5.5d,
+	y: 2.0d,
+	text: [
+		"Important components for this mod; most of them can be further transformed.",
+		"",
+		"The manawave armor can be made from mana strings and gives some little perks."
+	],
+	dependencies: [
+		"1ebed8ab"
+	],
+	tasks: [{
+		uid: "f6395708",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	},
+	{
+		uid: "410c0757",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 16"
+		}]
+	},
+	{
+		uid: "b66ed54f",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1f9873f4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

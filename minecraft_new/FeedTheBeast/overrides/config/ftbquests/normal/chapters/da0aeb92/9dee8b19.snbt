@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: -5.0d,
+	text: [
+		"Makes mobs aggressive towards you and lures them to you.",
+		"",
+		"There could be an option to use this to make some sort of AFK farm."
+	],
+	dependencies: [
+		"78c2e208"
+	],
+	tasks: [{
+		uid: "f6b6a193",
+		type: "item",
+		items: [{
+			item: "darkutils:charm_agression"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bebc8a9a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

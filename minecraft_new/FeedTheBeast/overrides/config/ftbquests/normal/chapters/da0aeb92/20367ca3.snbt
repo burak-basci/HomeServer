@@ -1,0 +1,31 @@
+{
+	title: "Mechanical Helpers",
+	icon: "extrautils2:miner",
+	x: -5.5d,
+	y: 0.5d,
+	text: [
+		"These special machines are able to automate a few tasks, like mining or harvesting crops."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "2bf2e93a",
+		type: "item",
+		items: [{
+			item: "extrautils2:miner"
+		}]
+	},
+	{
+		uid: "de74cbd8",
+		type: "item",
+		items: [{
+			item: "extrautils2:user"
+		}]
+	}],
+	rewards: [{
+		uid: "b176d5ae",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

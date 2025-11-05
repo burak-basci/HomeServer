@@ -1,0 +1,56 @@
+{
+	icon: "mekanismgenerators:reactor",
+	x: -9.5d,
+	y: 4.0d,
+	text: [
+		"This will be one of the only optional quests since you don't really need this reactor. ",
+		"",
+		"Anyways, it makes extreme amounts of energy but needs D-T fuel to run."
+	],
+	dependencies: [
+		"b6baab4d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "84520b9a",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	},
+	{
+		uid: "b050dcb6",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}]
+	},
+	{
+		uid: "12b25902",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 1"
+		}],
+		count: 20L
+	},
+	{
+		uid: "a5dd128a",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass 1 1"
+		}]
+	},
+	{
+		uid: "886528d3",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7aa1d7e5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

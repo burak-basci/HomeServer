@@ -1,0 +1,41 @@
+{
+	title: "Angel Ring",
+	icon: "extrautils2:angelring 1 5",
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"Gives you creative flight if you have enough generators active."
+	],
+	dependencies: [
+		"0785f561"
+	],
+	tasks: [{
+		uid: "54c39b4d",
+		type: "item",
+		title: "Any Angel Ring",
+		items: [{
+			item: "extrautils2:angelring 1 5"
+		},
+		{
+			item: "extrautils2:angelring 1 4"
+		},
+		{
+			item: "extrautils2:angelring 1 4"
+		},
+		{
+			item: "extrautils2:angelring 1 2"
+		},
+		{
+			item: "extrautils2:angelring 1 1"
+		},
+		{
+			item: "extrautils2:angelring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f85cf48d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

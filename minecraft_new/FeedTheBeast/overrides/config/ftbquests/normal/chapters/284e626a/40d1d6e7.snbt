@@ -1,0 +1,56 @@
+{
+	title: "Energy Transportation",
+	x: -2.5d,
+	y: 4.5d,
+	text: [
+		"Energy is essentially what makes everything work, so be sure to always have these somewhere."
+	],
+	dependencies: [
+		"9972aba3"
+	],
+	tasks: [{
+		uid: "9a330f23",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		}]
+	},
+	{
+		uid: "d2dcc65e",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		}]
+	},
+	{
+		uid: "7a9a17de",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		}]
+	},
+	{
+		uid: "7fddfc5b",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "41736c56",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

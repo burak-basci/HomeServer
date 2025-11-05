@@ -1,0 +1,45 @@
+{
+	icon: "botania:altar",
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"Apothecary needs water for all recipes. ",
+		"",
+		"Pure daisy is used to transform stone and wood into their living forms."
+	],
+	dependencies: [
+		"1f8a7e0e"
+	],
+	tasks: [{
+		uid: "c336b7f2",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	},
+	{
+		uid: "036b848d",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "710663dd",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49ac325e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,103 @@
+{
+	title: "Farmer's Dream",
+	icon: "industrialforegoing:crop_sower",
+	x: 8.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3394d477"
+	],
+	tasks: [{
+		uid: "075cf7d0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}],
+		count: 10L
+	},
+	{
+		uid: "50421730",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}],
+		count: 10L
+	},
+	{
+		uid: "3d0bbcd4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_enrich_material_injector"
+		}],
+		count: 10L
+	},
+	{
+		uid: "a80a16e7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}],
+		count: 10L
+	},
+	{
+		uid: "f61af06e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}],
+		count: 10L
+	},
+	{
+		uid: "7b39c758",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_sower"
+		}],
+		count: 10L
+	},
+	{
+		uid: "b307e07a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_detector"
+		}],
+		count: 10L
+	},
+	{
+		uid: "2cceac78",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plant_interactor"
+		}],
+		count: 10L
+	},
+	{
+		uid: "ef8630a6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fortune_addon"
+		}],
+		count: 10L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c1e76d63",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:range_addon 1 11"
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8d8122f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:leaf_shearing"
+		}],
+		count: 10L
+	}]
+}

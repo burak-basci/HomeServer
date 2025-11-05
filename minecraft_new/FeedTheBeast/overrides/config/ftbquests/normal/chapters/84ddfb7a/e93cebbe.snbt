@@ -1,0 +1,22 @@
+{
+	x: -6.5d,
+	y: -7.0d,
+	text: [
+		"Huge chest being able to smelt items, hold energy, and also can be used as a crafting table."
+	],
+	dependencies: [
+		"97f712c5"
+	],
+	tasks: [{
+		uid: "7e446f83",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "800eb713",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

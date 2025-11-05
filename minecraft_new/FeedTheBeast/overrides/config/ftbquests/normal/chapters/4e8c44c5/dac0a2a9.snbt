@@ -1,0 +1,25 @@
+{
+	x: -12.0d,
+	y: -0.5d,
+	text: [
+		"Transforms vanilla cakes into mana."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "982b75c8",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "kekimurus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3f523bfb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

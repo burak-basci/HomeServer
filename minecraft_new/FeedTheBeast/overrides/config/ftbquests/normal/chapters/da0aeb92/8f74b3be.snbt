@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	text: [
+		"Voids specific item.",
+		"",
+		"Press \"U\" on the item to learn more.",
+		"",
+		"it works similarly to the void ring from ProjectE."
+	],
+	dependencies: [
+		"78c2e208"
+	],
+	tasks: [{
+		uid: "1b0d78b2",
+		type: "item",
+		items: [{
+			item: "darkutils:charm_null"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74f98c63",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

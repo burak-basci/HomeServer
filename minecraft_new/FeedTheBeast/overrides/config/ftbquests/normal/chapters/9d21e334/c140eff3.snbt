@@ -1,0 +1,27 @@
+{
+	title: "Totemic Overpoweredness",
+	icon: "totemic:ceremony_cheat",
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"83901952"
+	],
+	tasks: [{
+		uid: "e8584a6c",
+		type: "item",
+		items: [{
+			item: "totemic:ceremony_cheat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "02d090c7",
+		type: "kill",
+		entity: "totemic:baykok",
+		value: 3L
+	}]
+}

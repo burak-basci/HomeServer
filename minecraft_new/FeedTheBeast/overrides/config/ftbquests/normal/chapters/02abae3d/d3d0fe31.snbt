@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: -1.0d,
+	text: [
+		"Increases players movement speed."
+	],
+	dependencies: [
+		"af63612e"
+	],
+	tasks: [{
+		uid: "aff9c52f",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:speedboost1",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "6e634296",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -9.5d,
+	y: -14.0d,
+	dependencies: [
+		"7072d542"
+	],
+	tasks: [{
+		uid: "fb0bfeda",
+		type: "fluid",
+		fluid: "conductive_iron"
+	}]
+}

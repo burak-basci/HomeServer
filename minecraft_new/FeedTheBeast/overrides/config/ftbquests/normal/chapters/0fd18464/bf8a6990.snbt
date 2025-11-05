@@ -1,0 +1,27 @@
+{
+	title: "Spell Casting",
+	x: 2.5d,
+	y: -3.5d,
+	text: [
+		"Craft a staff and use spells.",
+		"",
+		"You can find useful information about spells in the runic tablet."
+	],
+	dependencies: [
+		"2aa3eb9b"
+	],
+	tasks: [{
+		uid: "b974d444",
+		type: "item",
+		items: [{
+			item: "rootsclassic:staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "395bab98",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

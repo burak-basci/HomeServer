@@ -1,0 +1,20 @@
+{
+	title: "AE2",
+	icon: {
+		id: "appliedenergistics2:wireless_terminal",
+		tag: {
+			internalMaxPower: 1600000.0d,
+			internalCurrentPower: 1600000.0d
+		}
+	},
+	disable_toast: true,
+	x: 15.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

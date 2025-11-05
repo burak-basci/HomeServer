@@ -1,0 +1,23 @@
+{
+	title: "Early Access Bucket",
+	x: -1.5d,
+	y: 8.5d,
+	text: [
+		"Get a cheap bucket for water."
+	],
+	dependencies: [
+		"f2498281"
+	],
+	tasks: [{
+		uid: "89394842",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "711524dc",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

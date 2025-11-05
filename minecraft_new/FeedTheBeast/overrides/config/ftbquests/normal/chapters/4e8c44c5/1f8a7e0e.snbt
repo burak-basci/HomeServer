@@ -1,0 +1,51 @@
+{
+	title: "Flower Collector",
+	icon: {
+		ForgeCaps: {
+			Parent: []
+		},
+		id: "botania:flowerbag"
+	},
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"By using the fertilizer on a grass block, you will create mystical flowers, which can be stored in your pouch and grinded with a Pestle and Mortar."
+	],
+	dependencies: [
+		"8610a3ff"
+	],
+	tasks: [{
+		uid: "011f5a08",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}],
+		count: 10L
+	},
+	{
+		uid: "95352977",
+		type: "item",
+		items: [{
+			item: "botania:pestleandmortar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13f32336",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "botania:flowerbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da944f0e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

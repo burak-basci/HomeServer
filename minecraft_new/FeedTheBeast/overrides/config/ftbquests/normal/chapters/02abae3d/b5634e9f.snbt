@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -14.0d,
+	dependencies: [
+		"cf0f7cfa"
+	],
+	tasks: [{
+		uid: "0288f32e",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "fe2c1db5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

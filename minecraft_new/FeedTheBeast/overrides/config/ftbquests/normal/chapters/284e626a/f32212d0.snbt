@@ -1,0 +1,38 @@
+{
+	title: "Tier Installer",
+	icon: "mekanism:tierinstaller 1 1",
+	x: -8.5d,
+	y: -2.5d,
+	text: [
+		"The tier installer is used to skip machine tiers. ",
+		"",
+		"If you have a basic infusing factory, for example, and use an advanced installer on it, it will transform into an advanced infusing factory."
+	],
+	dependencies: [
+		"ea937fcf",
+		"729e72cd"
+	],
+	tasks: [{
+		uid: "6e4829cd",
+		type: "item",
+		title: "Any Tier Installer",
+		items: [{
+			item: "mekanism:tierinstaller"
+		},
+		{
+			item: "mekanism:tierinstaller 1 1"
+		},
+		{
+			item: "mekanism:tierinstaller 1 2"
+		},
+		{
+			item: "mekanism:tierinstaller 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "694341f4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

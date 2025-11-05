@@ -1,0 +1,43 @@
+{
+	title: "Drawers",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 2s
+	},
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		"This quest accepts any drawer type."
+	],
+	dependencies: [
+		"76f93ee8"
+	],
+	tasks: [{
+		uid: "3dbcea79",
+		type: "item",
+		title: "Any Drawer",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7574dd6c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

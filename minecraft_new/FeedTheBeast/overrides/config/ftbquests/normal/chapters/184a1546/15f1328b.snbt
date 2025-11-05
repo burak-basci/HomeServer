@@ -1,0 +1,12 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	dependencies: [
+		"0d1928c5"
+	],
+	tasks: [{
+		uid: "8998304b",
+		type: "fluid",
+		fluid: "biofuel"
+	}]
+}

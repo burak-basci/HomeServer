@@ -1,0 +1,27 @@
+{
+	x: 6.5d,
+	y: -9.5d,
+	text: [
+		"Lets the player store a block inside that they can place infinitely.",
+		"",
+		"Uses EMC according to the EMC value of the block."
+	],
+	dependencies: [
+		"c0e6f7e1"
+	],
+	tasks: [{
+		uid: "4475ec95",
+		type: "item",
+		items: [{
+			id: "equivalentintegrations:conjuration_assembler",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4766354",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

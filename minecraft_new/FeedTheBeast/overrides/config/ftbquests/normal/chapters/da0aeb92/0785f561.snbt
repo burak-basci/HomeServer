@@ -1,0 +1,20 @@
+{
+	title: "Flying and Building",
+	disable_toast: true,
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"Flying rings need to have active generators to take energy from.",
+		"",
+		"Additionally, you can chunk load them so you can fly anywhere. ",
+		"",
+		"You can use the FTB chunk loader mod for this. To chunkload an area, click on the map icon on the left side of your inventory."
+	],
+	dependencies: [
+		"04d347ea"
+	],
+	tasks: [{
+		uid: "bb7a75c3",
+		type: "checkmark"
+	}]
+}

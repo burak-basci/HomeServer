@@ -1,0 +1,296 @@
+{
+  "modid": "",
+  "uniqueName": "Welcome_to_Project_Overpowered",
+  "saveName": "Welcome_to_Project_Overpowered",
+  "displayName": "Welcome to Project Overpowered",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_us",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "BACKGROUND_START_X": -10,
+  "BACKGROUND_START_Y": -10,
+  "BACKGROUND_END_X": 440,
+  "BACKGROUND_END_Y": 240,
+  "defaultPage": 0,
+  "isLocked": true,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": true,
+          "isFromTemplate": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": true,
+          "isFromTemplate": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 88,
+          "yPos": 84,
+          "width": 40.0,
+          "height": 40.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "botania:pylon 1",
+              "hideTooltip": true
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 160,
+          "yPos": 84,
+          "width": 41.0,
+          "height": 41.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "botania:pool 0",
+              "hideTooltip": true
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 23,
+          "yPos": 87,
+          "width": 42.0,
+          "height": 42.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "botania:manasteelaxe 0",
+              "hideTooltip": true
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 339,
+          "yPos": 80,
+          "width": 42.0,
+          "height": 42.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "ftbquests:book",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 32,
+          "yPos": 22,
+          "width": 158.0,
+          "height": 28.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Hello, dear player!\nWelcome to Project Overpowered!",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 32,
+          "yPos": 47,
+          "width": 169.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "This skyblock modpack is centered around Project E/EX, but there is more than enough tech and magic, with many custom recipes and machines.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 281,
+          "yPos": 139,
+          "width": 86.0,
+          "height": 28.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Have fun playing!\n-SimplyBlizz",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 263,
+          "yPos": 82,
+          "width": 39.0,
+          "height": 39.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "akashictome:tome",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 238,
+          "yPos": 27,
+          "width": 193.0,
+          "height": 49.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "To not get lost, make sure you read quest descriptions carefully since they usually provide key information on how to finish the quest.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 56,
+          "yPos": 117,
+          "width": 33.0,
+          "height": 33.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "mekanism:machineblock 8",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 124,
+          "yPos": 114,
+          "width": 37.0,
+          "height": 37.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "itemString": "draconicevolution:draconic_ingot",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 31,
+          "yPos": 153,
+          "width": 165.0,
+          "height": 26.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "This modpack also has a Discord and an official wiki!\nYou can find both links on the\nProject Overpowered CurseForge page.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "isFromTemplate": false,
+          "layerIndex": 13
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ]
+}

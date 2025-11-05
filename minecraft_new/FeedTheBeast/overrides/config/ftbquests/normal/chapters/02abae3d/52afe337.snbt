@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -2.5d,
+	text: [
+		"Stores experience, which can then be outputted to tanks or withdrawn by any player."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "c8728d6f",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "b9da3845",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

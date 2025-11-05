@@ -1,0 +1,28 @@
+{
+	title: "Exotic Animals",
+	icon: "harvestcraft:octopusrawitem",
+	x: 23.5d,
+	y: 1.5d,
+	text: [
+		"Both can be caught by using a water trap and fish trap bait."
+	],
+	dependencies: [
+		"bf266180"
+	],
+	tasks: [{
+		uid: "cbb20364",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turtlerawitem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "2735e9f3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:octopusrawitem"
+		}],
+		count: 20L
+	}]
+}

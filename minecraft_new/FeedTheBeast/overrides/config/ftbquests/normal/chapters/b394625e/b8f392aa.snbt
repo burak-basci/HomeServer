@@ -1,0 +1,37 @@
+{
+	title: "Flint Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:flintchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -5.0d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "892ebd01",
+		type: "emc",
+		value: 5000L
+	}],
+	rewards: [{
+		uid: "eb8660e7",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:flintchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

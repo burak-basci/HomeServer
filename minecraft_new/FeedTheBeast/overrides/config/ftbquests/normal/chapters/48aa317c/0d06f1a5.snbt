@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"Craft a cobblestone together with the hammer."
+	],
+	dependencies: [
+		"3388a918"
+	],
+	tasks: [{
+		uid: "9c3dae10",
+		type: "item",
+		items: [{
+			item: "simpledusts:stonedust"
+		}]
+	}],
+	rewards: [{
+		uid: "8b1b5c0c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

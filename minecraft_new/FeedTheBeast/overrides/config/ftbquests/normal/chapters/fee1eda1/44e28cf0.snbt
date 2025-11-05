@@ -1,0 +1,42 @@
+{
+	icon: "appliedenergistics2:molecular_assembler",
+	x: 24.0d,
+	y: -3.0d,
+	text: [
+		"Can autocraft items that are provided to it by using encoded patterns.",
+		"",
+		"This machine can be upgraded with acceleration cards.",
+		"",
+		"To make it work, you will need to place the Molecular Assembler on any side of the ME Interface block and hook up the interface block to your system while you have at least one crafting storage and crafting processing unit connected to your network."
+	],
+	dependencies: [
+		"0c893a3d",
+		"0e09d76f"
+	],
+	tasks: [{
+		uid: "6c0063d6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	},
+	{
+		uid: "25261484",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "18e9594c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_16k"
+		}]
+	}],
+	rewards: [{
+		uid: "bd833df3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

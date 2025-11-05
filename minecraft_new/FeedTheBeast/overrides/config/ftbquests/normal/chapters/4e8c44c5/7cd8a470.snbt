@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -14.5d,
+	text: [
+		"Right-click to create a water source."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "6938ae92",
+		type: "item",
+		items: [{
+			item: "botania:waterrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e349c207",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

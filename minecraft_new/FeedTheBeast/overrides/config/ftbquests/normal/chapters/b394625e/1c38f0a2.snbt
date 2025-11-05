@@ -1,0 +1,28 @@
+{
+	title: "Corrupted Starfactory",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -6.5d,
+	y: 0.5d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "75ed7920",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "980e8bc0",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:corrupted_starfactory"
+			}
+		}
+	}]
+}

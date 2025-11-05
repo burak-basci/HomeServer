@@ -1,0 +1,121 @@
+{
+	title: "Hungry Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:bread",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:pumpkinbreaditem",
+		count: 6,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:caramelappleitem",
+		count: 10,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:applepieitem",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:teaitem",
+		count: 6,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:tacoitem",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:cornonthecobitem",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:garlicchickenitem",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:thankfuldinneritem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:chocolaterollitem",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:biscuitsandgravyitem",
+		count: 6,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:honeybreaditem",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:deluxecheeseburgeritem",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:pizzaitem",
+		count: 3,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:southernstylebreakfastitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:cornedbeefbreakfastitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:creamcookieitem",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:chocolatedonutitem",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:peanutbuttercookiesitem",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:peaandhamsoupitem",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:chipsanddipitem",
+		count: 6,
+		weight: 2
+	},
+	{
+		item: "harvestcraft:chilidogitem",
+		count: 4,
+		weight: 2
+	}],
+	loot_crate: {
+		string_id: "hungry_crate",
+		item_name: "Hungry Crate",
+		color: 65535,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

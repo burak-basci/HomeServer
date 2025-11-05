@@ -1,0 +1,30 @@
+{
+	x: 10.0d,
+	y: -11.0d,
+	dependencies: [
+		"2086e3b6",
+		"2a5f13d9",
+		"9f62e321"
+	],
+	tasks: [{
+		uid: "4c536f9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c503453",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	text: [
+		"Pumps any fluid inside itself if powered."
+	],
+	dependencies: [
+		"9972aba3"
+	],
+	tasks: [{
+		uid: "352598f5",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ecd75440",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Ender Technology",
+	x: -2.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"Technical mod giving you access to many useful items that will help you with automation and generally make some tasks more comfortable."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "681b240a",
+		type: "checkmark",
+		title: "New technology",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

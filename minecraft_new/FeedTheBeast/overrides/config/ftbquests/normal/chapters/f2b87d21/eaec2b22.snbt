@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	text: [
+		"Protects you from the wither effect."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "a03e9b10",
+		type: "item",
+		items: [{
+			item: "xreliquary:witherless_rose"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "20af0976",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

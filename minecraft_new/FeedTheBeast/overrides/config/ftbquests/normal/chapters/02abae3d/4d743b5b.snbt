@@ -1,0 +1,10 @@
+{
+	title: "Boots Upgrades",
+	icon: "ceramics:clay_boots",
+	disable_toast: true,
+	x: 16.5d,
+	y: 0.5d,
+	dependencies: [
+		"77dd2762"
+	]
+}

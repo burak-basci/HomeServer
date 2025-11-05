@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	dependencies: [
+		"57e51d4f"
+	],
+	tasks: [{
+		uid: "18467b2e",
+		type: "item",
+		items: [{
+			item: "totemic:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "860bbe2a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

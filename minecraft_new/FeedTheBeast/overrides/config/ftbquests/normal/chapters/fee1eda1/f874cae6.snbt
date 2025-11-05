@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	dependencies: [
+		"fadfc2cc"
+	],
+	tasks: [{
+		uid: "60b5f6a5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "9e23bb87",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

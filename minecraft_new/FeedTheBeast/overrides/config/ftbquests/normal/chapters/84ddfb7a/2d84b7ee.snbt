@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"Advanced dislocator can be used to set up multiple waypoints you can instantly teleport to, and you can even name them."
+	],
+	dependencies: [
+		"3c194bef"
+	],
+	tasks: [{
+		uid: "fe5b6b07",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator_advanced",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9ab65fb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

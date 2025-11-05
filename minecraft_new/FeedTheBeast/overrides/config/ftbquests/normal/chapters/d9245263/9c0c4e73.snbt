@@ -1,0 +1,33 @@
+{
+	title: "Water Amulet",
+	x: -8.5d,
+	y: -11.5d,
+	text: [
+		"This amulet has 4 abilities.",
+		"",
+		"1. It shoots water projectiles, but it costs some EMC.",
+		"",
+		"2. Can fill buckets and cauldrons.",
+		"",
+		"3. Is used as an infinite water bucket for crafting",
+		"",
+		"4. It can cause a rain or snowstorm to start when on the pedestal."
+	],
+	dependencies: [
+		"157a0e07"
+	],
+	tasks: [{
+		uid: "ca1064e0",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_evertide_amulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7d2d3ef",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

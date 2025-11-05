@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: 11.5d,
+	y: -6.0d,
+	text: [
+		"Tools and armor are divided into 3 tiers: dark, red, and gem.",
+		"",
+		"Gem tools and armor have special properties and abilities."
+	],
+	dependencies: [
+		"dc2ac4a4"
+	],
+	tasks: [{
+		uid: "cc11991d",
+		type: "checkmark",
+		title: "Armor and tools"
+	}]
+}

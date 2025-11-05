@@ -1,0 +1,25 @@
+{
+	x: -15.5d,
+	y: -4.5d,
+	text: [
+		"When on the pedestal: Shoots arrows at nearby mobs."
+	],
+	dependencies: [
+		"b7fe09d9"
+	],
+	tasks: [{
+		uid: "b8dd121a",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_archangel_smite",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6647128",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 23.5d,
+	y: -11.0d,
+	text: [
+		"Lets you access your ender chest from anywhere but consumes a little bit of mana every time."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "aff78dc6",
+		type: "item",
+		items: [{
+			item: "botania:enderhand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "742628bd",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

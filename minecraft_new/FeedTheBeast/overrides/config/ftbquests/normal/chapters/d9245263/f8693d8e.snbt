@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	text: [
+		"Connect this EMC link to a collector to directly add EMC to your transmutation table."
+	],
+	dependencies: [
+		"402d7ee2"
+	],
+	tasks: [{
+		uid: "80f82ec6",
+		type: "item",
+		items: [{
+			item: "projectex:energy_link"
+		}]
+	}],
+	rewards: [{
+		uid: "f3b26529",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

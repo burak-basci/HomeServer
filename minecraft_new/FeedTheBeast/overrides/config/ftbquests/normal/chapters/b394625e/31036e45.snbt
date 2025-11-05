@@ -1,0 +1,35 @@
+{
+	title: "Musical Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "musical_crate"
+		}
+	},
+	x: 3.5d,
+	y: 5.0d,
+	text: [
+		"Each crate contains one music disc."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "520ae6b0",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b4b56ba9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "musical_crate"
+			}
+		},
+		count: 2
+	}]
+}

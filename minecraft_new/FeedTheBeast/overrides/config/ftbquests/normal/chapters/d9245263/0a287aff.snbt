@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -4.5d,
+	text: [
+		"Collectors passively collect EMC and can transform items into others with greater value.",
+		"",
+		"Press \"U\" on the collector in JEI to see item outputs. They can collect EMC a little faster if you surround them with glowstone."
+	],
+	dependencies: [
+		"dc2ac4a4"
+	],
+	tasks: [{
+		uid: "723c408a",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "28a02a2d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

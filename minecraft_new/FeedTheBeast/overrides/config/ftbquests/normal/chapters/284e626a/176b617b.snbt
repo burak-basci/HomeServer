@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"Almost the best, this circuit is most notably used to upgrade your machines to the elite tier."
+	],
+	dependencies: [
+		"db52bd65"
+	],
+	tasks: [{
+		uid: "8f3b588b",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8646a47f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

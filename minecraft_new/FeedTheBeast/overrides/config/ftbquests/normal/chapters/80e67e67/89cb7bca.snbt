@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: 10.5d,
+	text: [
+		"Can harvest any type of crop and replace it; works even with trees.",
+		"",
+		"Produces sludge as a byproduct."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "8d3c17bb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "bd3921ae",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

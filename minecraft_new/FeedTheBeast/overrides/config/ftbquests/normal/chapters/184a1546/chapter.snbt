@@ -1,0 +1,10 @@
+{
+	title: "Creative Items and Fluid Collecting",
+	icon: {
+		id: "projectex:colossal_star_omega",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

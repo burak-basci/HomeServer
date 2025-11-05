@@ -1,0 +1,43 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"Staff that can be used for teleportation.",
+		"",
+		"By shift-right-clicking, it will absorb all ender pearls in your inventory and save them.",
+		"",
+		"By shift-left clicking, you can switch to one of the four modes; one of them includes long cast, which shoots the ender pearl really far. ",
+		"",
+		"This can be great for traveling."
+	],
+	dependencies: [
+		"4442612d"
+	],
+	tasks: [{
+		uid: "bde1f05a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 2,
+					TotalAmounts: [
+						0
+					],
+					Items: []
+				}
+			},
+			id: "xreliquary:ender_staff",
+			tag: {
+				mode: "cast",
+				count: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "213498e6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

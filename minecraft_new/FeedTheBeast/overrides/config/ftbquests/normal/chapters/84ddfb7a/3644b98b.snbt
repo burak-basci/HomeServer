@@ -1,0 +1,53 @@
+{
+	title: "Creating a reactor",
+	icon: "draconicevolution:reactor_core",
+	x: -4.5d,
+	y: -11.0d,
+	text: [
+		"First, you place the Draconic Reactor Core where you want the center of your reactor to be. ",
+		"",
+		"This is where the actual reaction will take place, and it will grow depending on the temperature and fuel you put in it. ",
+		"",
+		"Next, you take 4 reactor stabilizers and place them in a ring around the core, the recommended distance being 5 blocks.",
+		"",
+		"They can be one block above or below the core and can be up to 8 blocks away but must be in the same setup otherwise. ",
+		"",
+		"They can also be placed vertically around the core and must have a direct line of sight to the core when placed; otherwise, they will not register.",
+		"",
+		"Make sure the stabilizers are facing the right way.",
+		"",
+		"After finishing the structure, right-click on any stabilizer and then place the energy injector under the core. The reactor uses energy and awakened draconium blocks as fuel."
+	],
+	dependencies: [
+		"ac44bbf2",
+		"0623e390",
+		"9b96203d"
+	],
+	tasks: [{
+		uid: "92dd517f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	},
+	{
+		uid: "c8c84ca0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component"
+		}],
+		count: 4L
+	},
+	{
+		uid: "feed3908",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "78ade943",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

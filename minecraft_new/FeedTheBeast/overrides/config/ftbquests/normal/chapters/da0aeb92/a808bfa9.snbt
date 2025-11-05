@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	text: [
+		"Combines all available generators into one super-powerful generator.",
+		"",
+		"To make it work, you have to have all generator types surrounding the Rainbow Generator, and all of them have to be running at the same time, and only after that will the Rainbow Generator produce massive bursts of energy."
+	],
+	dependencies: [
+		"88d2e778"
+	],
+	tasks: [{
+		uid: "32d73083",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "4e628eb6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

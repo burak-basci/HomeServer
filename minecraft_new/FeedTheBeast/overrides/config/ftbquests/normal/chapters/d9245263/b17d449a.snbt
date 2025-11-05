@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"Tier 3 has the fastest production rate and is used as a crafting component."
+	],
+	dependencies: [
+		"f91cb089"
+	],
+	tasks: [{
+		uid: "bec05fb5",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk3"
+		}]
+	}],
+	rewards: [{
+		uid: "50e8910a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

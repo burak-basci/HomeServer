@@ -1,0 +1,17 @@
+{
+	title: "Special Items",
+	disable_toast: true,
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"Interesting stuff you might want to have."
+	],
+	dependencies: [
+		"e991e605"
+	],
+	tasks: [{
+		uid: "38f6de9f",
+		type: "checkmark",
+		title: "Special items"
+	}]
+}

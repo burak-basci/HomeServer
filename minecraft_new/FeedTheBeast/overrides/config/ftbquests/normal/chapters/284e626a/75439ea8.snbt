@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: 5.5d,
+	text: [
+		"Better bow, uses energy instead of durability."
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "82a8a578",
+		type: "item",
+		items: [{
+			item: "mekanism:electricbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22668a1a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

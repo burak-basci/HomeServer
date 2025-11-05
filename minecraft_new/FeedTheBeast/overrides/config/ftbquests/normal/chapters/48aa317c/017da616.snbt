@@ -1,0 +1,44 @@
+{
+	title: "Start of your Adventure",
+	x: -3.75d,
+	y: -3.75d,
+	shape: "gear",
+	text: [
+		"Hello! After reading the welcome book, you should have an idea of what this pack is about. I will mention some things you should be aware of before diving into the modpack.",
+		"--------------------------------",
+		"- The Nether is accessible normally, and &cEnd is accessed from the mining dimension where strongholds spawn.&r",
+		"--------------------------------",
+		"- Vanilla farming hoes are disabled for making farmland; you have to use a mattock.",
+		"--------------------------------",
+		"- Vanilla tools are disabled and have 1 durability, you have to make tinkers tools (vanilla armour is allowed)",
+		"--------------------------------",
+		"- Shifting next to a tree will make it grow fast.",
+		"--------------------------------",
+		"- Upon selecting a book in the Akashic Tome, you get to read its contents. After you are done, you can left-click while looking towards the sky to turn the selected book back to the Akashic Tome.",
+		"--------------------------------",
+		"- Ore excavation is in this modpack; if you hold the GRAVE key, you will harvest all blocks of the same type up to 64.",
+		"--------------------------------",
+		"- By pressing the mouse wheel, you can sort a chest instantly.",
+		"--------------------------------",
+		"- Press J to open map configuration.",
+		"--------------------------------"
+	],
+	size: 2.5d,
+	optional: true,
+	tasks: [{
+		uid: "4f18b96a",
+		type: "checkmark",
+		title: "Your journey starts in sky",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "8308f00c",
+		type: "item",
+		item: "harvestcraft:heartybreakfastitem"
+	}]
+}

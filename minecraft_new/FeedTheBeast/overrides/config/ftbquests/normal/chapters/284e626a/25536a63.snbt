@@ -1,0 +1,24 @@
+{
+	title: "Steel Ingots",
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"Like the Metallurgic Infuser, steel is one of the main stars of Mekanism."
+	],
+	dependencies: [
+		"60d22114"
+	],
+	tasks: [{
+		uid: "4c6e53a2",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 4"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "cad6f9ac",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

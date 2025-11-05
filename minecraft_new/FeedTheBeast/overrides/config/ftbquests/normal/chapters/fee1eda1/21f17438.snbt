@@ -1,0 +1,19 @@
+{
+	title: "Autocrafting, Importing and Exporting",
+	disable_toast: true,
+	x: 16.0d,
+	y: -1.0d,
+	text: [
+		"Quests on the downside are about importing and exporting hatches.",
+		"",
+		"And topside is about transferring blocks and about an autocrafting machine."
+	],
+	dependencies: [
+		"8ae921f2"
+	],
+	tasks: [{
+		uid: "5f7b3db1",
+		type: "checkmark",
+		title: "Autocrafting, importing and exporting"
+	}]
+}

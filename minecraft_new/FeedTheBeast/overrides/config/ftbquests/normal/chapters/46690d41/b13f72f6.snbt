@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"Allows you to carry any totem effect with you."
+	],
+	dependencies: [
+		"e991e605"
+	],
+	tasks: [{
+		uid: "1b4ddf20",
+		type: "item",
+		items: [{
+			item: "totemic:medicine_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbbaa46d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

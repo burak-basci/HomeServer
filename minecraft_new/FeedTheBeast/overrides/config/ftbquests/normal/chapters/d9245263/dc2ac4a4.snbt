@@ -1,0 +1,22 @@
+{
+	title: "Beginner Alchemist",
+	disable_toast: true,
+	x: 1.5d,
+	y: -6.0d,
+	text: [
+		"Tools and items you will need on your way."
+	],
+	dependencies: [
+		"17c1ee89"
+	],
+	tasks: [{
+		uid: "1228a42d",
+		type: "checkmark",
+		title: "Begginings of an Alchemist"
+	}],
+	rewards: [{
+		uid: "9778853b",
+		type: "item",
+		item: "projecte:item.pe_alchemical_bag"
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Passive Generators",
+	icon: "extrautils2:passivegenerator 1 5",
+	x: 3.0d,
+	y: -3.0d,
+	text: [
+		"They use different elements to passively make power."
+	],
+	dependencies: [
+		"d15725e4"
+	],
+	tasks: [{
+		uid: "af04871a",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 2"
+		}]
+	},
+	{
+		uid: "a3618ced",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 3"
+		}]
+	},
+	{
+		uid: "13c05b56",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 5"
+		}]
+	},
+	{
+		uid: "629acc63",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3a6007bb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

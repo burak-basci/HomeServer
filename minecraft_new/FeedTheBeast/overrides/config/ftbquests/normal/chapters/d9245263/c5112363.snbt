@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 25.5d,
+	text: [
+		"This is the end. Or is it?",
+		"",
+		"Final star duplicates items with EMC, so it's essentially an infinite EMC source. ",
+		"",
+		"Click \"U\" on the item to learn more."
+	],
+	dependencies: [
+		"b243a84b",
+		"745494a9",
+		"b9952d60"
+	],
+	tasks: [{
+		uid: "4195740b",
+		type: "item",
+		items: [{
+			item: "projectex:final_star"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2899f07c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

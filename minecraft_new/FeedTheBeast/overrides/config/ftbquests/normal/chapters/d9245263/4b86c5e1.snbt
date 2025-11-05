@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	text: [
+		"Final EMC link with 54 output slots."
+	],
+	dependencies: [
+		"3b8bddc0"
+	],
+	tasks: [{
+		uid: "e54dcace",
+		type: "item",
+		items: [{
+			item: "projectex:compressed_refined_link"
+		}]
+	}],
+	rewards: [{
+		uid: "2329c22f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

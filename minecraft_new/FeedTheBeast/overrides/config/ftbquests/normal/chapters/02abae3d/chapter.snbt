@@ -1,0 +1,12 @@
+{
+	title: "Ender IO",
+	icon: {
+		id: "enderio:block_powered_spawner",
+		tag: {
+			entityId: "minecraft:enderman"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

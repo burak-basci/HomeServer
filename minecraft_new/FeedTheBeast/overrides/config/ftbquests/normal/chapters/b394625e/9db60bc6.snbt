@@ -1,0 +1,28 @@
+{
+	title: "Monolith of Reversing",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -6.5d,
+	y: 5.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "ff95c629",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "ef73d29e",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:monolith_of_reversing"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: -3.5d,
+	text: [
+		"Place this chest on top of a collector and put an item inside. ",
+		"",
+		"If the collector collects enough EMC, it will duplicate the item."
+	],
+	dependencies: [
+		"0a287aff"
+	],
+	tasks: [{
+		uid: "b170c233",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "2dcb6ebf",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

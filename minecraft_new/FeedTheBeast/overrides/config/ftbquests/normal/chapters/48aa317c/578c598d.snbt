@@ -1,0 +1,46 @@
+{
+	icon: {
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				id: "minecraft:iron_block",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: -3.0d,
+	y: 15.0d,
+	text: [
+		"Upgrading tools and adding modifiers."
+	],
+	dependencies: [
+		"e34334de"
+	],
+	tasks: [{
+		uid: "840294ac",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	},
+	{
+		uid: "2445478c",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "c678fbb7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

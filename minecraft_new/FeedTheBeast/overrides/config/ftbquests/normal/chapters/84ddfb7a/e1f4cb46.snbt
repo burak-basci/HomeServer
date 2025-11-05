@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -6.5d,
+	dependencies: [
+		"6f84aa14"
+	],
+	tasks: [{
+		uid: "13f483c2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63c7d0e2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

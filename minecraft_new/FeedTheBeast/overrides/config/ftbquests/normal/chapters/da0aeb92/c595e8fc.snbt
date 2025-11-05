@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -4.0d,
+	text: [
+		"Lets you eat food almost instantly."
+	],
+	dependencies: [
+		"78c2e208"
+	],
+	tasks: [{
+		uid: "62015c10",
+		type: "item",
+		items: [{
+			item: "darkutils:charm_gluttony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d66b2b22",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Overcharged",
+	icon: {
+		id: "enderio:block_cap_bank",
+		tag: {
+			"enderio:energy": 25000000
+		},
+		Damage: 3s
+	},
+	x: 40.0d,
+	y: 1.5d,
+	dependencies: [
+		"cd793e07"
+	],
+	tasks: [{
+		uid: "085d00b6",
+		type: "item",
+		items: [{
+			item: "enderio:block_solar_panel 1 3"
+		}],
+		count: 15L
+	},
+	{
+		uid: "650a9042",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 3"
+		}],
+		count: 15L,
+		ignore_nbt: 2b
+	}]
+}

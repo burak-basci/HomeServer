@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -7.5d,
+	text: [
+		"Upgraded furnace that will fully replace your vanilla one."
+	],
+	dependencies: [
+		"dc2ac4a4"
+	],
+	tasks: [{
+		uid: "ca713e97",
+		type: "item",
+		items: [{
+			item: "projecte:dm_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "cf726656",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Magical Stone?",
+	x: 0.0d,
+	y: 7.5d,
+	text: [
+		"Special item that lets you transform blocks upon right-clicking on them.",
+		"",
+		"And also animals into random ones that have the same hostility level as the original mob and only if you have coal or redstone in your inventory. ",
+		"",
+		"Press R to shoot a projectile that transforms a mob you hit."
+	],
+	dependencies: [
+		"e7bab560"
+	],
+	tasks: [{
+		uid: "3e7b3447",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ec49416",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "fdc35aa4",
+		type: "item",
+		item: "minecraft:ice",
+		count: 2
+	}]
+}

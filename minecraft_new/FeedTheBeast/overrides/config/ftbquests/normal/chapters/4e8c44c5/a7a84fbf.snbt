@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 11.0d,
+	text: [
+		"Botania's version of brewing stand for making long-lasting potions."
+	],
+	dependencies: [
+		"fe85d4f9"
+	],
+	tasks: [{
+		uid: "a5abd662",
+		type: "item",
+		items: [{
+			item: "botania:brewery"
+		}]
+	}],
+	rewards: [{
+		uid: "c24b3e5b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

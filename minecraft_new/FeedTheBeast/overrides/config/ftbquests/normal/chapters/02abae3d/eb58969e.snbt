@@ -1,0 +1,16 @@
+{
+	title: "Armor, Weapons and Upgrades",
+	disable_toast: true,
+	x: -2.0d,
+	y: 3.5d,
+	text: [
+		"Both dark steel and ender tools, including armor and weapons, can be upgraded with dark steel upgrades."
+	],
+	dependencies: [
+		"61827643"
+	],
+	tasks: [{
+		uid: "44f6d5d1",
+		type: "checkmark"
+	}]
+}

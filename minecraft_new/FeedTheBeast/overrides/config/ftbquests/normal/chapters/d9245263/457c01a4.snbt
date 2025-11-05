@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	text: [
+		"Same as the first EMC link, but it can now import and export items in and out of the transmutation table ",
+		"",
+		"Export items have to be placed inside the link and connected to something with Mekanism pipes, for example."
+	],
+	dependencies: [
+		"f8693d8e"
+	],
+	tasks: [{
+		uid: "167d1ab3",
+		type: "item",
+		items: [{
+			item: "projectex:personal_link"
+		}]
+	}],
+	rewards: [{
+		uid: "9ea1ddb4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

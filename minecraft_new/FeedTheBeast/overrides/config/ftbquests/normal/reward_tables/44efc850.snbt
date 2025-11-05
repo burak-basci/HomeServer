@@ -1,0 +1,27 @@
+{
+	title: "Bonsai Lottery Crate",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "projectex:power_flower",
+		weight: 25
+	},
+	{
+		item: "projectex:power_flower 1 1",
+		weight: 16
+	},
+	{
+		item: "projectex:power_flower 1 2",
+		weight: 7
+	}],
+	loot_crate: {
+		string_id: "emc_crate",
+		item_name: "Bonsai Lottery Crate",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

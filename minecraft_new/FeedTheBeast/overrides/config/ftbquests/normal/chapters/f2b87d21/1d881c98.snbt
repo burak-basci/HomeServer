@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"Rather than being used to catch fish, it can catch mobs or items and pull them towards you."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "0b844c53",
+		type: "item",
+		items: [{
+			id: "xreliquary:rod_of_lyssa",
+			tag: {
+				hookEntityId: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c116e81f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

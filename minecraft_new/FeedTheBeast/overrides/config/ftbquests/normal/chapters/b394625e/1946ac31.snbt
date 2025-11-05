@@ -1,0 +1,37 @@
+{
+	title: "Soul Sand Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:soulsandchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -5.0d,
+	y: 4.25d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "19dad279",
+		type: "emc",
+		value: 5000L
+	}],
+	rewards: [{
+		uid: "a0442973",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:soulsandchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

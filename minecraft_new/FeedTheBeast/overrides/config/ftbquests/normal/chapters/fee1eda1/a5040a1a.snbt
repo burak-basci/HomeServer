@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: -0.5d,
+	y: -3.0d,
+	text: [
+		"Storage type, which can transport items between same-colored ender chests or tanks ",
+		"",
+		"You can change the color combination by right-clicking one of the 3 white tiles on top of the tank/chest with a dye in hand. The same color combinations will be linked."
+	],
+	dependencies: [
+		"b3d6451c"
+	],
+	tasks: [{
+		uid: "ee9cc634",
+		type: "checkmark",
+		title: "Ender Storage"
+	}]
+}

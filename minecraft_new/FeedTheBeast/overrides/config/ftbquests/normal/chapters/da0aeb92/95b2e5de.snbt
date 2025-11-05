@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	text: [
+		"Prevents being one-shotted/one-hit KOd."
+	],
+	dependencies: [
+		"78c2e208"
+	],
+	tasks: [{
+		uid: "a4f052f5",
+		type: "item",
+		items: [{
+			item: "darkutils:focus_sash"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b63aba63",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

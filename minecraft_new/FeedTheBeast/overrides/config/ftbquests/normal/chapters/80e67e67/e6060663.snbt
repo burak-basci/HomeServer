@@ -1,0 +1,22 @@
+{
+	x: -7.0d,
+	y: 12.0d,
+	text: [
+		"Harvests sewage from animals that are standing on top of it."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "6dc4d765",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "96dfd13f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

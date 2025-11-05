@@ -1,0 +1,33 @@
+{
+	title: "Animal Hunter",
+	icon: "minecraft:porkchop",
+	x: 25.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bf266180"
+	],
+	tasks: [{
+		uid: "1dde1db2",
+		type: "kill",
+		title: "Kill 25x Pigs",
+		entity: "minecraft:pig",
+		value: 25L
+	},
+	{
+		uid: "338bb402",
+		type: "kill",
+		title: "Kill 25x Chickens",
+		entity: "minecraft:chicken",
+		value: 25L
+	},
+	{
+		uid: "8918321f",
+		type: "kill",
+		title: "Kill 25x Cows",
+		entity: "minecraft:cow",
+		value: 25L
+	}]
+}

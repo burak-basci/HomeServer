@@ -1,0 +1,44 @@
+{
+	icon: "extrautils2:spike_diamond",
+	x: -5.5d,
+	y: -4.0d,
+	text: [
+		"If you place the drop of evil on grass blocks, it will create cursed earth, which can spawn mobs really fast, and if you place vector plates on top of it, they will still spawn and can be moved."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "18faa7e5",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_diamond"
+		}]
+	},
+	{
+		uid: "3f3df5e5",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 10"
+		}]
+	},
+	{
+		uid: "2bb3307d",
+		type: "item",
+		items: [{
+			item: "extrautils2:soundmuffler"
+		}]
+	},
+	{
+		uid: "5d462bac",
+		type: "item",
+		items: [{
+			item: "darkutils:trap_move"
+		}]
+	}],
+	rewards: [{
+		uid: "59e42d6f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

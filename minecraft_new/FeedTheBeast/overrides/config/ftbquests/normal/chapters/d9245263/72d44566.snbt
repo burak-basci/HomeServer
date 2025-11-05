@@ -1,0 +1,33 @@
+{
+	x: 16.0d,
+	y: -0.5d,
+	dependencies: [
+		"fb19fc29",
+		"733135c1",
+		"f5f2a5f4",
+		"87bce422"
+	],
+	tasks: [{
+		uid: "8e05f428",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_katar",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f97daf34",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "09bb8888",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_catalitic_lens",
+			tag: {}
+		}
+	}]
+}

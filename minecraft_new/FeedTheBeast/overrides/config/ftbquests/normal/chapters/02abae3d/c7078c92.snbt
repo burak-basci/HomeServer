@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	text: [
+		"Most important machine in Ender IO, giving you access to many new alloys and materials."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "0185151b",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "72c1b931",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

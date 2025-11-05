@@ -1,0 +1,26 @@
+{
+	x: -11.5d,
+	y: 5.5d,
+	text: [
+		"A great pickaxe alternative and not too energy-hungry.",
+		"",
+		"It has different modes you can freely switch; this little tool can cause quite a bit of destruction."
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "49b5974c",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad3c3d1a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

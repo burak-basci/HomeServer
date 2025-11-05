@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: 10.0d,
+	text: [
+		"Can breed animals."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "d81bc014",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "44411c61",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

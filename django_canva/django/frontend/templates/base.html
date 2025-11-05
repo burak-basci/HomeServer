@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Product Generator{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+        }
+        
+        .glow-border {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+        }
+        
+        .glow-border:hover {
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+            border: 1px solid rgba(59, 130, 246, 0.8);
+        }
+        
+        .neon-text {
+            text-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
+        }
+        
+        .upload-zone {
+            background: linear-gradient(45deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1));
+            border: 2px dashed rgba(59, 130, 246, 0.5);
+            transition: all 0.3s ease;
+        }
+        
+        .upload-zone:hover {
+            background: linear-gradient(45deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2));
+            border: 2px dashed rgba(59, 130, 246, 0.8);
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .gradient-text {
+            background: linear-gradient(45deg, #3b82f6, #9333ea, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+        }
+
+        .scroll-container {
+            position: relative;
+        }
+
+        .scroll-content {
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .scroll-content::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scroll-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            background: rgba(59, 130, 246, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .scroll-btn:hover {
+            background: rgba(59, 130, 246, 1);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .scroll-btn-left {
+            left: -20px;
+        }
+
+        .scroll-btn-right {
+            right: -20px;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="min-h-screen text-white">
+    <!-- Header -->
+    <header class="p-6 glass-effect">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="{% url 'frontend-index' %}" class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <span class="text-xl font-bold">🎨</span>
+                </div>
+                <h1 class="text-2xl font-bold gradient-text">AI Product Generator</h1>
+            </a>
+            <nav class="flex space-x-6">
+                <a href="{% url 'frontend-gallery' %}" class="hover:text-blue-400 transition-colors cursor-pointer {% if request.resolver_match.url_name == 'frontend-gallery' %}text-blue-400{% endif %}">Gallery</a>
+                <a href="{% url 'frontend-templates' %}" class="hover:text-blue-400 transition-colors cursor-pointer {% if request.resolver_match.url_name == 'frontend-templates' %}text-blue-400{% endif %}">Templates</a>
+                {% if request.user.is_authenticated %}
+                <a href="{% url 'account-profile' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Hello, {{ request.user.first_name|default:request.user.username }}</a>
+                <a href="{% url 'logout' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Logout</a>
+                {% else %}
+                <a href="{% url 'frontend-profile' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Profile</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="{% block main_classes %}max-w-7xl mx-auto p-6{% endblock %}">
+        {% block content %}{% endblock %}
+    </main>
+
+    <script>
+        // Scroll functions for horizontal containers
+        function scrollContainer(containerId, direction) {
+            const container = document.getElementById(containerId);
+            const scrollAmount = 300;
+            if (direction === 'left') {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+
+        // Template function
+        function useTemplate(promptText) {
+            document.getElementById('aiPrompt').value = promptText;
+            // Scroll to AI prompt section with better positioning
+            const el = document.getElementById('aiPrompt');
+            if (el) {
+                const rect = el.getBoundingClientRect();
+                const absoluteTop = rect.top + window.scrollY;
+                const offset = 120; // Better offset for header
+                window.scrollTo({ top: absoluteTop - offset, behavior: 'smooth' });
+                el.focus();
+            }
+        }
+    </script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+	title: "Experience Crate",
+	loot_size: 1,
+	rewards: [{
+		xp_levels: 5,
+		type: "xp_levels",
+		weight: 10
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels",
+		weight: 8
+	},
+	{
+		xp_levels: 20,
+		type: "xp_levels",
+		weight: 6
+	},
+	{
+		xp_levels: 30,
+		type: "xp_levels",
+		weight: 4
+	},
+	{
+		xp_levels: 50,
+		type: "xp_levels",
+		weight: 3
+	}],
+	loot_crate: {
+		string_id: "experience_crate",
+		item_name: "Experience Crate",
+		color: 13696819,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

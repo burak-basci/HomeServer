@@ -1,0 +1,19 @@
+{
+	title: "Accessing your Inventory",
+	disable_toast: true,
+	x: 13.0d,
+	y: 1.5d,
+	text: [
+		"We have access terminals and also wireless terminals that need to be charged and are limited by distance. ",
+		"",
+		"You can use booster cards to increase the range of the wireless terminal."
+	],
+	dependencies: [
+		"8ae921f2"
+	],
+	tasks: [{
+		uid: "01f70c4d",
+		type: "checkmark",
+		title: "Accessing your inventory"
+	}]
+}

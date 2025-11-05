@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 9.0d,
+	text: [
+		"Milks cows and shears sheep."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "635e7173",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_resource_harvester"
+		}]
+	}],
+	rewards: [{
+		uid: "86ddc57c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Ultimate Parts",
+	icon: "mekanism:controlcircuit 1 3",
+	x: 35.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6d42c394"
+	],
+	tasks: [{
+		uid: "2ff7fc1b",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 3"
+		}],
+		count: 250L
+	},
+	{
+		uid: "87febab5",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}],
+		count: 250L
+	}]
+}

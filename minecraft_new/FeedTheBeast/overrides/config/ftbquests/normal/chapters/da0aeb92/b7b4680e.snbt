@@ -1,0 +1,35 @@
+{
+	title: "Lassos",
+	icon: "extrautils2:goldenlasso",
+	x: -5.5d,
+	y: 2.0d,
+	text: [
+		"Lassos let you catch mobs and store them, these are also used in few crafting recipes.",
+		"",
+		"The Cursed Lasso only works if the mob you are trying to catch is low on health."
+	],
+	dependencies: [
+		"13c99163"
+	],
+	tasks: [{
+		uid: "c2427ddc",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "da3df66f",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db3c4269",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

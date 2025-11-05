@@ -1,0 +1,122 @@
+{
+	title: "Generators",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator"
+		}
+	},
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"There are so many generators.",
+		"",
+		"All of them have their advantages and disadvantages. ",
+		"",
+		"Just choose the one you like!"
+	],
+	dependencies: [
+		"d15725e4"
+	],
+	tasks: [{
+		uid: "3e886b33",
+		type: "item",
+		title: "Any Generator",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_redstone"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_overclock"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ice"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55b847c4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

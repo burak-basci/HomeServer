@@ -1,0 +1,12 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	dependencies: [
+		"0d1928c5"
+	],
+	tasks: [{
+		uid: "90e44737",
+		type: "fluid",
+		fluid: "if.protein"
+	}]
+}

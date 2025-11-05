@@ -1,0 +1,24 @@
+{
+	x: 18.0d,
+	y: -5.0d,
+	dependencies: [
+		"3bb2ab7d"
+	],
+	tasks: [{
+		uid: "8cbe9b79",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {
+				internalMaxPower: 200000.0d,
+				internalCurrentPower: 200000.0d
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c74d424a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

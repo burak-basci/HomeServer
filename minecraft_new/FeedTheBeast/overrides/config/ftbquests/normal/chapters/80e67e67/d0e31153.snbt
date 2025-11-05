@@ -1,0 +1,57 @@
+{
+	title: "Mining Laser",
+	icon: "industrialforegoing:laser_drill",
+	x: -8.0d,
+	y: 2.0d,
+	text: [
+		"To make the laser drill work, you need to place the laser base and place laser drills on all sides of the block with a one-block gap between them. ",
+		"",
+		"And if the drills are hooked to an energy source, they will generate ores from thin air.",
+		"",
+		" You can change what the drill will generate by using lenses."
+	],
+	dependencies: [
+		"d5aef5dd"
+	],
+	tasks: [{
+		uid: "91db4b78",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}],
+		count: 4L
+	},
+	{
+		uid: "55a8dcb7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	},
+	{
+		uid: "33ab0139",
+		type: "item",
+		title: "Lens",
+		items: [{
+			item: "industrialforegoing:laser_lens"
+		},
+		{
+			item: "industrialforegoing:laser_lens 1 7"
+		},
+		{
+			item: "industrialforegoing:laser_lens 1 8"
+		},
+		{
+			item: "industrialforegoing:laser_lens 1 3"
+		},
+		{
+			item: "industrialforegoing:laser_lens 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49dfbbf3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

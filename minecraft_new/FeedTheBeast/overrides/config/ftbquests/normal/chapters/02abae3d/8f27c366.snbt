@@ -1,0 +1,36 @@
+{
+	icon: "enderio:item_rod_of_return",
+	x: -9.5d,
+	y: -10.5d,
+	text: [
+		"Rod of Return lets you teleport to any telepad.",
+		"",
+		"To make a functioning telepad, place 9 telepads in a square shape next to each other on the ground.",
+		"",
+		"By shift-right-clicking on the finished telepad, you can bind the rod of return to the pad."
+	],
+	dependencies: [
+		"53265224"
+	],
+	tasks: [{
+		uid: "571944da",
+		type: "item",
+		items: [{
+			item: "enderio:item_rod_of_return"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b0eb63c3",
+		type: "item",
+		items: [{
+			item: "enderio:block_tele_pad"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "08559922",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

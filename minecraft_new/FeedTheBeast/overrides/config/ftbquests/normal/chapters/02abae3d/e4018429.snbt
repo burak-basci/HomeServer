@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"Energy generator that uses coal and wooden items."
+	],
+	dependencies: [
+		"bebafdc8"
+	],
+	tasks: [{
+		uid: "fa1fbc66",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "a4e682de",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

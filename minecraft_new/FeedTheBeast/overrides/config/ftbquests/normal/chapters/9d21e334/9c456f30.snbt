@@ -1,0 +1,68 @@
+{
+	title: "Unhealthy Food",
+	icon: "harvestcraft:hotwingsitem",
+	x: 26.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bf266180"
+	],
+	tasks: [{
+		uid: "e8d05424",
+		type: "item",
+		items: [{
+			item: "harvestcraft:potatochipsitem"
+		}],
+		count: 25L
+	},
+	{
+		uid: "f119b90d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tacoitem"
+		}],
+		count: 25L
+	},
+	{
+		uid: "b0393b92",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hotdogitem"
+		}],
+		count: 25L
+	},
+	{
+		uid: "bf95e999",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cheeseburgeritem"
+		}],
+		count: 25L
+	},
+	{
+		uid: "2554630b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hotwingsitem"
+		}],
+		count: 25L
+	},
+	{
+		uid: "37aa81e0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:friedchickenitem"
+		}],
+		count: 25L
+	},
+	{
+		uid: "b8b6c85d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:friesitem"
+		}],
+		count: 25L
+	}]
+}

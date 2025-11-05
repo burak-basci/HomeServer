@@ -1,0 +1,52 @@
+{
+	title: "Monster Hunter",
+	icon: "minecraft:rotten_flesh",
+	x: 3.0d,
+	y: 13.5d,
+	text: [
+		"Hunt some mobs for useful drops."
+	],
+	dependencies: [
+		"6a276d1b"
+	],
+	tasks: [{
+		uid: "64b31a44",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}]
+	},
+	{
+		uid: "d0556321",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}]
+	},
+	{
+		uid: "a115b082",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}]
+	},
+	{
+		uid: "6fa84d53",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	},
+	{
+		uid: "7a791b35",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}]
+	}],
+	rewards: [{
+		uid: "be2d2664",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

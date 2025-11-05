@@ -1,0 +1,19 @@
+{
+	title: "Machine Upgrades",
+	disable_toast: true,
+	x: -12.5d,
+	y: -2.5d,
+	text: [
+		"You can have multiple installed and up to 10 of each type. ",
+		"",
+		"Excluding the muffling upgrade."
+	],
+	dependencies: [
+		"729e72cd"
+	],
+	tasks: [{
+		uid: "504b9b55",
+		type: "checkmark",
+		title: "Machine upgrades"
+	}]
+}

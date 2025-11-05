@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"Deals extra damage to zombies and pigmen."
+	],
+	dependencies: [
+		"4442612d"
+	],
+	tasks: [{
+		uid: "db58331c",
+		type: "item",
+		items: [{
+			item: "xreliquary:mercy_cross"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2a3feba",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 10.0d,
+	y: -0.5d,
+	dependencies: [
+		"5f1cdf3e",
+		"ec81c827",
+		"f5216ac3"
+	],
+	tasks: [{
+		uid: "0852eb03",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_morning_star",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "feb262e7",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "d0ed48fd",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_destruction_catalyst",
+			tag: {}
+		}
+	}]
+}

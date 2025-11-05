@@ -1,0 +1,24 @@
+{
+	x: 24.0d,
+	y: -1.0d,
+	text: [
+		"Consumes mana but makes you invisible to all mobs in exchange."
+	],
+	dependencies: [
+		"4f3e0230"
+	],
+	tasks: [{
+		uid: "039885bd",
+		type: "item",
+		items: [{
+			item: "botania:invisibilitycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5192909",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

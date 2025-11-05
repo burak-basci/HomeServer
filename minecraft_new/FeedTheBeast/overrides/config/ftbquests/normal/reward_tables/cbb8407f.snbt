@@ -1,0 +1,110 @@
+{
+	title: "Tinkers Upgrade Crate",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "obsidian"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "endstone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "firewood"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "knightslime"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "netherrack"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "cobalt"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "ardite"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "manyullyn"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "xu_evil_metal"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "xu_enchanted_metal"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "integrationforegoing.reinforced_pink_slime"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "tinkers_upgrade_crate",
+		item_name: "Tinkers Upgrade Crate",
+		color: 14978196,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

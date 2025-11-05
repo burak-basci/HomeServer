@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+        }
+        
+        .glow-border {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+        }
+        
+        .glow-border:hover {
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+            border: 1px solid rgba(59, 130, 246, 0.8);
+        }
+        
+        .neon-text {
+            text-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
+        }
+        
+        .upload-zone {
+            background: linear-gradient(45deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1));
+            border: 2px dashed rgba(59, 130, 246, 0.5);
+            transition: all 0.3s ease;
+        }
+        
+        .upload-zone:hover {
+            background: linear-gradient(45deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2));
+            border: 2px dashed rgba(59, 130, 246, 0.8);
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .gradient-text {
+            background: linear-gradient(45deg, #3b82f6, #9333ea, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-white">
+    <!-- Header -->
+    <header class="p-6 glass-effect">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="{% url 'frontend-index' %}" class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <span class="text-xl font-bold">🎨</span>
+                </div>
+                <h1 class="text-2xl font-bold gradient-text">AI Product Generator</h1>
+            </a>
+            <nav class="flex space-x-6">
+                <a href="{% url 'frontend-gallery' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Gallery</a>
+                <a href="{% url 'frontend-templates' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Templates</a>
+                {% if request.user.is_authenticated %}
+                <a href="{% url 'account-profile' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Hello, {{ request.user.first_name|default:request.user.username }}</a>
+                <a href="{% url 'logout' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Logout</a>
+                {% else %}
+                <a href="{% url 'frontend-profile' %}" class="hover:text-blue-400 transition-colors cursor-pointer">Profile</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto p-6">
+        <!-- Hero Section -->
+        <div class="text-center mb-12" id="home-page">
+            <h2 class="text-5xl font-bold mb-4 neon-text">Create Unique Products</h2>
+            <p class="text-xl text-gray-300 mb-8">With AI power or your own images - your creativity knows no limits</p>
+            <div class="text-sm text-yellow-400 bg-yellow-400/10 border border-yellow-400/30 rounded-lg px-4 py-2 inline-block mb-8">
+                <span id="generationsLeft">5</span> generations remaining today
+            </div>
+            
+            <!-- Copyright Disclaimer -->
+            <div class="text-sm text-red-400 bg-red-400/10 border border-red-400/30 rounded-lg px-4 py-2 inline-block">
+                ⚠️ Do not create copyrighted content - Only original designs allowed
+            </div>
+        </div>
+
+        <!-- Product Selection -->
+        <div class="glass-effect rounded-2xl p-8 glow-border mb-8">
+            <h3 class="text-2xl font-bold mb-6 text-center">Choose Your Product Type</h3>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                <div class="product-option bg-gray-800/50 hover:bg-blue-600/20 border border-gray-600 hover:border-blue-500 rounded-xl p-4 text-center cursor-pointer transition-all" onclick="selectProduct('poster')">
+                    <div class="text-4xl mb-2">🖼️</div>
+                    <div class="text-sm font-medium">Poster</div>
+                </div>
+                <div class="product-option bg-gray-800/50 hover:bg-blue-600/20 border border-gray-600 hover:border-blue-500 rounded-xl p-4 text-center cursor-pointer transition-all" onclick="selectProduct('tshirt')">
+                    <div class="text-4xl mb-2">👕</div>
+                    <div class="text-sm font-medium">T-Shirt</div>
+                </div>
+                <div class="product-option bg-gray-800/50 hover:bg-blue-600/20 border border-gray-600 hover:border-blue-500 rounded-xl p-4 text-center cursor-pointer transition-all" onclick="selectProduct('mug')">
+                    <div class="text-4xl mb-2">☕</div>
+                    <div class="text-sm font-medium">Mug</div>
+                </div>
+                <div class="product-option bg-gray-800/50 hover:bg-blue-600/20 border border-gray-600 hover:border-blue-500 rounded-xl p-4 text-center cursor-pointer transition-all" onclick="selectProduct('canvas')">
+                    <div class="text-4xl mb-2">🎨</div>
+                    <div class="text-sm font-medium">Canvas</div>
+                </div>
+                <div class="product-option bg-gray-800/50 hover:bg-blue-600/20 border border-gray-600 hover:border-blue-500 rounded-xl p-4 text-center cursor-pointer transition-all" onclick="selectProduct('sticker')">
+                    <div class="text-4xl mb-2">🏷️</div>
+                    <div class="text-sm font-medium">Sticker</div>
+                </div>
+            </div>
+            <div id="selectedProduct" class="text-center mt-4 text-blue-400 font-medium hidden">
+                Selected: <span id="selectedProductName"></span>
+            </div>
+        </div>
+
+        <!-- Creation Options -->
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <!-- AI Prompt Section -->
+            <div class="glass-effect rounded-2xl p-8 glow-border md:col-span-2">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mr-4">
+                        <span class="text-2xl">🤖</span>
+                    </div>
+                    <h3 class="text-2xl font-bold">AI Generation</h3>
+                </div>
+                
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium mb-2 text-gray-300">Describe your product</label>
+                        <textarea 
+                            id="aiPrompt"
+                            placeholder="e.g. A futuristic cityscape at night with neon lights and flying cars..."
+                            class="w-full h-32 bg-gray-800/50 border border-gray-600 rounded-xl p-4 text-white placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 resize-none"
+                        ></textarea>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Style</label>
+                            <select id="styleSelect" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white focus:border-blue-500">
+                                <option>Photorealistic</option>
+                                <option>Artistic</option>
+                                <option>Minimalist</option>
+                                <option>Vintage</option>
+                                <option>Cyberpunk</option>
+                                <option>Watercolor</option>
+                                <option>Digital Art</option>
+                                <option>Oil Painting</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Color Scheme</label>
+                            <select id="colorScheme" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white focus:border-blue-500">
+                                <option>Vibrant Colors</option>
+                                <option>Monochrome</option>
+                                <option>Pastel Tones</option>
+                                <option>Dark & Moody</option>
+                                <option>Warm Colors</option>
+                                <option>Cool Colors</option>
+                                <option>Neon Bright</option>
+                                <option>Earth Tones</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <button 
+                        onclick="generateAIProduct()"
+                        class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 glow-border"
+                    >
+                        <span class="flex items-center justify-center">
+                            <span class="mr-2">✨</span>
+                            Generate AI Product
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="glass-effect rounded-2xl p-6 glow-border md:col-span-1">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-3">
+                        <span class="text-xl">📁</span>
+                    </div>
+                    <h3 class="text-xl font-bold">Upload Image</h3>
+                </div>
+                
+                <div class="space-y-4">
+                    <div 
+                        id="uploadZone"
+                        class="upload-zone rounded-xl p-8 text-center cursor-pointer"
+                        onclick="document.getElementById('fileInput').click()"
+                    >
+                        <div class="mb-3">
+                            <span class="text-4xl">📤</span>
+                        </div>
+                        <h4 class="text-lg font-semibold mb-2">Upload Image</h4>
+                        <p class="text-gray-400 mb-2 text-sm">Drag here or click</p>
+                        <p class="text-xs text-gray-500">PNG, JPG up to 10MB</p>
+                        <input 
+                            type="file" 
+                            id="fileInput" 
+                            accept="image/*" 
+                            class="hidden"
+                            onchange="handleFileUpload(this)"
+                        >
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Effects</label>
+                            <select class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-2 text-white focus:border-blue-500 text-sm">
+                                <option>None</option>
+                                <option>Vintage Filter</option>
+                                <option>Black & White</option>
+                                <option>Neon Glow</option>
+                                <option>Blur Background</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Add Text</label>
+                            <input 
+                                type="text" 
+                                placeholder="Title or slogan..."
+                                class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-2 text-white placeholder-gray-400 focus:border-blue-500 text-sm"
+                            >
+                        </div>
+                    </div>
+                    
+                    <button 
+                        onclick="processUploadedImage()"
+                        class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-300 transform hover:scale-105 glow-border text-sm"
+                    >
+                        <span class="flex items-center justify-center">
+                            <span class="mr-2">🎨</span>
+                            Create Product
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Templates -->
+        <div class="glass-effect rounded-2xl p-8 glow-border mb-8">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl font-bold flex items-center">
+                    <span class="mr-3">⚡</span>
+                    Quick Templates
+                </h3>
+                <a href="{% url 'frontend-templates' %}" class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors">
+                    View All →
+                </a>
+            </div>
+            <div class="scroll-container">
+                <button class="scroll-btn scroll-btn-left" onclick="scrollContainer('quickTemplatesScroll', 'left')">
+                    ←
+                </button>
+                <button class="scroll-btn scroll-btn-right" onclick="scrollContainer('quickTemplatesScroll', 'right')">
+                    →
+                </button>
+                <div id="quickTemplatesScroll" class="scroll-content">
+                    <div class="flex space-x-4 pb-2" style="width: max-content;">
+                        <div class="glass-effect rounded-xl p-4 glow-border w-64 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-blue-500/30 to-purple-500/30 rounded-lg h-20 flex items-center justify-center mb-3">
+                            <span class="text-2xl">🌃</span>
+                        </div>
+                        <h4 class="font-bold mb-1 text-sm">Cyberpunk City</h4>
+                        <p class="text-gray-400 mb-3 text-xs">Futuristic neon cityscape</p>
+                        <button onclick="useTemplate('A futuristic cyberpunk cityscape at night with neon lights, flying cars, holographic billboards, and rain-soaked streets reflecting colorful lights')" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-2 px-3 rounded-lg transition-all text-xs">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border w-64 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-green-500/30 to-teal-500/30 rounded-lg h-20 flex items-center justify-center mb-3">
+                            <span class="text-2xl">🌿</span>
+                        </div>
+                        <h4 class="font-bold mb-1 text-sm">Minimalist Nature</h4>
+                        <p class="text-gray-400 mb-3 text-xs">Clean geometric nature</p>
+                        <button onclick="useTemplate('Minimalist nature design with geometric mountain silhouettes, simple tree shapes, and a clean color palette of greens and earth tones')" class="w-full bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white font-semibold py-2 px-3 rounded-lg transition-all text-xs">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border w-64 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-orange-500/30 to-red-500/30 rounded-lg h-20 flex items-center justify-center mb-3">
+                            <span class="text-2xl">🎨</span>
+                        </div>
+                        <h4 class="font-bold mb-1 text-sm">Abstract Art</h4>
+                        <p class="text-gray-400 mb-3 text-xs">Flowing colorful shapes</p>
+                        <button onclick="useTemplate('Abstract art with flowing organic shapes, vibrant colors blending together, dynamic composition with paint-like textures and modern artistic style')" class="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold py-2 px-3 rounded-lg transition-all text-xs">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border w-64 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-purple-500/30 to-pink-500/30 rounded-lg h-20 flex items-center justify-center mb-3">
+                            <span class="text-2xl">✨</span>
+                        </div>
+                        <h4 class="font-bold mb-1 text-sm">Galaxy Space</h4>
+                        <p class="text-gray-400 mb-3 text-xs">Cosmic nebulas & stars</p>
+                        <button onclick="useTemplate('Deep space galaxy scene with colorful nebulas, bright stars, distant planets, cosmic dust clouds, and aurora-like light effects in purple and blue tones')" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-2 px-3 rounded-lg transition-all text-xs">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border w-64 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-yellow-500/30 to-orange-500/30 rounded-lg h-20 flex items-center justify-center mb-3">
+                            <span class="text-2xl">🏔️</span>
+                        </div>
+                        <h4 class="font-bold mb-1 text-sm">Vintage Travel</h4>
+                        <p class="text-gray-400 mb-3 text-xs">Retro poster style</p>
+                        <button onclick="useTemplate('Vintage travel poster style with mountain landscape, retro color palette, classic typography elements, and nostalgic 1950s advertising aesthetic')" class="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-semibold py-2 px-3 rounded-lg transition-all text-xs">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border w-64 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-lg h-20 flex items-center justify-center mb-3">
+                            <span class="text-2xl">🌊</span>
+                        </div>
+                        <h4 class="font-bold mb-1 text-sm">Ocean Waves</h4>
+                        <p class="text-gray-400 mb-3 text-xs">Peaceful seascape</p>
+                        <button onclick="useTemplate('Stylized ocean waves with gradient blue colors, peaceful seascape, minimalist design, flowing water patterns, and calming coastal atmosphere')" class="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white font-semibold py-2 px-3 rounded-lg transition-all text-xs">
+                            Use Template
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Creations -->
+        <div class="glass-effect rounded-2xl p-8 glow-border">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl font-bold flex items-center">
+                    <span class="mr-3">🖼️</span>
+                    Your Recent Creations
+                </h3>
+                <a href="{% url 'frontend-gallery' %}" class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors">
+                    View All →
+                </a>
+            </div>
+            <div class="overflow-x-auto">
+                <div class="flex space-x-4 pb-2" style="width: max-content;">
+                    <div class="group cursor-pointer w-48 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl p-4 h-32 flex items-center justify-center border border-gray-600 hover:border-blue-500 transition-all">
+                            <span class="text-3xl opacity-50 group-hover:opacity-100 transition-opacity">🌆</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 text-center">Cyberpunk City</p>
+                        <p class="text-xs text-gray-500 text-center">2 days ago</p>
+                    </div>
+                    <div class="group cursor-pointer w-48 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-xl p-4 h-32 flex items-center justify-center border border-gray-600 hover:border-blue-500 transition-all">
+                            <span class="text-3xl opacity-50 group-hover:opacity-100 transition-opacity">🌿</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 text-center">Nature Vibes</p>
+                        <p class="text-xs text-gray-500 text-center">1 week ago</p>
+                    </div>
+                    <div class="group cursor-pointer w-48 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-red-500/20 to-orange-500/20 rounded-xl p-4 h-32 flex items-center justify-center border border-gray-600 hover:border-blue-500 transition-all">
+                            <span class="text-3xl opacity-50 group-hover:opacity-100 transition-opacity">🔥</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 text-center">Fire Abstract</p>
+                        <p class="text-xs text-gray-500 text-center">2 weeks ago</p>
+                    </div>
+                    <div class="group cursor-pointer w-48 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl p-4 h-32 flex items-center justify-center border border-gray-600 hover:border-blue-500 transition-all">
+                            <span class="text-3xl opacity-50 group-hover:opacity-100 transition-opacity">🎭</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 text-center">Art Deco</p>
+                        <p class="text-xs text-gray-500 text-center">3 weeks ago</p>
+                    </div>
+                    <div class="group cursor-pointer w-48 flex-shrink-0">
+                        <div class="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 rounded-xl p-4 h-32 flex items-center justify-center border border-gray-600 hover:border-blue-500 transition-all">
+                            <span class="text-3xl opacity-50 group-hover:opacity-100 transition-opacity">🌅</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 text-center">Sunrise</p>
+                        <p class="text-xs text-gray-500 text-center">1 month ago</p>
+                    </div>
+                    <div class="group cursor-pointer w-48 flex-shrink-0" onclick="scrollToTop()">
+                        <div class="bg-gradient-to-br from-gray-500/20 to-gray-600/20 rounded-xl p-4 h-32 flex items-center justify-center border-2 border-dashed border-gray-600 hover:border-blue-500 transition-all">
+                            <span class="text-3xl opacity-50 group-hover:opacity-100 transition-opacity">➕</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 text-center">Create New</p>
+                        <p class="text-xs text-gray-500 text-center">Start project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div id="gallery-section" class="hidden mt-12">
+            <div class="glass-effect rounded-2xl p-8 glow-border">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold mb-4 neon-text">Your Gallery</h2>
+                    <p class="text-xl text-gray-300">All your AI-generated products in one place</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div class="glass-effect rounded-xl p-4 glow-border group cursor-pointer">
+                        <div class="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg h-48 flex items-center justify-center mb-3">
+                            <span class="text-5xl opacity-70 group-hover:opacity-100 transition-opacity">🌆</span>
+                        </div>
+                        <h4 class="font-semibold mb-1">Cyberpunk City Poster</h4>
+                        <p class="text-sm text-gray-400 mb-2">Created 2 days ago</p>
+                        <div class="flex space-x-2">
+                            <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-3 rounded-lg text-sm transition-colors">Download</button>
+                            <button class="flex-1 bg-gray-600 hover:bg-gray-700 text-white py-2 px-3 rounded-lg text-sm transition-colors">Edit</button>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border group cursor-pointer">
+                        <div class="bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-lg h-48 flex items-center justify-center mb-3">
+                            <span class="text-5xl opacity-70 group-hover:opacity-100 transition-opacity">🌿</span>
+                        </div>
+                        <h4 class="font-semibold mb-1">Nature T-Shirt Design</h4>
+                        <p class="text-sm text-gray-400 mb-2">Created 1 week ago</p>
+                        <div class="flex space-x-2">
+                            <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-3 rounded-lg text-sm transition-colors">Download</button>
+                            <button class="flex-1 bg-gray-600 hover:bg-gray-700 text-white py-2 px-3 rounded-lg text-sm transition-colors">Edit</button>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 glow-border group cursor-pointer">
+                        <div class="bg-gradient-to-br from-red-500/20 to-orange-500/20 rounded-lg h-48 flex items-center justify-center mb-3">
+                            <span class="text-5xl opacity-70 group-hover:opacity-100 transition-opacity">🔥</span>
+                        </div>
+                        <h4 class="font-semibold mb-1">Fire Abstract Canvas</h4>
+                        <p class="text-sm text-gray-400 mb-2">Created 2 weeks ago</p>
+                        <div class="flex space-x-2">
+                            <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-3 rounded-lg text-sm transition-colors">Download</button>
+                            <button class="flex-1 bg-gray-600 hover:bg-gray-700 text-white py-2 px-3 rounded-lg text-sm transition-colors">Edit</button>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-4 border-2 border-dashed border-gray-600 hover:border-blue-500 transition-colors cursor-pointer" onclick="scrollToTop()">
+                        <div class="h-48 flex items-center justify-center mb-3">
+                            <span class="text-5xl opacity-50">➕</span>
+                        </div>
+                        <h4 class="font-semibold mb-1 text-center">Create New</h4>
+                        <p class="text-sm text-gray-400 text-center">Start a new project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Templates Section -->
+        <div id="templates-section" class="hidden mt-12">
+            <div class="glass-effect rounded-2xl p-8 glow-border">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold mb-4 neon-text">Design Templates</h2>
+                    <p class="text-xl text-gray-300">Pre-written prompts to inspire your creativity</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="glass-effect rounded-xl p-6 glow-border">
+                        <div class="bg-gradient-to-br from-blue-500/30 to-purple-500/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                            <span class="text-4xl">🌃</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Cyberpunk Cityscape</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Futuristic neon-lit city with flying cars and holographic advertisements</p>
+                        <button onclick="useTemplate('A futuristic cyberpunk cityscape at night with neon lights, flying cars, holographic billboards, and rain-soaked streets reflecting colorful lights')" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-2 px-4 rounded-xl transition-all text-sm">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 glow-border">
+                        <div class="bg-gradient-to-br from-green-500/30 to-teal-500/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                            <span class="text-4xl">🌿</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Minimalist Nature</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Clean, simple nature design with geometric elements</p>
+                        <button onclick="useTemplate('Minimalist nature design with geometric mountain silhouettes, simple tree shapes, and a clean color palette of greens and earth tones')" class="w-full bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white font-semibold py-2 px-4 rounded-xl transition-all text-sm">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 glow-border">
+                        <div class="bg-gradient-to-br from-orange-500/30 to-red-500/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                            <span class="text-4xl">🎨</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Abstract Art</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Colorful abstract composition with flowing shapes</p>
+                        <button onclick="useTemplate('Abstract art with flowing organic shapes, vibrant colors blending together, dynamic composition with paint-like textures and modern artistic style')" class="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold py-2 px-4 rounded-xl transition-all text-sm">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 glow-border">
+                        <div class="bg-gradient-to-br from-purple-500/30 to-pink-500/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                            <span class="text-4xl">✨</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Galaxy Space</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Cosmic scene with stars, nebulas and planets</p>
+                        <button onclick="useTemplate('Deep space galaxy scene with colorful nebulas, bright stars, distant planets, cosmic dust clouds, and aurora-like light effects in purple and blue tones')" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-2 px-4 rounded-xl transition-all text-sm">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 glow-border">
+                        <div class="bg-gradient-to-br from-yellow-500/30 to-orange-500/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                            <span class="text-4xl">🏔️</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Vintage Travel</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Retro travel poster style with mountains</p>
+                        <button onclick="useTemplate('Vintage travel poster style with mountain landscape, retro color palette, classic typography elements, and nostalgic 1950s advertising aesthetic')" class="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-semibold py-2 px-4 rounded-xl transition-all text-sm">
+                            Use Template
+                        </button>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 glow-border">
+                        <div class="bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-lg h-32 flex items-center justify-center mb-4">
+                            <span class="text-4xl">🌊</span>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2">Ocean Waves</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Peaceful ocean scene with stylized waves</p>
+                        <button onclick="useTemplate('Stylized ocean waves with gradient blue colors, peaceful seascape, minimalist design, flowing water patterns, and calming coastal atmosphere')" class="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white font-semibold py-2 px-4 rounded-xl transition-all text-sm">
+                            Use Template
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Section -->
+        <div id="profile-section" class="hidden mt-12">
+            <div class="glass-effect rounded-2xl p-8 glow-border">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold mb-4 neon-text">Profile & Login</h2>
+                    <p class="text-xl text-gray-300">Manage your account and preferences</p>
+                </div>
+                
+                <div class="max-w-md mx-auto">
+                    <div id="loginForm" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Email</label>
+                            <input type="email" id="email" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white placeholder-gray-400 focus:border-blue-500" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Password</label>
+                            <input type="password" id="password" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white placeholder-gray-400 focus:border-blue-500" placeholder="••••••••">
+                        </div>
+                        <button onclick="login()" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-4 rounded-xl transition-all">
+                            Login
+                        </button>
+                        <p class="text-center text-gray-400 text-sm">Don't have an account? <span class="text-blue-400 cursor-pointer" onclick="showSignup()">Sign up</span></p>
+                    </div>
+                    
+                    <div id="signupForm" class="space-y-4 hidden">
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Name</label>
+                            <input type="text" id="signupName" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white placeholder-gray-400 focus:border-blue-500" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Email</label>
+                            <input type="email" id="signupEmail" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white placeholder-gray-400 focus:border-blue-500" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2 text-gray-300">Password</label>
+                            <input type="password" id="signupPassword" class="w-full bg-gray-800/50 border border-gray-600 rounded-xl p-3 text-white placeholder-gray-400 focus:border-blue-500" placeholder="••••••••">
+                        </div>
+                        <button onclick="signup()" class="w-full bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white font-semibold py-3 px-4 rounded-xl transition-all">
+                            Sign Up
+                        </button>
+                        <p class="text-center text-gray-400 text-sm">Already have an account? <span class="text-blue-400 cursor-pointer" onclick="showLogin()">Login</span></p>
+                    </div>
+                    
+                    <div id="profileInfo" class="hidden text-center">
+                        <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">👤</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2" id="userName">Welcome back!</h3>
+                        <p class="text-gray-400 mb-4" id="userEmail">user@example.com</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex justify-between">
+                                <span>Generations used today:</span>
+                                <span id="profileGenerationsUsed">0/5</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Total creations:</span>
+                                <span>23</span>
+                            </div>
+                        </div>
+                        <button onclick="logout()" class="w-full bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-4 rounded-xl transition-all">
+                            Logout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Loading Modal -->
+    <div id="loadingModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center z-50">
+        <div class="glass-effect rounded-2xl p-8 text-center max-w-md mx-4">
+            <div class="pulse-animation mb-4">
+                <span class="text-6xl">🎨</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">AI is working on your product...</h3>
+            <p class="text-gray-400 mb-4">This may take a moment</p>
+            <div class="w-full bg-gray-700 rounded-full h-2">
+                <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full animate-pulse" style="width: 60%"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cookie management for generation tracking
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+            return null;
+        }
+        
+        function setCookie(name, value, days) {
+            const expires = new Date();
+            expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+            document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
+        }
+        
+        function getGenerationsLeft() {
+            const today = new Date().toDateString();
+            const lastDate = getCookie('lastGenerationDate');
+            const count = getCookie('generationCount');
+            
+            if (lastDate !== today) {
+                setCookie('lastGenerationDate', today, 1);
+                setCookie('generationCount', '5', 1);
+                return 5;
+            }
+            
+            return count ? parseInt(count) : 5;
+        }
+        
+        function useGeneration() {
+            const current = getGenerationsLeft();
+            if (current > 0) {
+                setCookie('generationCount', (current - 1).toString(), 1);
+                document.getElementById('generationsLeft').textContent = current - 1;
+                return true;
+            }
+            return false;
+        }
+        
+        let selectedProductType = '';
+        
+        // Product selection
+        function selectProduct(productType) {
+            selectedProductType = productType;
+            
+            // Remove active state from all products
+            document.querySelectorAll('.product-option').forEach(option => {
+                option.classList.remove('bg-blue-600/30', 'border-blue-400');
+                option.classList.add('bg-gray-800/50', 'border-gray-600');
+            });
+            
+            // Add active state to selected product
+            event.target.closest('.product-option').classList.remove('bg-gray-800/50', 'border-gray-600');
+            event.target.closest('.product-option').classList.add('bg-blue-600/30', 'border-blue-400');
+            
+            // Show selected product
+            document.getElementById('selectedProduct').classList.remove('hidden');
+            document.getElementById('selectedProductName').textContent = productType.charAt(0).toUpperCase() + productType.slice(1);
+            
+            // Update color options based on product type
+            updateColorOptions(productType);
+        }
+        
+        function updateColorOptions(productType) {
+            // Intentionally do nothing – selecting a product should not change color scheme
+            return;
+        }
+        
+        // Section navigation
+        function showSection(sectionId) {
+            // Hide all sections
+            document.getElementById('gallery-section').classList.add('hidden');
+            document.getElementById('templates-section').classList.add('hidden');
+            document.getElementById('profile-section').classList.add('hidden');
+            
+            // Remove active state from all nav items
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('text-blue-400');
+            });
+            
+            // Show selected section and highlight nav
+            document.getElementById(sectionId + '-section').classList.remove('hidden');
+            document.getElementById('nav-' + sectionId).classList.add('text-blue-400');
+            
+            // Scroll to section
+            document.getElementById(sectionId + '-section').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        // Scroll functions for horizontal containers
+        function scrollContainer(containerId, direction) {
+            const container = document.getElementById(containerId);
+            const scrollAmount = 300;
+            if (direction === 'left') {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+
+        // Template functions
+        function useTemplate(promptText) {
+            document.getElementById('aiPrompt').value = promptText;
+            // Scroll to AI prompt section with better positioning
+            const el = document.getElementById('aiPrompt');
+            if (el) {
+                const rect = el.getBoundingClientRect();
+                const absoluteTop = rect.top + window.scrollY;
+                const offset = 120; // Better offset for header
+                window.scrollTo({ top: absoluteTop - offset, behavior: 'smooth' });
+                el.focus();
+            }
+        }
+        
+        // Login/Profile functions
+        function login() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            if (!email || !password) {
+                alert('Please fill in all fields');
+                return;
+            }
+            
+            // Simulate login
+            setCookie('userLoggedIn', 'true', 7);
+            setCookie('userEmail', email, 7);
+            setCookie('userName', email.split('@')[0], 7);
+            
+            showProfileInfo();
+            alert('Login successful!');
+        }
+        
+        function signup() {
+            const name = document.getElementById('signupName').value;
+            const email = document.getElementById('signupEmail').value;
+            const password = document.getElementById('signupPassword').value;
+            
+            if (!name || !email || !password) {
+                alert('Please fill in all fields');
+                return;
+            }
+            
+            // Simulate signup
+            setCookie('userLoggedIn', 'true', 7);
+            setCookie('userEmail', email, 7);
+            setCookie('userName', name, 7);
+            
+            showProfileInfo();
+            alert('Account created successfully!');
+        }
+        
+        function logout() {
+            setCookie('userLoggedIn', '', -1);
+            setCookie('userEmail', '', -1);
+            setCookie('userName', '', -1);
+            
+            showLoginForm();
+            alert('Logged out successfully!');
+        }
+        
+        function showLogin() {
+            document.getElementById('loginForm').classList.remove('hidden');
+            document.getElementById('signupForm').classList.add('hidden');
+        }
+        
+        function showSignup() {
+            document.getElementById('loginForm').classList.add('hidden');
+            document.getElementById('signupForm').classList.remove('hidden');
+        }
+        
+        function showProfileInfo() {
+            document.getElementById('loginForm').classList.add('hidden');
+            document.getElementById('signupForm').classList.add('hidden');
+            document.getElementById('profileInfo').classList.remove('hidden');
+            
+            document.getElementById('userName').textContent = getCookie('userName') || 'User';
+            document.getElementById('userEmail').textContent = getCookie('userEmail') || '';
+            
+            const used = 5 - getGenerationsLeft();
+            document.getElementById('profileGenerationsUsed').textContent = `${used}/5`;
+        }
+        
+        function showLoginForm() {
+            document.getElementById('loginForm').classList.remove('hidden');
+            document.getElementById('signupForm').classList.add('hidden');
+            document.getElementById('profileInfo').classList.add('hidden');
+        }
+        
+        function generateAIProduct() {
+            const prompt = document.getElementById('aiPrompt').value;
+            const style = document.getElementById('styleSelect').value;
+            const colorScheme = document.getElementById('colorScheme').value;
+            
+            if (!prompt.trim()) {
+                alert('Please describe your desired product!');
+                return;
+            }
+            
+            if (!selectedProductType) {
+                alert('Please select a product type first!');
+                return;
+            }
+            
+            if (!useGeneration()) {
+                alert('You have reached your daily limit of 5 generations. Please try again tomorrow!');
+                return;
+            }
+            
+            // Show loading modal with enhanced prompt info
+            document.getElementById('loadingModal').classList.remove('hidden');
+            document.getElementById('loadingModal').classList.add('flex');
+            
+            // Simulate AI generation
+            setTimeout(() => {
+                document.getElementById('loadingModal').classList.add('hidden');
+                document.getElementById('loadingModal').classList.remove('flex');
+                alert(`🎉 Your AI ${selectedProductType} in ${style} style with ${colorScheme.toLowerCase()} has been successfully created! In a real app you would see it now.`);
+            }, 3000);
+        }
+        
+        function handleFileUpload(input) {
+            const file = input.files[0];
+            if (file) {
+                const uploadZone = document.getElementById('uploadZone');
+                uploadZone.innerHTML = `
+                    <div class="mb-3">
+                        <span class="text-4xl">✅</span>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Image uploaded!</h4>
+                    <p class="text-gray-400 mb-2 text-sm">${file.name}</p>
+                    <p class="text-xs text-green-400">Ready for processing</p>
+                `;
+            }
+        }
+        
+        function processUploadedImage() {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files[0]) {
+                alert('Please upload an image first!');
+                return;
+            }
+            
+            if (!useGeneration()) {
+                alert('You have reached your daily limit of 5 generations. Please try again tomorrow!');
+                return;
+            }
+            
+            // Show loading modal
+            document.getElementById('loadingModal').classList.remove('hidden');
+            document.getElementById('loadingModal').classList.add('flex');
+            
+            // Simulate processing
+            setTimeout(() => {
+                document.getElementById('loadingModal').classList.add('hidden');
+                document.getElementById('loadingModal').classList.remove('flex');
+                alert('🎉 Your product has been successfully created! In a real app you could edit it now.');
+            }, 2000);
+        }
+        
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('generationsLeft').textContent = getGenerationsLeft();
+            
+            // Check if user is logged in
+            if (getCookie('userLoggedIn') === 'true') {
+                showProfileInfo();
+            } else {
+                showLoginForm();
+            }
+
+            // Show initial section if provided by server
+            const initial = '{{ initial_section|default:"" }}';
+            if (initial) {
+                showSection(initial);
+            }
+        });
+        
+        // Drag and drop functionality
+        const uploadZone = document.getElementById('uploadZone');
+        
+        uploadZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadZone.style.borderColor = 'rgba(59, 130, 246, 1)';
+            uploadZone.style.backgroundColor = 'rgba(59, 130, 246, 0.3)';
+        });
+        
+        uploadZone.addEventListener('dragleave', (e) => {
+            e.preventDefault();
+            uploadZone.style.borderColor = 'rgba(59, 130, 246, 0.5)';
+            uploadZone.style.backgroundColor = 'linear-gradient(45deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1))';
+        });
+        
+        uploadZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                document.getElementById('fileInput').files = files;
+                handleFileUpload(document.getElementById('fileInput'));
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97112256d1dad262',t:'MTc1NTUxNzIwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

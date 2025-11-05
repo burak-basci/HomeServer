@@ -1,0 +1,36 @@
+{
+	title: "Challenges",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: 13.5d,
+	y: -13.5d,
+	shape: "gear",
+	text: [
+		"This quest chapter unlocks only after finishing all the other quest chapters.",
+		"",
+		"Finish 3 special quests for each mod featured in the pack and earn diamond-bordered cobblestone.",
+		"",
+		"Get all blocks to make a special machine called the Monolith of Reversing."
+	],
+	dependencies: [
+		"fee1eda1",
+		"80e67e67",
+		"78a96e88",
+		"284e626a",
+		"d9245263",
+		"84ddfb7a",
+		"46690d41",
+		"4e8c44c5",
+		"0fd18464",
+		"48aa317c",
+		"02abae3d",
+		"86f80b0f",
+		"da0aeb92",
+		"f2b87d21"
+	],
+	size: 3.0d
+}

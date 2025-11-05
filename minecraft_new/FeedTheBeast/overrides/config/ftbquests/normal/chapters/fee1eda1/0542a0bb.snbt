@@ -1,0 +1,19 @@
+{
+	x: -9.5d,
+	y: -3.0d,
+	dependencies: [
+		"88e04247"
+	],
+	tasks: [{
+		uid: "7a93c9bf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}],
+	rewards: [{
+		uid: "60fbb133",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

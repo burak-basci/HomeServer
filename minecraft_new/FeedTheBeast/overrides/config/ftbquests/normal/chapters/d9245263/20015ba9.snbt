@@ -1,0 +1,42 @@
+{
+	title: "Peak of EMC Links",
+	icon: "equivalentintegrations:transmutation_chamber",
+	x: -7.5d,
+	y: 4.5d,
+	text: [
+		"",
+		"By using the Soulbound Talisman, you can bind yourself with it and then place it into the Transmutation chamber alongside some efficiency catalysts and then connect the machine to the AE2 system with smart cables. ",
+		"",
+		"You essentially merge Project E and AE2 Storage."
+	],
+	dependencies: [
+		"4b86c5e1"
+	],
+	tasks: [{
+		uid: "7e8a930b",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:transmutation_chamber"
+		}]
+	},
+	{
+		uid: "10d5728a",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:soulbound_talisman"
+		}]
+	},
+	{
+		uid: "ec18ff96",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:efficiency_catalyst"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f8ee7c28",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

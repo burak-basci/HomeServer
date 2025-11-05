@@ -1,0 +1,18 @@
+{
+	title: "Storage",
+	disable_toast: true,
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"Storage for your energy, gases, and fluids",
+		"",
+		"All storages have 4 tiers."
+	],
+	dependencies: [
+		"25536a63"
+	],
+	tasks: [{
+		uid: "ef784859",
+		type: "checkmark"
+	}]
+}

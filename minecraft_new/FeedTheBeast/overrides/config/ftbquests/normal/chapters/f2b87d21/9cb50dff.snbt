@@ -1,0 +1,38 @@
+{
+	x: -9.0d,
+	y: -6.0d,
+	text: [
+		"Once the Rending Gale is charged with feathers, it can make you fly or force a lightning strike.",
+		"",
+		"If you are falling and look down at the ground and hold right-click until you touch the ground, you will take no fall damage."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "90e271fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 2,
+					TotalAmounts: [
+						0
+					],
+					Items: []
+				}
+			},
+			id: "xreliquary:rending_gale",
+			tag: {
+				mode: "flight"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73aa9d6f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Sand Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:sandchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "4b63bfa5",
+		type: "emc",
+		value: 5000L
+	}],
+	rewards: [{
+		uid: "ca8ba950",
+		type: "item",
+		item: {
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:sandchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}
+	}]
+}

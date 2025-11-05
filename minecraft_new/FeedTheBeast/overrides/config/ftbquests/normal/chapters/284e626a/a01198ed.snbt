@@ -1,0 +1,32 @@
+{
+	icon: "mekanismgenerators:generator 1 1",
+	x: -17.0d,
+	y: 4.0d,
+	text: [
+		"They both generate energy only during the day, so you better hook them to some batteries."
+	],
+	dependencies: [
+		"5fa3126e"
+	],
+	tasks: [{
+		uid: "44861228",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88af8b0c",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e594103",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

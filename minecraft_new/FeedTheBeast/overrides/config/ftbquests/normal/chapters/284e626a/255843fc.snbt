@@ -1,0 +1,64 @@
+{
+	title: "Fluid storage",
+	x: -1.5d,
+	y: -5.5d,
+	text: [
+		"Tanks are used to store fluids or liquified gases; them not having EMC value was made on purpose."
+	],
+	dependencies: [
+		"c1fed2a5"
+	],
+	tasks: [{
+		uid: "fa0a35ea",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "47d8da63",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 1
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "d0295877",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 2
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "618aee1c",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "07f1fc58",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: 6.0d,
+	text: [
+		"And now with the power of the Runic Altar, you can create this machine controller."
+	],
+	dependencies: [
+		"b0e8e879"
+	],
+	tasks: [{
+		uid: "ead9e75c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "4b9fb521",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

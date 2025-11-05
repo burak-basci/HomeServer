@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 12.0d,
+	text: [
+		"Fertilizes crops and saplings but requires bonemeal."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "eb1676eb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_enrich_material_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "83abcc55",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

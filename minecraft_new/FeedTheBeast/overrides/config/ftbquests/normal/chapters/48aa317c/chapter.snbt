@@ -1,0 +1,10 @@
+{
+	title: "Starting in the Sky",
+	icon: {
+		id: "projecte:item.pe_philosophers_stone",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

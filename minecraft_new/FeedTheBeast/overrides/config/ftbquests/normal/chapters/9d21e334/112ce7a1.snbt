@@ -1,0 +1,28 @@
+{
+	title: "From the Nether to the End",
+	icon: "rootsclassic:dragonseye",
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4bdde071"
+	],
+	tasks: [{
+		uid: "1cba7576",
+		type: "item",
+		items: [{
+			item: "rootsclassic:infernalstem"
+		}],
+		count: 50L
+	},
+	{
+		uid: "1184fd3b",
+		type: "item",
+		items: [{
+			item: "rootsclassic:dragonseye"
+		}],
+		count: 50L
+	}]
+}

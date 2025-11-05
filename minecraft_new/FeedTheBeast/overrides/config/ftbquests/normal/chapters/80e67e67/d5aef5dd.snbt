@@ -1,0 +1,17 @@
+{
+	title: "Ore Processing",
+	disable_toast: true,
+	x: -6.5d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"29dc36fe"
+	],
+	tasks: [{
+		uid: "063744bb",
+		type: "checkmark",
+		title: "Ore proccesing"
+	}]
+}

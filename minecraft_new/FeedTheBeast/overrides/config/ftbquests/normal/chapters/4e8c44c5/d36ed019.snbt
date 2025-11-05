@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 7.0d,
+	text: [
+		"Transports mana between pools."
+	],
+	dependencies: [
+		"2117de0f"
+	],
+	tasks: [{
+		uid: "8db40ffa",
+		type: "item",
+		items: [{
+			item: "botania:distributor"
+		}]
+	}],
+	rewards: [{
+		uid: "89622a11",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

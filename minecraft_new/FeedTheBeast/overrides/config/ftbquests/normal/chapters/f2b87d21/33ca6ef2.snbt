@@ -1,0 +1,40 @@
+{
+	title: "Coin of Fortune and Heros Medailon",
+	x: 5.0d,
+	y: -4.0d,
+	text: [
+		"Teleports items and XP towards you; can be turned off.",
+		"",
+		"Heros Medallion stores experience."
+	],
+	dependencies: [
+		"5cf3b95d"
+	],
+	tasks: [{
+		uid: "466ca58a",
+		type: "item",
+		items: [{
+			id: "xreliquary:fortune_coin",
+			tag: {
+				soundTimer: 0s,
+				enabled: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "804d69ba",
+		type: "item",
+		items: [{
+			item: "xreliquary:hero_medallion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5293be9e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

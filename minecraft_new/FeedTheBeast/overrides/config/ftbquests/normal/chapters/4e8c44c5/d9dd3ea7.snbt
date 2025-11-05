@@ -1,0 +1,25 @@
+{
+	x: -12.0d,
+	y: 1.5d,
+	text: [
+		"Consumes wool blocks and generates mana, but it has to be given the color it demands."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "fd612a1b",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "spectrolus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5a1e58bf",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

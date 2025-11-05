@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 5.5d,
+	dependencies: [
+		"6c464142",
+		"8361dde2"
+	],
+	tasks: [{
+		uid: "fc9a05de",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "acce29ad",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

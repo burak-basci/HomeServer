@@ -1,0 +1,48 @@
+{
+	title: "Maxed out Energy Storage",
+	icon: "draconicevolution:particle_generator 1 2",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"Materials needed to make the highest tier of energy storage in this mod."
+	],
+	dependencies: [
+		"d4e807b5"
+	],
+	tasks: [{
+		uid: "5f08f941",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	},
+	{
+		uid: "64f23055",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}],
+		count: 36L
+	},
+	{
+		uid: "9fa21423",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_block"
+		}],
+		count: 786L
+	},
+	{
+		uid: "ea9100ce",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 378L
+	}],
+	rewards: [{
+		uid: "05d71b7b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

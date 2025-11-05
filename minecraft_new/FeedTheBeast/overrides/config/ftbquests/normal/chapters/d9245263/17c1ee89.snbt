@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -6.0d,
+	shape: "gear",
+	text: [
+		"This is one of the main mods in this modpack, essentially giving players access to automation, an infinite supply of items, and much more."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d50d3f52",
+		type: "checkmark",
+		title: "Exchanging Alchemy",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}]
+}

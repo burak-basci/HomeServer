@@ -1,0 +1,57 @@
+{
+	title: "Cores",
+	icon: "xreliquary:mob_ingredient 1 7",
+	x: 31.5d,
+	y: 1.5d,
+	dependencies: [
+		"d95b7524"
+	],
+	tasks: [{
+		uid: "e32ce768",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 7"
+		}],
+		count: 60L
+	},
+	{
+		uid: "30a53461",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 6"
+		}],
+		count: 60L
+	},
+	{
+		uid: "942d8100",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 11"
+		}],
+		count: 60L
+	},
+	{
+		uid: "c8032e9c",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 9"
+		}],
+		count: 60L
+	},
+	{
+		uid: "572877c2",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 8"
+		}],
+		count: 60L
+	},
+	{
+		uid: "10576ab9",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 10"
+		}],
+		count: 60L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Musical Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:record_11"
+	},
+	{
+		item: "minecraft:record_wait"
+	},
+	{
+		item: "botania:recordgaia2"
+	},
+	{
+		item: "botania:recordgaia1"
+	},
+	{
+		item: "minecraft:record_far"
+	},
+	{
+		item: "minecraft:record_chirp"
+	},
+	{
+		item: "minecraft:record_blocks"
+	},
+	{
+		item: "minecraft:record_cat"
+	},
+	{
+		item: "minecraft:record_13"
+	},
+	{
+		item: "minecraft:record_ward"
+	},
+	{
+		item: "minecraft:record_strad"
+	},
+	{
+		item: "minecraft:record_mall"
+	},
+	{
+		item: "minecraft:record_mellohi"
+	},
+	{
+		item: "minecraft:record_stal"
+	}],
+	loot_crate: {
+		string_id: "musical_crate",
+		item_name: "Musical Crate",
+		color: 15048693,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

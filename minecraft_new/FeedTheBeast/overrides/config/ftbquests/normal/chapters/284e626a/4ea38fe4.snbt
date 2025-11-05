@@ -1,0 +1,16 @@
+{
+	title: "Utility Items",
+	disable_toast: true,
+	x: -13.0d,
+	y: 2.5d,
+	text: [
+		"Cool items that you might not need after digging into ProjectE."
+	],
+	dependencies: [
+		"60d22114"
+	],
+	tasks: [{
+		uid: "8779f36e",
+		type: "checkmark"
+	}]
+}

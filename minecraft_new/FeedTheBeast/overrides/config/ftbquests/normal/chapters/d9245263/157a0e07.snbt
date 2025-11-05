@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: -7.5d,
+	text: [
+		"Pedestals are used with special stones, rings, or the watch of flowing time, which determines what ability the pedestal will have.",
+		"",
+		"To activate the pedestal, place an item on it with right-click and shift-right-click on the pedestal."
+	],
+	dependencies: [
+		"e3d7c64a"
+	],
+	tasks: [{
+		uid: "8ab0e273",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "6dc41ce7",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

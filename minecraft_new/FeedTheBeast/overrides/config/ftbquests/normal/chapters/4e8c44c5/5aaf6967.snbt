@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -13.0d,
+	text: [
+		"Wand that creates and flattens the surface."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "549b477b",
+		type: "item",
+		items: [{
+			item: "botania:terraformrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff6c002d",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Energy Storage",
+	x: -3.0d,
+	y: -5.5d,
+	text: [
+		"Energy cubes act as batteries and can be configured to input or output after right-clicking on them."
+	],
+	dependencies: [
+		"c1fed2a5"
+	],
+	tasks: [{
+		uid: "77294256",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e91349c7",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "8df0f9a9",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 2
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "b767eda3",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "5da144e0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

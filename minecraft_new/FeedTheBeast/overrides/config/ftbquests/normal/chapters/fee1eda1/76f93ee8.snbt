@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"Typical early game storage system. ",
+		"",
+		"Interact with them using right-click to pull items out and left-click to take some out; shift left-click takes one stack out."
+	],
+	dependencies: [
+		"d53caafe"
+	],
+	tasks: [{
+		uid: "e1a37072",
+		type: "checkmark",
+		title: "Drawers"
+	}]
+}

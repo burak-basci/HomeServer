@@ -1,0 +1,34 @@
+{
+	icon: "draconicevolution:dislocator_pedestal",
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"Dislocator can be used to make a waypoint you can instantly teleport to when you place the dislocator on the pedestal.",
+		"",
+		"By naming a dislocator by using an anvil, the name of the dislocator will be shown above the pedestal."
+	],
+	dependencies: [
+		"7e54c482"
+	],
+	tasks: [{
+		uid: "12f0d6b3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator_pedestal"
+		}]
+	},
+	{
+		uid: "ca4272dd",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3beec430",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"Collects mana from killing slimes."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "1ca37a60",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "narslimmus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "73f09a3a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

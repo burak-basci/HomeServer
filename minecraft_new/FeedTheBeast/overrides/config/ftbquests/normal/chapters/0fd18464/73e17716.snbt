@@ -1,0 +1,56 @@
+{
+	title: "All barks",
+	icon: "rootsclassic:birchtreebark",
+	x: -2.0d,
+	y: 1.0d,
+	dependencies: [
+		"ebb0bf78"
+	],
+	tasks: [{
+		uid: "ab113980",
+		type: "item",
+		items: [{
+			item: "rootsclassic:oaktreebark"
+		}]
+	},
+	{
+		uid: "ec5447cd",
+		type: "item",
+		items: [{
+			item: "rootsclassic:sprucetreebark"
+		}]
+	},
+	{
+		uid: "31a21631",
+		type: "item",
+		items: [{
+			item: "rootsclassic:birchtreebark"
+		}]
+	},
+	{
+		uid: "04e78694",
+		type: "item",
+		items: [{
+			item: "rootsclassic:jungletreebark"
+		}]
+	},
+	{
+		uid: "169f8d40",
+		type: "item",
+		items: [{
+			item: "rootsclassic:acaciatreebark"
+		}]
+	},
+	{
+		uid: "2e511f69",
+		type: "item",
+		items: [{
+			item: "rootsclassic:darkoaktreebark"
+		}]
+	}],
+	rewards: [{
+		uid: "f7bfdfb0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

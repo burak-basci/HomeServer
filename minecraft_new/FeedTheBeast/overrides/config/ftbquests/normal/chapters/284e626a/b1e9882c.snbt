@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"Can triple the amount of ingots you get from ores."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "15e02bd1",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 9"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6b0a3e39",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

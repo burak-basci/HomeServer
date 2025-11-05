@@ -1,0 +1,25 @@
+{
+	title: "Mechanical Mekanism",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: -14.0d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"Mekanism is one of the main mods in this modpack. Providing automation, ingots, and machines.",
+		"",
+		"It's generally beginner-friendly and easy to understand mod, with a few really cool items that can be used for mining and other tasks."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4a1cb86f",
+		type: "checkmark"
+	}]
+}

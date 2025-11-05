@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: 3.0d,
+	text: [
+		"Generates extreme amounts of mana if any mob or player nearby is under the effect of levitation."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "956b6ba2",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "shulk_me_not"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "401364b0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

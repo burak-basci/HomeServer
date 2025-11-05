@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: -1.0d,
+	text: [
+		"Stronger than manasteel and with some special powers."
+	],
+	dependencies: [
+		"81b945bd"
+	],
+	tasks: [{
+		uid: "72ed5d07",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "a0060f8e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

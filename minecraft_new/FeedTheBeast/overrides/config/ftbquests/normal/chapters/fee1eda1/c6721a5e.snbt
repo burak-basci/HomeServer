@@ -1,0 +1,32 @@
+{
+	icon: "fluxnetworks:flux",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"Flux is gathered by throwing redstone into fire or lava or by crushing redstone with obsidian against bedrock; both ways work, even if JEI shows only one way.",
+		"",
+		"But because of the item physics mod, the flux spawns inside the lava, so I recommend placing a hopper under your lava source to collect the flux."
+	],
+	dependencies: [
+		"cdd9a5bd"
+	],
+	tasks: [{
+		uid: "b8b20549",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	},
+	{
+		uid: "38576787",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxconfigurator"
+		}]
+	}],
+	rewards: [{
+		uid: "1a83424a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Mekanism Card Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "mekanism_card_crate"
+		}
+	},
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"Contains upgrade tier cards for Mekanism machines."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "819244fd",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "5ef7c223",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mekanism_card_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Simplier Life",
+	disable_toast: true,
+	x: 18.0d,
+	y: 1.5d,
+	text: [
+		"Machines making your life easier."
+	],
+	dependencies: [
+		"8ae921f2"
+	],
+	tasks: [{
+		uid: "898e7d2e",
+		type: "checkmark",
+		title: "Quality of life improvement machines"
+	}]
+}

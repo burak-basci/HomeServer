@@ -1,0 +1,34 @@
+{
+	title: "Awakened Draconium Blocks",
+	icon: "draconicevolution:draconic_block",
+	x: 1.5d,
+	y: -11.0d,
+	text: [
+		"These blocks will finally let you obtain the best armor of this mod.",
+		"",
+		"Additionally, these are used to power the reactor core."
+	],
+	dependencies: [
+		"c2ffa796"
+	],
+	tasks: [{
+		uid: "92da3bca",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "758f3197",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "677f6d9c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

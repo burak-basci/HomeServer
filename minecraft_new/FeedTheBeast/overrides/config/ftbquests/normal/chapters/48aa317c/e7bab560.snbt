@@ -1,0 +1,23 @@
+{
+	title: "Crushing Dirt",
+	x: 0.0d,
+	y: 5.5d,
+	text: [
+		"Dust that is essential for progression."
+	],
+	dependencies: [
+		"f1e774eb"
+	],
+	tasks: [{
+		uid: "211e96a0",
+		type: "item",
+		items: [{
+			item: "simpledusts:dirtdust"
+		}]
+	}],
+	rewards: [{
+		uid: "724d2730",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

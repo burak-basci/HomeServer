@@ -1,0 +1,25 @@
+{
+	x: -15.5d,
+	y: -7.5d,
+	text: [
+		"When on the pedestal: It will pull items towards it and deposit them into the closest chest with free space."
+	],
+	dependencies: [
+		"b7fe09d9"
+	],
+	tasks: [{
+		uid: "03834098",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_black_hole",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27053d2b",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

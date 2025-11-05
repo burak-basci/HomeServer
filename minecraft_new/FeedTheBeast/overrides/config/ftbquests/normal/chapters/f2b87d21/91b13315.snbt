@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	text: [
+		"Used to duplicate items, you can see closer information after clicking the book in this quest and then choosing the information tab."
+	],
+	dependencies: [
+		"5cf3b95d"
+	],
+	tasks: [{
+		uid: "b091ece6",
+		type: "item",
+		items: [{
+			item: "xreliquary:alkahestry_tome 1 1001"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56975578",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: -8.0d,
+	y: -9.0d,
+	text: [
+		"These wands/staffs mostly offer teleportation and are quite useful for traveling or navigating through your base quicker.",
+		"",
+		"All wands need to be charged to work."
+	],
+	dependencies: [
+		"e6a9dccf"
+	],
+	tasks: [{
+		uid: "e2594f14",
+		type: "checkmark",
+		title: "Wands"
+	}]
+}

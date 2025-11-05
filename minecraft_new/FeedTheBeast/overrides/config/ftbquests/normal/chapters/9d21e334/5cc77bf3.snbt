@@ -1,0 +1,28 @@
+{
+	title: "Buffalo Hunter",
+	icon: "totemic:buffalo_items",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"83901952"
+	],
+	tasks: [{
+		uid: "637c2a0c",
+		type: "item",
+		items: [{
+			item: "totemic:buffalo_items"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ad1e0942",
+		type: "item",
+		items: [{
+			item: "totemic:buffalo_items 1 1"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Gas storage",
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"Used to store gases, most notably ethylene; them not having an EMC value was made on purpose."
+	],
+	dependencies: [
+		"c1fed2a5"
+	],
+	tasks: [{
+		uid: "5604f186",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "46cc4940",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "9aaeb2db",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 2
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "dd3253af",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6fa2570a",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

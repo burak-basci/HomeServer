@@ -1,0 +1,36 @@
+{
+	title: "Ranged Weapon Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "shuriken_crate"
+		}
+	},
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"Contains either a shuriken, bow, or crossbow from Tinkers’ Construct.",
+		"Bows and crossbows need arrows from Tinkers’ Construct."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "96b1d020",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b42f92f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "shuriken_crate"
+			}
+		},
+		count: 2
+	}]
+}

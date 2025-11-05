@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -7.5d,
+	text: [
+		"The Vat is essentially a brewing station for making Ender IO fluids."
+	],
+	dependencies: [
+		"8cbf6da0"
+	],
+	tasks: [{
+		uid: "9989aafb",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "cd5ffa41",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

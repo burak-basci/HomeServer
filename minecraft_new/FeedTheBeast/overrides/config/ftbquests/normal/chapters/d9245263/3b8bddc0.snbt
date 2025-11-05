@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"This EMC link has more input and output slots and can learn new items with EMC values."
+	],
+	dependencies: [
+		"457c01a4"
+	],
+	tasks: [{
+		uid: "9fc0f82e",
+		type: "item",
+		items: [{
+			item: "projectex:refined_link"
+		}]
+	}],
+	rewards: [{
+		uid: "7e3d7282",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

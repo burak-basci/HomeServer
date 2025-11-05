@@ -1,0 +1,27 @@
+{
+	x: 0.5d,
+	y: -12.5d,
+	text: [
+		"Slowly creates mana by itself and stores it into mana tablets or other rings.",
+		"",
+		"Can be upgraded to a terasteel version."
+	],
+	dependencies: [
+		"44c69c86"
+	],
+	tasks: [{
+		uid: "4c7bdc90",
+		type: "item",
+		items: [{
+			id: "botania:auraring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3453f206",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

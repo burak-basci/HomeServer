@@ -1,0 +1,24 @@
+{
+	x: -12.5d,
+	y: -4.0d,
+	text: [
+		"Upgrade for pump, creates heavy water from water."
+	],
+	dependencies: [
+		"7a85465c"
+	],
+	tasks: [{
+		uid: "4b8e556f",
+		type: "item",
+		items: [{
+			item: "mekanism:filterupgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2ea93fb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

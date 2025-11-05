@@ -1,0 +1,13 @@
+{
+	title: "Mekanism Liquids",
+	icon: "minecraft:bucket",
+	disable_toast: true,
+	x: -12.5d,
+	y: -6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"110e0cde"
+	]
+}

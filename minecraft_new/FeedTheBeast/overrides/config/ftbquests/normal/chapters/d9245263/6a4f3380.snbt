@@ -1,0 +1,19 @@
+{
+	title: "Matters and Bonsai Pots",
+	disable_toast: true,
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"Main questline of this modpack. The more you progress, the more expensive the matter will get.",
+		"",
+		"Bonsai pots passively generate EMC once placed on the ground."
+	],
+	dependencies: [
+		"17c1ee89"
+	],
+	tasks: [{
+		uid: "7130c32e",
+		type: "checkmark",
+		title: "Matters and bonsai pots"
+	}]
+}

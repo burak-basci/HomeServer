@@ -1,0 +1,14 @@
+{
+	title: "Draconic Evolution",
+	icon: "draconicevolution:awakened_core",
+	disable_toast: true,
+	x: 45.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5fa68b"
+	],
+	size: 2.0d
+}

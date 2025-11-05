@@ -1,0 +1,17 @@
+{
+	title: "Going Digital",
+	disable_toast: true,
+	x: 10.0d,
+	y: -1.0d,
+	text: [
+		"Follow the next few quests, and they will help you to set up basic digital storage."
+	],
+	dependencies: [
+		"543da909",
+		"5a4e1269"
+	],
+	tasks: [{
+		uid: "47dfa49e",
+		type: "checkmark"
+	}]
+}

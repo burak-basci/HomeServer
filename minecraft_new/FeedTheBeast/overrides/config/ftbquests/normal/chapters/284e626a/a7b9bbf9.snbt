@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	text: [
+		"Used to make glowstone ingot and obsidian ingot."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "154c82f4",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 1"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8a76e039",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -11.0d,
+	y: -4.0d,
+	text: [
+		"Increases the effectiveness of machines that use gases in some way."
+	],
+	dependencies: [
+		"7a85465c"
+	],
+	tasks: [{
+		uid: "147aa7cf",
+		type: "item",
+		items: [{
+			item: "mekanism:gasupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "aa660649",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

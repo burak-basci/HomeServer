@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -7.0d,
+	text: [
+		"New crafting method exclusive to Draconic Evolution needing crafting injectors and this crafting core.",
+		"",
+		"Many recipes are power hungry, so you should keep that in mind."
+	],
+	dependencies: [
+		"97f712c5"
+	],
+	tasks: [{
+		uid: "38b948fe",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}],
+	rewards: [{
+		uid: "59f6a614",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

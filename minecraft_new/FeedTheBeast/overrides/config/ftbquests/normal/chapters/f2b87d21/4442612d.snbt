@@ -1,0 +1,16 @@
+{
+	title: "Staffs",
+	disable_toast: true,
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Staffs with unique properties that can be used either during combat or during exploration of the Nether."
+	],
+	dependencies: [
+		"577a33d5"
+	],
+	tasks: [{
+		uid: "008dd0af",
+		type: "checkmark"
+	}]
+}

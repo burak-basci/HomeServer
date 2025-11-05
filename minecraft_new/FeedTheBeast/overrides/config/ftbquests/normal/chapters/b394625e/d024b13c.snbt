@@ -1,0 +1,35 @@
+{
+	title: "Drawer Upgrade Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "drawer_upgrade_crate"
+		}
+	},
+	x: 0.5d,
+	y: 6.5d,
+	text: [
+		"Contains upgrades for drawers."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "d9cd968e",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "eb604100",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "drawer_upgrade_crate"
+			}
+		},
+		count: 3
+	}]
+}

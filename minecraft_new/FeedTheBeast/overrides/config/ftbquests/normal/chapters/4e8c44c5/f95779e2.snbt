@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Mana tablets store mana and have a few great functions.",
+		"",
+		"It can be charged with mana, and you can then have a little bit of mana with you all the time.",
+		"",
+		"You can use it to safely transport mana from one pool to another."
+	],
+	dependencies: [
+		"2117de0f"
+	],
+	tasks: [{
+		uid: "9788c365",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56562cb6",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"Transforms energy into lava."
+	],
+	dependencies: [
+		"13ff1729"
+	],
+	tasks: [{
+		uid: "d89a209c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:lava_fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "18160926",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

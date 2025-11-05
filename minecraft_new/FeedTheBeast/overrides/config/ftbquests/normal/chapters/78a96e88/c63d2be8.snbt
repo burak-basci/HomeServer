@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	dependencies: [
+		"e515a0f0"
+	],
+	tasks: [{
+		uid: "7df9ebe7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:nutellaitem"
+		}]
+	}],
+	rewards: [{
+		uid: "5ca56d83",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

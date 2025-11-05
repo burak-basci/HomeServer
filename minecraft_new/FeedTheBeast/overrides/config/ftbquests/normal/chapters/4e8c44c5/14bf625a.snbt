@@ -1,0 +1,47 @@
+{
+	icon: {
+		id: "botania:twigwand",
+		tag: {
+			color1: 0,
+			color2: 0,
+			boundTileZ: 0,
+			boundTileX: 0,
+			boundTileY: -1
+		}
+	},
+	x: -4.5d,
+	y: 0.5d,
+	text: [
+		"This wand is used to connect generator plants to spreaders and spreaders to mana pools by shift-right-clicking on them."
+	],
+	dependencies: [
+		"400080ce"
+	],
+	tasks: [{
+		uid: "860b09d1",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1eba6230",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "67956144",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

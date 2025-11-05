@@ -1,0 +1,24 @@
+{
+	x: -9.0d,
+	y: -4.0d,
+	text: [
+		"Protects you from lava and can be used as a normal bucket."
+	],
+	dependencies: [
+		"9ad847a7"
+	],
+	tasks: [{
+		uid: "2dff3c23",
+		type: "item",
+		items: [{
+			item: "xreliquary:infernal_chalice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "322820a0",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

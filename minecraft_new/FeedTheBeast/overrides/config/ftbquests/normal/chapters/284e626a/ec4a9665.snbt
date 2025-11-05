@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: 3.5d,
+	text: [
+		"A special chest you can lock so other players can't access it."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "dd1555ee",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07b2b868",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

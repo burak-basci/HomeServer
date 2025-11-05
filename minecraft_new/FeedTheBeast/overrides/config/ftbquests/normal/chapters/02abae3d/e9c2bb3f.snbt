@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		"Generates power passively."
+	],
+	dependencies: [
+		"f07bb182"
+	],
+	tasks: [{
+		uid: "4dfa362b",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderiomachines:solar",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "5fc2c8fb",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

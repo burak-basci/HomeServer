@@ -1,0 +1,27 @@
+{
+	title: "Singularities",
+	icon: "appliedenergistics2:material 1 47",
+	x: 13.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c35017f5"
+	],
+	tasks: [{
+		uid: "d4b9730c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:condenser"
+		}]
+	},
+	{
+		uid: "2bd80d72",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 47"
+		}],
+		count: 20L
+	}]
+}

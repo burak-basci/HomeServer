@@ -1,0 +1,13 @@
+{
+	title: "Basic Liquids",
+	icon: "minecraft:bucket",
+	disable_toast: true,
+	x: -14.5d,
+	y: -9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"110e0cde"
+	]
+}

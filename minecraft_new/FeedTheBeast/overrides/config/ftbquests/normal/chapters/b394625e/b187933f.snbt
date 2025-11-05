@@ -1,0 +1,35 @@
+{
+	title: "Storage Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "storage_crate"
+		}
+	},
+	x: 3.5d,
+	y: 3.5d,
+	text: [
+		"Contains 2 early to midgame storage blocks/chests."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "415a7e8e",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "62439eb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "storage_crate"
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"Spreader that can be controlled with a redstone signal."
+	],
+	dependencies: [
+		"2117de0f"
+	],
+	tasks: [{
+		uid: "0daa852e",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e8eb9f70",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

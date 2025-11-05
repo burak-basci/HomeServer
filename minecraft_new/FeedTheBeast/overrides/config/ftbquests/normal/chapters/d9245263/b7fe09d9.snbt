@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: -11.5d,
+	y: -6.0d,
+	text: [
+		"Rings give you special abilities, or you can use them on the dark matter pedestal.",
+		"",
+		"Every ring except the void ring is made in Fusion Forge."
+	],
+	dependencies: [
+		"e3d7c64a"
+	],
+	tasks: [{
+		uid: "42b03588",
+		type: "checkmark",
+		title: "Rings"
+	}]
+}

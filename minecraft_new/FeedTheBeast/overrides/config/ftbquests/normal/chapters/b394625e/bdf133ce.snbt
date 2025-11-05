@@ -1,0 +1,35 @@
+{
+	title: "Random Enchanting Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "random_enchanting_crate"
+		}
+	},
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"Contains random 1-3 enchanting books for armor or tools."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "f5f42442",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "bffda1fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_enchanting_crate"
+			}
+		},
+		count: 3
+	}]
+}

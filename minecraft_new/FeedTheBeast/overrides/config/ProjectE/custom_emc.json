@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "item": "simpledusts:craftinghammer|0",
+      "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 4
+    },
+    {
+      "item": "xreliquary:mob_ingredient|8",
+      "emc": 50000000
+    },
+    {
+      "item": "harvestcraft:avocado_sapling|0",
+      "emc": 32
+    },
+    {
+      "item": "harvestcraft:walnut_sapling|0",
+      "emc": 32
+    },
+    {
+      "item": "mekanism:machineblock2|11",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:gastank|0",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:machine|0",
+      "emc": 0
+    },
+    {
+      "item": "akashictome:tome|0",
+      "emc": 0
+    },
+    {
+      "item": "ftbquests:book|0",
+      "emc": 0
+    },
+    {
+      "item": "botania:lexicon|0",
+      "emc": 0
+    },
+    {
+      "item": "cookingforblockheads:recipe_book|2",
+      "emc": 0
+    },
+    {
+      "item": "cookingforblockheads:recipe_book|0",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:book|0",
+      "emc": 0
+    },
+    {
+      "item": "industrialforegoing:book_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:book|0",
+      "emc": 0
+    },
+    {
+      "item": "totemic:totempedia|0",
+      "emc": 0
+    },
+    {
+      "item": "cookingforblockheads:recipe_book|1",
+      "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_gem_armor_3|0",
+      "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_gem_armor_2|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_egg|0",
+      "emc": 153600
+    }
+  ]
+}

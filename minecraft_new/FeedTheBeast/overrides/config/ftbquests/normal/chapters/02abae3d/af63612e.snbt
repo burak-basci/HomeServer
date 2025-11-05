@@ -1,0 +1,10 @@
+{
+	title: "Leggings Upgrades",
+	icon: "ceramics:clay_leggings",
+	disable_toast: true,
+	x: 12.5d,
+	y: 0.5d,
+	dependencies: [
+		"77dd2762"
+	]
+}

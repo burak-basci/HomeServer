@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Gallery • AI Product Generator{% endblock %}
+
+{% block content %}
+        <h1 class="text-4xl font-bold mb-6 neon-text">Your Gallery</h1>
+        <p class="text-xl text-gray-300 mb-8">All your AI-generated products in one place</p>
+        <div class="glass-effect rounded-2xl p-8 glow-border">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {% for i in "12345678" %}
+                <div class="glass-effect rounded-xl p-4 glow-border card-hover group cursor-pointer">
+                    <div class="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg h-48 flex items-center justify-center mb-3">
+                        <span class="text-5xl opacity-70 group-hover:opacity-100 transition-opacity">🖼️</span>
+                    </div>
+                    <h4 class="font-semibold mb-1">Design {{ forloop.counter }}</h4>
+                    <p class="text-sm text-gray-400 mb-2">Recently created</p>
+                    <div class="flex space-x-2">
+                        <button class="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-sm transition-all">Download</button>
+                        <button class="flex-1 bg-gray-600 hover:bg-gray-700 text-white py-2 px-3 rounded-lg text-sm transition-all">Edit</button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+{% endblock %}
+

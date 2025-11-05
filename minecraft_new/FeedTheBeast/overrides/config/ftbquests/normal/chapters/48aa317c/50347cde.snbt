@@ -1,0 +1,77 @@
+{
+	title: "New Tools",
+	icon: {
+		id: "tconstruct:tooltables",
+		tag: {
+			textureBlock: {
+				id: "minecraft:planks",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		Damage: 1s
+	},
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"Vanilla tools are basically unusable.",
+		"",
+		" Tinkers' construct is, for now, the only way to make durable tools. "
+	],
+	tasks: [{
+		uid: "cf5b02a3",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "74fbde1b",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "8ad6b11f",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "14df6b45",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "7a6db37b",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "b8b15739",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

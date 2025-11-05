@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"Requires configuration on which ores it's supposed to mine alongside large amounts of energy, but you can use it to mine in the mining dimension."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "d1803140",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c14366c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 16.0d,
+	y: 5.0d,
+	text: [
+		"Protecs the player from explosive damage"
+	],
+	dependencies: [
+		"bef90c30"
+	],
+	tasks: [{
+		uid: "578ff5e5",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:carpet",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "d96ff006",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

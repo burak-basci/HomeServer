@@ -1,0 +1,34 @@
+{
+	title: "Charm Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "charm_crate"
+		}
+	},
+	x: 2.0d,
+	y: 8.0d,
+	text: [
+		"Contains charms that protect you from different mobs."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "b4d96e7c",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "0a199a9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "charm_crate"
+			}
+		}
+	}]
+}

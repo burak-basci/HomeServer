@@ -1,0 +1,25 @@
+{
+	title: "Mobphobia",
+	x: 1.5d,
+	y: 15.0d,
+	text: [
+		"Better torch being able to light up a big area, preventing mobs from spawning.",
+		"",
+		"This torch doesn't affect spawners."
+	],
+	dependencies: [
+		"b27eaa19"
+	],
+	tasks: [{
+		uid: "85b700d6",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "baec60f4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

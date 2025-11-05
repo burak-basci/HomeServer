@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: -8.5d,
+	text: [
+		"Speeds up the growth of crops that are close to the lily pad.",
+		"",
+		"You can use multiple for better results."
+	],
+	dependencies: [
+		"49dc421b"
+	],
+	tasks: [{
+		uid: "a5e2526b",
+		type: "item",
+		items: [{
+			item: "xreliquary:fertile_lilypad"
+		}]
+	}],
+	rewards: [{
+		uid: "07e73546",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

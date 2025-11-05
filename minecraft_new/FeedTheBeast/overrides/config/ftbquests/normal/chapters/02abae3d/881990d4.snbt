@@ -1,0 +1,27 @@
+{
+	x: 19.0d,
+	y: 5.0d,
+	text: [
+		"When you mine a block with a tool that has this upgrade, it will teleport the mined block to your inventory"
+	],
+	dependencies: [
+		"bef90c30"
+	],
+	tasks: [{
+		uid: "3c9438a0",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:direct",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "2144c533",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

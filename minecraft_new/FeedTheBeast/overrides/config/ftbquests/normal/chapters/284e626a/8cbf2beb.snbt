@@ -1,0 +1,60 @@
+{
+	title: "Gases Transportation",
+	x: -4.0d,
+	y: 4.5d,
+	text: [
+		"Gases are important because they are used as fuels, so these pipes will come in handy."
+	],
+	dependencies: [
+		"9972aba3"
+	],
+	tasks: [{
+		uid: "6d057432",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "58df9d1e",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "297e5b28",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "edac7460",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "29f9f31f",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

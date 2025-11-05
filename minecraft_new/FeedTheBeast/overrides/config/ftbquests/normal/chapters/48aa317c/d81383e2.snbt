@@ -1,0 +1,23 @@
+{
+	title: "Scared of Animals",
+	x: 4.5d,
+	y: 15.0d,
+	text: [
+		"Emits light but only prevents passive mobs from spawning in a big range around it."
+	],
+	dependencies: [
+		"b27eaa19"
+	],
+	tasks: [{
+		uid: "62d262ed",
+		type: "item",
+		items: [{
+			item: "torchmaster:dread_lamp"
+		}]
+	}],
+	rewards: [{
+		uid: "23f008ed",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

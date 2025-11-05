@@ -1,0 +1,12 @@
+{
+	x: -11.5d,
+	y: -12.0d,
+	dependencies: [
+		"7072d542"
+	],
+	tasks: [{
+		uid: "62b8c98e",
+		type: "fluid",
+		fluid: "nutrient_distillation"
+	}]
+}

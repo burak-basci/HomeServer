@@ -1,0 +1,17 @@
+{
+	title: "Stars",
+	disable_toast: true,
+	x: -1.0d,
+	y: -8.0d,
+	text: [
+		"Stars are basically batteries for ProjectE, some of them being able to store millions of EMC."
+	],
+	dependencies: [
+		"17c1ee89"
+	],
+	tasks: [{
+		uid: "c430b71b",
+		type: "checkmark",
+		title: "KleinStars"
+	}]
+}

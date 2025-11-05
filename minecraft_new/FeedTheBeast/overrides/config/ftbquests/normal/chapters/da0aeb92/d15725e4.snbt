@@ -1,0 +1,16 @@
+{
+	title: "Generators",
+	disable_toast: true,
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"Generators supply machines and rings wirelessly."
+	],
+	dependencies: [
+		"04d347ea"
+	],
+	tasks: [{
+		uid: "67c34112",
+		type: "checkmark"
+	}]
+}

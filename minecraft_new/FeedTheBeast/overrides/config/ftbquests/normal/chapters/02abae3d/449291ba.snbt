@@ -1,0 +1,27 @@
+{
+	x: 16.5d,
+	y: -1.0d,
+	text: [
+		"Provides additional jump."
+	],
+	dependencies: [
+		"4d743b5b"
+	],
+	tasks: [{
+		uid: "2674356a",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:jumpboost1",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "1260460e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Portal to Alfheim",
+	icon: "botania:pylon 1 1",
+	x: 16.5d,
+	y: 0.5d,
+	text: [
+		"The portal is built the same way as a Nether portal, but you use living wood, and the middle block of each side has a glimmering wood block, and the down middle part has the elven core block.",
+		"",
+		"You have to use two pylons with mana pools and connect the pylons to the elven core block with the wand of forest. ",
+		"",
+		"Seek help in Lexica Botania if you need it."
+	],
+	dependencies: [
+		"81b945bd",
+		"e9e0eb67"
+	],
+	tasks: [{
+		uid: "c3e2e077",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "3da0b758",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c4aa7627",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e856d457",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "104f39d6",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8f657229",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

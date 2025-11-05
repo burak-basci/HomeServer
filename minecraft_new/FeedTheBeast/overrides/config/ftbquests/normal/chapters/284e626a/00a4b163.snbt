@@ -1,0 +1,29 @@
+{
+	x: -13.0d,
+	y: 7.0d,
+	text: [
+		"Little robot friend, charge him on the charge pad, and he can follow you, pick up items, store items, or smelt them."
+	],
+	dependencies: [
+		"4ea38fe4"
+	],
+	tasks: [{
+		uid: "6e11973f",
+		type: "item",
+		items: [{
+			item: "mekanism:robit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ad8e922",
+		type: "item",
+		item: "mekanism:machineblock 1 14"
+	},
+	{
+		uid: "091c0524",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

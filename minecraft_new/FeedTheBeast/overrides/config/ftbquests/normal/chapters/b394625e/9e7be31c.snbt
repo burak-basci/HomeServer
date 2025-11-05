@@ -1,0 +1,22 @@
+{
+	title: "Information about Crates",
+	disable_toast: true,
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		"If you want to see what the drops and drop chances of a crate are, go to any crate quest and press \"U\" on the crate."
+	],
+	dependencies: [
+		"fabba343"
+	],
+	optional: true,
+	tasks: [{
+		uid: "49f9c7e9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "e3cd455e",
+		type: "item",
+		item: "harvestcraft:coconutitem"
+	}]
+}

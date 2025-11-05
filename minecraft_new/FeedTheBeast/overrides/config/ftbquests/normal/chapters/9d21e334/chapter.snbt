@@ -1,0 +1,7 @@
+{
+	title: "Endgame Challenges",
+	icon: "projectex:arcane_tablet",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "pentagon"
+}

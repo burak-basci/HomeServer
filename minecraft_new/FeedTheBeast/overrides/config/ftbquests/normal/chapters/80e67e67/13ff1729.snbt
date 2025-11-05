@@ -1,0 +1,17 @@
+{
+	title: "Proccesing Machines",
+	disable_toast: true,
+	x: -2.5d,
+	y: 3.5d,
+	text: [
+		"Machines that provide unique features or give you access to unique recipes and items."
+	],
+	dependencies: [
+		"29dc36fe"
+	],
+	tasks: [{
+		uid: "52980329",
+		type: "checkmark",
+		title: "Proccesing Machines"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Two in One",
+	x: -1.0d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"Extra Utilities and Dark Utilities are combined here as one mod.",
+		"",
+		"Both offer some pretty useful items like creative flight or instant portal usage."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f25a24e0",
+		type: "checkmark",
+		title: "Utillies that are must have",
+		icon: {
+			id: "enchiridion:book",
+			tag: {
+				identifier: "Welcome_to_Project_Overpowered"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "7c4b8901",
+		type: "item",
+		item: "extrautils2:passivegenerator 1 7"
+	},
+	{
+		uid: "5f61ffc4",
+		type: "item",
+		item: "extrautils2:resonator"
+	}]
+}

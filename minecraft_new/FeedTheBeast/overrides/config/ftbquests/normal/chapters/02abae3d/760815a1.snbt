@@ -1,0 +1,27 @@
+{
+	x: 13.0d,
+	y: 5.0d,
+	text: [
+		"If used on a tool, you can either teleport freely few blocks infront of you or to an anchor by pressing shift right click"
+	],
+	dependencies: [
+		"bef90c30"
+	],
+	tasks: [{
+		uid: "7872cc26",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:travel",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "68d19925",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

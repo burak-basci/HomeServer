@@ -1,0 +1,50 @@
+{
+	icon: "mekanism:basicblock 1 14",
+	x: -7.5d,
+	y: 4.0d,
+	text: [
+		"There are two tiers of evaporation plants, but the first one is pretty much useless, so make the one with 4 advanced solar panels.",
+		"",
+		"It's mostly used to make brine that is used in a few crafting recipes."
+	],
+	dependencies: [
+		"b6baab4d"
+	],
+	tasks: [{
+		uid: "11e1ae48",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "81521db0",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c4fdd4eb",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2"
+		}],
+		count: 30L
+	},
+	{
+		uid: "28c2092d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 5"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac2ce746",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

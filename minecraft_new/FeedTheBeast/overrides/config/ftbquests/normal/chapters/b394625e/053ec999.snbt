@@ -1,0 +1,35 @@
+{
+	title: "Storage Disk Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "storage_disks_crate"
+		}
+	},
+	x: 2.0d,
+	y: 6.5d,
+	text: [
+		"Contains both fluid and item storage disks up to 64k."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "fbb1ef88",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "761d90f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "storage_disks_crate"
+			}
+		},
+		count: 2
+	}]
+}

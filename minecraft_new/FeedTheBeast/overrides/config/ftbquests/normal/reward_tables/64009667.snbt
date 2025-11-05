@@ -1,0 +1,52 @@
+{
+	title: "Botania Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:storage 1 3",
+		count: 2,
+		weight: 5
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 5,
+		weight: 13
+	},
+	{
+		item: "botania:storage",
+		count: 4,
+		weight: 7
+	},
+	{
+		item: "botania:manaresource 1 4",
+		count: 3,
+		weight: 7
+	},
+	{
+		item: "botania:storage 1 1",
+		count: 2
+	},
+	{
+		item: "botania:manaresource 1 7"
+	},
+	{
+		item: "botania:manaresource 1 9"
+	},
+	{
+		item: "botania:manaresource 1 2",
+		weight: 8
+	},
+	{
+		item: "botania:manaresource",
+		weight: 8
+	}],
+	loot_crate: {
+		string_id: "botaniacrate",
+		item_name: "Botania Crate",
+		color: 8376681,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

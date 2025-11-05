@@ -1,0 +1,25 @@
+{
+	x: -17.0d,
+	y: -6.0d,
+	text: [
+		"When on the pedestal: Automatically harvests crops and makes them grow faster."
+	],
+	dependencies: [
+		"b7fe09d9"
+	],
+	tasks: [{
+		uid: "4e61d490",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_harvest_god",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afa71e48",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

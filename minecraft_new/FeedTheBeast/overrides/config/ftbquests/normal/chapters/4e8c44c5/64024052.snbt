@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: -16.0d,
+	text: [
+		"Wand that creates a simple bridge that can't be destroyed and stays active for 15 seconds."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "0b07640e",
+		type: "item",
+		items: [{
+			item: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a88b75ca",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

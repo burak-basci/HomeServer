@@ -1,0 +1,28 @@
+{
+	title: "Fusion Forge",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:fusion_forge"
+		}
+	},
+	x: -8.0d,
+	y: 2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "a830b24a",
+		type: "emc",
+		value: 50000L
+	}],
+	rewards: [{
+		uid: "b7a6e0d9",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:fusion_forge"
+			}
+		}
+	}]
+}

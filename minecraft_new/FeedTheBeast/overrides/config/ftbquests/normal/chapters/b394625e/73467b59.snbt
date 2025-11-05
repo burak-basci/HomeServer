@@ -1,0 +1,35 @@
+{
+	title: "Alchemical Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "alchemist_crate"
+		}
+	},
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		"Contains matters up to the purple tier."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "7e185e33",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "9c313727",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "alchemist_crate"
+			}
+		},
+		count: 2
+	}]
+}

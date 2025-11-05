@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: -0.5d,
+	dependencies: [
+		"57e51d4f"
+	],
+	tasks: [{
+		uid: "b9f9a8dd",
+		type: "item",
+		items: [{
+			item: "totemic:eagle_bone_whistle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b20e26d3",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: 3.5d,
+	text: [
+		"Resourceful Furnace smelts items faster than the normal furnace and can smelt 3 types of items at once."
+	],
+	dependencies: [
+		"d5aef5dd"
+	],
+	tasks: [{
+		uid: "f8b75f35",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:resourceful_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "07f41c3e",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: 3.0d,
+	text: [
+		"Creates mana by eating any plant created in the Apothecary."
+	],
+	dependencies: [
+		"74d9ab7f"
+	],
+	tasks: [{
+		uid: "66d1553e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "rafflowsia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a1336e36",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

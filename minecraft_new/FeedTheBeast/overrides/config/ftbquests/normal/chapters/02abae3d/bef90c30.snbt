@@ -1,0 +1,10 @@
+{
+	title: "Tool Upgrades",
+	icon: "minecraft:stone_sword",
+	disable_toast: true,
+	x: 14.5d,
+	y: 3.5d,
+	dependencies: [
+		"77dd2762"
+	]
+}

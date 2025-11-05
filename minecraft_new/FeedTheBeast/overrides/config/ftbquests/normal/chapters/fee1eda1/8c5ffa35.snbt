@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: 7.0d,
+	text: [
+		"Adds energy to your network once connected to an energy source or any generator.",
+		"",
+		"Right-click on the plug to connect it to a network."
+	],
+	dependencies: [
+		"bb431816"
+	],
+	tasks: [{
+		uid: "c70fcb37",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	}],
+	rewards: [{
+		uid: "c5fe5366",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

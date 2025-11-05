@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		"Special wood type only obtainable from a ritual."
+	],
+	dependencies: [
+		"aaef231f"
+	],
+	tasks: [{
+		uid: "081f6592",
+		type: "item",
+		items: [{
+			item: "totemic:cedar_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "07147fbd",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

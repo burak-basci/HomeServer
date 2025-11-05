@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"Useful for mob farms, prevents endermen from teleporting."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "e89b427d",
+		type: "item",
+		items: [{
+			item: "enderio:block_inhibitor_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "8b8202e5",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

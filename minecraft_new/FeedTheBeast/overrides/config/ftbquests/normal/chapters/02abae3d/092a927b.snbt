@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -15.5d,
+	dependencies: [
+		"cf0f7cfa"
+	],
+	tasks: [{
+		uid: "279b25f7",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "57052122",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

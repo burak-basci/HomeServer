@@ -1,0 +1,26 @@
+{
+	x: 14.0d,
+	y: -15.5d,
+	text: [
+		"Smelts block if you hold right-click while looking at it.",
+		"",
+		"For example, it can change cobblestone into stone."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "01238630",
+		type: "item",
+		items: [{
+			item: "botania:smeltrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8532051",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -11.5d,
+	text: [
+		"Even better transmutation table that can also craft items and remember them if they include an EMC value."
+	],
+	dependencies: [
+		"c0e6f7e1"
+	],
+	tasks: [{
+		uid: "e9f0eea7",
+		type: "item",
+		items: [{
+			item: "projectex:arcane_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60ca3224",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

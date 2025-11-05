@@ -1,0 +1,19 @@
+{
+	title: "Ready to Cook!",
+	disable_toast: true,
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"There are many foods; some can be less useful than others, while some high-tier foods can keep the hunger at bay for a long time. Some foods are marked as \"Top Tier Foods\".",
+		"",
+		" Foods that have this term written under them can be eaten whenever and buff the player; they are also great for refilling huge amounts of hunger bars and give massive saturation. Some examples include Thankful Dinner or Miners Stew."
+	],
+	dependencies: [
+		"478e89b6",
+		"39c546ef"
+	],
+	tasks: [{
+		uid: "32ba321d",
+		type: "checkmark"
+	}]
+}

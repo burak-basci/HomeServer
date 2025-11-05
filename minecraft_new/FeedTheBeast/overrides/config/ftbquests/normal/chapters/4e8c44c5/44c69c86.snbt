@@ -1,0 +1,16 @@
+{
+	disable_toast: true,
+	x: 4.0d,
+	y: -11.0d,
+	text: [
+		"All rings use mana to function."
+	],
+	dependencies: [
+		"57c4d9cd"
+	],
+	tasks: [{
+		uid: "ea6d2e54",
+		type: "checkmark",
+		title: "Rings"
+	}]
+}

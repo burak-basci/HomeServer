@@ -1,0 +1,26 @@
+{
+	x: 23.5d,
+	y: -9.0d,
+	text: [
+		"Item that is more used as a cool gadget.",
+		"",
+		"Makes mana beams from spreaders orbit the player."
+	],
+	dependencies: [
+		"19b5b844"
+	],
+	tasks: [{
+		uid: "14e19b9f",
+		type: "item",
+		items: [{
+			item: "botania:tinyplanet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93904f4c",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

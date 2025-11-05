@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		"Enderman head can be obtained by either making a cursed earth farm or by killing at least a few endermen by using a Tinkers Construct cleaver."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "e7f15cb6",
+		type: "item",
+		items: [{
+			item: "enderio:block_enderman_skull"
+		}]
+	}],
+	rewards: [{
+		uid: "eb84b2d4",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

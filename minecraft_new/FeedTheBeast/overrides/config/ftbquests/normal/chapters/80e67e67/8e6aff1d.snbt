@@ -1,0 +1,35 @@
+{
+	x: -3.0d,
+	y: 10.0d,
+	text: [
+		"If you have villagers, it will let you trade with them."
+	],
+	dependencies: [
+		"f824b5e9"
+	],
+	tasks: [{
+		uid: "8a00d550",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:villager_trade_exchanger"
+		}]
+	}],
+	rewards: [{
+		uid: "097b552c",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "c2afeaa5",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		},
+		count: 2
+	}]
+}

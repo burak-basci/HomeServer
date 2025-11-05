@@ -1,0 +1,30 @@
+{
+	x: 15.0d,
+	y: -13.0d,
+	text: [
+		"Catches monsters or any other hostile entities."
+	],
+	dependencies: [
+		"8853e9f0"
+	],
+	tasks: [{
+		uid: "1f331264",
+		type: "item",
+		items: [{
+			id: "botania:gravityrod",
+			tag: {
+				dist: -1.0d,
+				ticksCooldown: 0,
+				ticksTillExpire: -15335,
+				target: -1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fc65037",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

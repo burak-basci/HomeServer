@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: -4.0d,
+	text: [
+		"Circuit that can be found in slightly advanced machinery."
+	],
+	dependencies: [
+		"ea937fcf"
+	],
+	tasks: [{
+		uid: "83ce4dbf",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "245faabf",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

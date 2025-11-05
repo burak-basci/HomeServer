@@ -1,0 +1,30 @@
+{
+	title: "Understanding Quests",
+	x: 3.75d,
+	y: -3.75d,
+	shape: "gear",
+	text: [
+		"Quests are generally not gatekept after you finish the first quest chapter. ",
+		"",
+		"So the player can freely progress any way they like.",
+		"",
+		" Whenever you see a \"checkmark\" quest, it can hold some general information about quests ahead of you.",
+		"",
+		"To unlock the Endgame Challenges quest chapter, you will have to finish all the other quest chapters.",
+		"",
+		"Creative Items and Fluid Collecting quest chapter is unlocked after all Endgame Challenges are finished."
+	],
+	size: 2.5d,
+	optional: true,
+	tasks: [{
+		uid: "85cd4734",
+		type: "checkmark",
+		title: "Quest Introduction",
+		icon: "ftbquests:book"
+	}],
+	rewards: [{
+		uid: "8a89c67e",
+		type: "item",
+		item: "harvestcraft:heartybreakfastitem"
+	}]
+}

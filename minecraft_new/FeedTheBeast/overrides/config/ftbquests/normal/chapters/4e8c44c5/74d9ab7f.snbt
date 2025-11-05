@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: -7.5d,
+	y: 0.5d,
+	text: [
+		"More powerful flowers require runes from an altar in order to be crafted."
+	],
+	dependencies: [
+		"702bd893",
+		"f8a10557"
+	],
+	tasks: [{
+		uid: "abea7041",
+		type: "checkmark",
+		title: "Rune Generator Plants"
+	}]
+}

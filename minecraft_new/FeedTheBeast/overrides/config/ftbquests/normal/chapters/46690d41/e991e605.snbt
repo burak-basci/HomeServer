@@ -1,0 +1,54 @@
+{
+	title: "Totem Tutorial",
+	icon: "totemic:totem_whittling_knife",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"You have to use this knife on any log. ",
+		"",
+		"For some combinations of totems you can have, check out the Totempedia.",
+		"",
+		"Each totem can give the player passive effects like jump boost or haste when they are nearby."
+	],
+	dependencies: [
+		"157d6bbe"
+	],
+	tasks: [{
+		uid: "3b3912b1",
+		type: "item",
+		items: [{
+			item: "totemic:totem_whittling_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4a62bc1",
+		type: "item",
+		title: "Any Log",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5ab6fa68",
+		type: "item",
+		item: "simpledusts:coin"
+	},
+	{
+		uid: "88901bb9",
+		type: "item",
+		item: "totemic:tipi"
+	}]
+}

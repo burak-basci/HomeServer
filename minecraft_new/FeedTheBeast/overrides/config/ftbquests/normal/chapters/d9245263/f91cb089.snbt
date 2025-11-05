@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	text: [
+		"Tier 2 has a faster EMC production rate."
+	],
+	dependencies: [
+		"0a287aff"
+	],
+	tasks: [{
+		uid: "f395c1b7",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "5fff9f09",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

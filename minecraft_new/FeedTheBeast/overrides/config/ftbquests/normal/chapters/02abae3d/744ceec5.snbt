@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: -2.5d,
+	text: [
+		"Muffles nearby sounds of any type."
+	],
+	dependencies: [
+		"f07bb182"
+	],
+	tasks: [{
+		uid: "6b9c37ce",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:padding",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "fca8aefe",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

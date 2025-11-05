@@ -1,0 +1,22 @@
+{
+	x: -11.5d,
+	y: -4.0d,
+	text: [
+		"Can relocate naturally spawned mobs."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "0985f54e",
+		type: "item",
+		items: [{
+			item: "enderio:block_relocator_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "23173e23",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "God Slayer",
+	icon: "botania:manaresource 1 14",
+	x: -8.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7872df76"
+	],
+	tasks: [{
+		uid: "7e5b9c02",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}],
+		count: 10L
+	},
+	{
+		uid: "a05fce7f",
+		type: "item",
+		items: [{
+			item: "botania:starsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

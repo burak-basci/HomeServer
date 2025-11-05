@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 3.5d,
+	dependencies: [
+		"ee827ede"
+	],
+	tasks: [{
+		uid: "e4059a77",
+		type: "item",
+		items: [{
+			id: "botania:manaweavechest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f8a12ea",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

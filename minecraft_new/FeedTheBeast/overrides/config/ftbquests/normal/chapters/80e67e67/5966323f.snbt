@@ -1,0 +1,23 @@
+{
+	title: "Friend for Automation",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: -4.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"Unlike Mekanism, Industrial Foregoing lets you automate almost anything and solves many vanilla problems by having a machine for basically anything you could ever wish for."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c172e2d2",
+		type: "checkmark"
+	}]
+}

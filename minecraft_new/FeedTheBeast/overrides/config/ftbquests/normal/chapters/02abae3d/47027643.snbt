@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -5.5d,
+	text: [
+		"If a mob soul is placed inside this obelisk, it will pull the specified mobs towards it."
+	],
+	dependencies: [
+		"fef0f100"
+	],
+	tasks: [{
+		uid: "72bccc95",
+		type: "item",
+		items: [{
+			item: "enderio:block_attractor_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "608e62e2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

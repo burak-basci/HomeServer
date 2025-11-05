@@ -1,0 +1,23 @@
+{
+	title: "Farming and Cooking",
+	icon: {
+		id: "enchiridion:book",
+		tag: {
+			identifier: "Welcome_to_Project_Overpowered"
+		}
+	},
+	x: -1.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Pams Harvest Craft can sometimes be a little annoying to work with, but it can give you access to some very nutritious foods."
+	],
+	dependencies: [
+		"2120b971"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a013e5a7",
+		type: "checkmark"
+	}]
+}

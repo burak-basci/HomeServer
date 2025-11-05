@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	text: [
+		"Fastest and best version. ",
+		"",
+		"Transports mana really fast to the pools."
+	],
+	dependencies: [
+		"592dd5c6"
+	],
+	tasks: [{
+		uid: "d9dc8a36",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "725836b2",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

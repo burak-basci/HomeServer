@@ -1,0 +1,35 @@
+{
+	title: "Experience Crate",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "experience_crate"
+		}
+	},
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"Contains XP levels up to 50 levels."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "a6c8583f",
+		type: "item",
+		items: [{
+			item: "simpledusts:coin"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "52df86ff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "experience_crate"
+			}
+		},
+		count: 2
+	}]
+}

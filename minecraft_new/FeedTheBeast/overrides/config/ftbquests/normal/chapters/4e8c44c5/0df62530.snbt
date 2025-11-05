@@ -1,0 +1,24 @@
+{
+	x: 24.5d,
+	y: 0.0d,
+	text: [
+		"Fully blocks damage when activated."
+	],
+	dependencies: [
+		"4f3e0230"
+	],
+	tasks: [{
+		uid: "6144feca",
+		type: "item",
+		items: [{
+			item: "botania:holycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "797cd6bc",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

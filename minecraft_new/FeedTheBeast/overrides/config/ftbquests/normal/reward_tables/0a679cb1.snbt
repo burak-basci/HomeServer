@@ -1,0 +1,1237 @@
+{
+	title: "Ranged Weapon Crate",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.9f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 190,
+					HarvestLevel: 1,
+					Attack: 3.9f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"flint",
+						"flint",
+						"flint",
+						"flint"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "crude",
+					color: -9868951,
+					level: 3,
+					crude1: 1b,
+					crude2: 1b
+				}],
+				Traits: [
+					"crude2",
+					"crude1"
+				]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.07f,
+					FreeModifiers: 3,
+					Durability: 229,
+					HarvestLevel: 4,
+					Attack: 5.2f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.07f,
+					FreeModifiers: 3,
+					Durability: 229,
+					HarvestLevel: 4,
+					Attack: 5.2f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"obsidian",
+						"obsidian",
+						"obsidian",
+						"obsidian"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "duritos",
+					color: -10478396,
+					level: 1
+				}],
+				Traits: [
+					"duritos"
+				]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 8.0f,
+					FreeModifiers: 3,
+					Durability: 3000,
+					HarvestLevel: 2,
+					Attack: 7.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 8.0f,
+					FreeModifiers: 3,
+					Durability: 3000,
+					HarvestLevel: 2,
+					Attack: 7.5f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"integrationforegoing.reinforced_pink_slime",
+						"integrationforegoing.reinforced_pink_slime",
+						"integrationforegoing.reinforced_pink_slime",
+						"integrationforegoing.reinforced_pink_slime"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "slimey_pink",
+					color: -4032074,
+					level: 1
+				},
+				{
+					identifier: "dense",
+					color: -4032074,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -4032074,
+					level: 1
+				}],
+				Traits: [
+					"slimey_pink",
+					"dense",
+					"unnatural"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 1750,
+					HarvestLevel: 0,
+					Attack: 5.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 1750,
+					HarvestLevel: 0,
+					Attack: 5.0f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"integrationforegoing.pink_slime",
+						"integrationforegoing.pink_slime",
+						"integrationforegoing.pink_slime",
+						"integrationforegoing.pink_slime"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "slimey_pink",
+					color: -807226,
+					level: 1
+				}],
+				Traits: [
+					"slimey_pink"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					Durability: 870,
+					HarvestLevel: 4,
+					Attack: 9.72f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					Durability: 870,
+					HarvestLevel: 4,
+					Attack: 9.72f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				}],
+				Traits: [
+					"insatiable",
+					"coldblooded"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 12.0f,
+					FreeModifiers: 3,
+					Durability: 1080,
+					HarvestLevel: 4,
+					Attack: 5.1f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					Accuracy: 1.0f,
+					MiningSpeed: 12.0f,
+					FreeModifiers: 3,
+					Durability: 1080,
+					HarvestLevel: 4,
+					Attack: 5.1f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"cobalt",
+						"cobalt",
+						"cobalt",
+						"cobalt"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				}],
+				Traits: [
+					"momentum",
+					"lightweight"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 0.5f,
+					FreeModifiers: 3,
+					Durability: 100,
+					HarvestLevel: 1,
+					Attack: 12.1f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 0.5f,
+					FreeModifiers: 3,
+					Durability: 100,
+					HarvestLevel: 1,
+					Attack: 12.1f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"xu_demonic_metal",
+						"xu_demonic_metal",
+						"xu_demonic_metal",
+						"xu_demonic_metal"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "xu_whispering",
+					color: -6079744,
+					level: 1
+				}],
+				Traits: [
+					"xu_whispering"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 3.23f,
+					FreeModifiers: 3,
+					Durability: 462,
+					HarvestLevel: 3,
+					Attack: 4.23f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 3.258f,
+					FreeModifiers: 3,
+					Durability: 467,
+					HarvestLevel: 3,
+					Attack: 4.2500005f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					],
+					alienStatBonus: {
+						identifier: "",
+						color: 0,
+						attack: 0.02f,
+						durability: 5,
+						speed: 0.028f
+					},
+					alienStatPool: {
+						identifier: "",
+						color: 16777215,
+						attack: 1.259999f,
+						durability: 274,
+						speed: 1.9179981f
+					}
+				},
+				TinkerData: {
+					Materials: [
+						"endstone",
+						"endstone",
+						"endstone",
+						"endstone"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "alien",
+					color: -2041712,
+					level: 1
+				},
+				{
+					identifier: "enderference",
+					color: -2041712,
+					level: 1
+				}],
+				Traits: [
+					"alien",
+					"enderference"
+				]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.5f,
+					DrawSpeed: 0.45f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 1.0f,
+					Durability: 990,
+					HarvestLevel: 4,
+					Attack: 3.6f,
+					Range: 0.8f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.5f,
+					DrawSpeed: 0.45f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 1.0f,
+					Durability: 990,
+					HarvestLevel: 4,
+					Attack: 3.6f,
+					Range: 0.8f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"ardite",
+						"ardite",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "petramor",
+					color: -3063280,
+					level: 1
+				},
+				{
+					identifier: "stonebound",
+					color: -3063280,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"petramor",
+					"stonebound",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.0f,
+					DrawSpeed: 0.35f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 6.0f,
+					Durability: 2800,
+					HarvestLevel: 2,
+					Attack: 6.5f,
+					Range: 2.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.0f,
+					DrawSpeed: 0.35f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 6.0f,
+					Durability: 2800,
+					HarvestLevel: 2,
+					Attack: 6.5f,
+					Range: 2.5f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"integrationforegoing.reinforced_pink_slime",
+						"integrationforegoing.reinforced_pink_slime",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_pink",
+					color: -4032074,
+					level: 1
+				},
+				{
+					identifier: "dense",
+					color: -4032074,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"slimey_pink",
+					"dense",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					DrawSpeed: 0.25f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 9.0f,
+					Durability: 1479,
+					HarvestLevel: 1,
+					Attack: 2.0f,
+					Range: 3.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					DrawSpeed: 0.25f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 9.0f,
+					Durability: 1479,
+					HarvestLevel: 1,
+					Attack: 2.0f,
+					Range: 3.5f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"pulsating_iron",
+						"pulsating_iron",
+						"pulsating_iron",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "enderport",
+					color: -13856700,
+					level: 6,
+					enderport-2: 1b,
+					enderport-3: 1b,
+					enderport-0: 1b,
+					enderport-1: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"enderport-2",
+					"enderport-3",
+					"enderport-1",
+					"enderport-0",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.5f,
+					DrawSpeed: 0.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 1.5f,
+					Durability: 1380,
+					HarvestLevel: 3,
+					Attack: 5.6f,
+					Range: 0.8f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.5f,
+					DrawSpeed: 0.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 1.5f,
+					Durability: 1380,
+					HarvestLevel: 3,
+					Attack: 5.6f,
+					Range: 0.8f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"energetic_alloy",
+						"energetic_alloy",
+						"energetic_alloy",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "holy",
+					color: -2518196,
+					level: 1
+				},
+				{
+					identifier: "petramor",
+					color: -2518196,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -2518196,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"holy",
+					"petramor",
+					"unnatural",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					DrawSpeed: 0.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 4.5f,
+					Durability: 3650,
+					HarvestLevel: 0,
+					Attack: 4.0f,
+					Range: 1.8f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					DrawSpeed: 0.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 4.5f,
+					Durability: 3650,
+					HarvestLevel: 0,
+					Attack: 4.0f,
+					Range: 1.8f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"integrationforegoing.pink_slime",
+						"integrationforegoing.pink_slime",
+						"integrationforegoing.pink_slime",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_pink",
+					color: -807226,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"slimey_pink",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.8f,
+					DrawSpeed: 0.4f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 3.0f,
+					Durability: 988,
+					HarvestLevel: 3,
+					Attack: 5.1f,
+					Range: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.8f,
+					DrawSpeed: 0.4f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 3.0f,
+					Durability: 988,
+					HarvestLevel: 3,
+					Attack: 5.1f,
+					Range: 2.0f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"knightslime",
+						"knightslime",
+						"knightslime",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "unnatural",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "crumbling",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"unnatural",
+					"crumbling",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.03f,
+					DrawSpeed: 1.05f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 1224,
+					HarvestLevel: 0,
+					Attack: 1.8f,
+					Range: 1.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.03f,
+					DrawSpeed: 1.05f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 1224,
+					HarvestLevel: 0,
+					Attack: 1.8f,
+					Range: 1.0f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"blueslime",
+						"blueslime",
+						"blueslime",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_blue",
+					color: -9123641,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"slimey_blue",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.0f,
+					DrawSpeed: 0.75f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 4.5f,
+					Durability: 1072,
+					HarvestLevel: 4,
+					Attack: 4.1f,
+					Range: 1.3f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 12.0f,
+					DrawSpeed: 1.0980749f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 4.5f,
+					Durability: 1072,
+					HarvestLevel: 4,
+					Attack: 4.1f,
+					Range: 1.3f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"cobalt",
+						"cobalt",
+						"cobalt",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"momentum",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:longbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.0f,
+					DrawSpeed: 0.1f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 3927,
+					HarvestLevel: 0,
+					Attack: 1.0f,
+					Range: 0.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.0f,
+					DrawSpeed: 0.1f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 3927,
+					HarvestLevel: 0,
+					Attack: 1.0f,
+					Range: 0.5f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"soularium",
+						"soularium",
+						"soularium",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "duritos",
+					color: -9872563,
+					level: 1
+				},
+				{
+					identifier: "hellish",
+					color: -9872563,
+					level: 1
+				},
+				{
+					identifier: "splinters",
+					color: -9872563,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"duritos",
+					"hellish",
+					"splinters",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.02f,
+					DrawSpeed: 0.65f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 4.0f,
+					Durability: 820,
+					HarvestLevel: 4,
+					Attack: 8.72f,
+					Range: 1.2f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.02f,
+					DrawSpeed: 0.65f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 4.0f,
+					Durability: 820,
+					HarvestLevel: 4,
+					Attack: 8.72f,
+					Range: 1.2f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"coldblooded",
+					"insatiable",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					DrawSpeed: 0.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 3.0f,
+					Durability: 1600,
+					HarvestLevel: 0,
+					Attack: 4.0f,
+					Range: 1.8f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					DrawSpeed: 0.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 3.0f,
+					Durability: 1600,
+					HarvestLevel: 0,
+					Attack: 4.0f,
+					Range: 1.8f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"integrationforegoing.pink_slime",
+						"integrationforegoing.pink_slime",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_pink",
+					color: -807226,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"slimey_pink",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:longbow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.02f,
+					DrawSpeed: 1.15f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 1820,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					Range: 0.75f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.02f,
+					DrawSpeed: 1.15f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 1820,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					Range: 0.75f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"sponge",
+						"sponge",
+						"sponge",
+						"string"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "squeaky",
+					color: -3486642,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"squeaky",
+					"toolleveling"
+				]
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "shuriken_crate",
+		item_name: "Ranged Weapon Crate",
+		color: 9539507,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

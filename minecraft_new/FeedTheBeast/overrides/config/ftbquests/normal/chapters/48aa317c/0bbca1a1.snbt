@@ -1,0 +1,31 @@
+{
+	title: "Cobblestone?",
+	icon: "botania:manaresource 1 21",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Shift and hold right-click on grass.",
+		"",
+		"After collecting 4 pebbles, make one cobblestone."
+	],
+	tasks: [{
+		uid: "6e997089",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 21"
+		}],
+		count: 32L
+	},
+	{
+		uid: "8cad72f8",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "50a17a77",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

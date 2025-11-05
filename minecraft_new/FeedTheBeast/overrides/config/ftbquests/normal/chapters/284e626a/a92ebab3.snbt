@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: -2.5d,
+	text: [
+		"Converts lithium into tritium."
+	],
+	dependencies: [
+		"4a87043c"
+	],
+	tasks: [{
+		uid: "ddbee83c",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52aa9072",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

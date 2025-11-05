@@ -1,0 +1,64 @@
+{
+	title: "Draconic Chickens",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "morechickens:draconiumawakenedchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fecbd154"
+	],
+	tasks: [{
+		uid: "6982ea01",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:draconiumawakenedchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "959b6a64",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_ingot"
+		}],
+		count: 200L
+	},
+	{
+		uid: "a7f7f769",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:draconiumchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 5L
+	},
+	{
+		uid: "4d58ca05",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 800L
+	}]
+}

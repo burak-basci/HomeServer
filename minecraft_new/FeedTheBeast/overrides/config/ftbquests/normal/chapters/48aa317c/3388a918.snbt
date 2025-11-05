@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"The crushing hammer is a simple item that will be used to crush various materials."
+	],
+	dependencies: [
+		"9fd96b5d",
+		"0bbca1a1",
+		"50347cde"
+	],
+	tasks: [{
+		uid: "0c4ee7dd",
+		type: "item",
+		items: [{
+			item: "simpledusts:craftinghammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c68c2be",
+		type: "item",
+		item: "simpledusts:coin"
+	}]
+}

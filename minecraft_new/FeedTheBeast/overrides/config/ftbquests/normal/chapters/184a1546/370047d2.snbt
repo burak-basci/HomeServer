@@ -1,0 +1,30 @@
+{
+	title: "Creative Wands",
+	icon: "extrautils2:itemcreativedestructionwand",
+	x: -28.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"15f54c6f"
+	],
+	tasks: [{
+		uid: "95fe6e95",
+		type: "item",
+		items: [{
+			item: "extrautils2:itemcreativebuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3176ab7f",
+		type: "item",
+		items: [{
+			item: "extrautils2:itemcreativedestructionwand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Eagle Drops",
+	icon: "totemic:eagle_drops",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"83901952"
+	],
+	tasks: [{
+		uid: "2756f459",
+		type: "item",
+		items: [{
+			item: "totemic:eagle_drops"
+		}],
+		count: 10L
+	},
+	{
+		uid: "97098c7c",
+		type: "item",
+		items: [{
+			item: "totemic:eagle_drops 1 1"
+		}],
+		count: 10L
+	}]
+}

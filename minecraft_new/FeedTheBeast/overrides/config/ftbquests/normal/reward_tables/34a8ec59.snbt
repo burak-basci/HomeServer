@@ -1,0 +1,44 @@
+{
+	title: "Storage Crate",
+	loot_size: 2,
+	rewards: [{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		item: "ironchest:iron_chest 1 6"
+	},
+	{
+		item: "ironchest:iron_chest 1 1"
+	},
+	{
+		item: "ironchest:iron_chest"
+	},
+	{
+		item: "ironchest:iron_shulker_box_white 1 1"
+	},
+	{
+		item: "ironchest:iron_shulker_box_white 1 2"
+	},
+	{
+		item: "ironchest:wood_iron_chest_upgrade"
+	}],
+	loot_crate: {
+		string_id: "storage_crate",
+		item_name: "Storage Crate",
+		color: 4429475,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}
